@@ -1,0 +1,12 @@
+model.test.client.Component parent
+model.test.client.Composite children
+model.test.client.Female brothers
+model.test.client.Female husband
+model.test.client.Male sisters
+model.test.client.Male wife
+model.test.server.ComponentP parent
+model.test.server.CompositeP children
+model.test.server.FemaleP brothers
+model.test.server.FemaleP husband
+model.test.server.MaleP sisters
+model.test.server.MaleP wife

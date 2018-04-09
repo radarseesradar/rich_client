@@ -1,0 +1,51 @@
+package id3ujz5cuvn3xa8cuvnk0qi;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#model.test.client.Composite:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#model.test.client.Component:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#model.test.client.Female:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#model.test.client.Male:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#model.test.client.Male#model.test.client.Component:oiref>=91,420,229,328:oigroup>
+<oigroup:<oiref:java#Member#model.test.client.Female#$$constructor$$#(#java.lang.String#)#:oiref>=210,510,145,16,1:oigroup>
+<oigroup:<oiref:java#Member#model.test.client.Female#$$constructor$$#(##)#:oiref>=210,500,145,16,1:oigroup>
+<oigroup:<oiref:java#Extends#model.test.client.Female#model.test.client.Component:oiref>=270,420,270,328:oigroup>
+<oigroup:<oiref:java#Member#model.test.client.Component#$$constructor$$#(#java.lang.String#)#:oiref>=190,140,160,16,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Female:oiref>=197,420,200,222,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Composite:oiref>=384,420,200,190,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Component:oiref>=189,10,200,318,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Male:oiref>=10,420,200,222,1:oigroup>
+<oigroup:<oiref:java#Extends#model.test.client.Composite#model.test.client.Component:oiref>=465,420,311,328:oigroup>
+*/
+class __positions {
+}

@@ -1,0 +1,9 @@
+SOS_SERVER_NAME=SOSServer
+REGISTRY_URL=rmi://localhost:5001/
+REGISTRY_PORT=5001
+HTTP_FILE_SERVER_PORT=2001
+SERVER_CLASSES_HOME=c:\Together-5.5\out\classes\sos3
+RETRIEVAL_CLAMPS=c:\\sos3\\OrphansOnlyClamps.txt
+STORAGE_CLAMPS=c:\\sos3\\NoClamps.txt
+PERSISTENCE_POLICY=smartClient.framework.RMIPersistencePolicy
+SPECIAL_PLURALS=c:\\sos3\\specialPluralsProperties.txt

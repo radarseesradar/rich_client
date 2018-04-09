@@ -1,0 +1,4 @@
+model.test.client.Component playmates
+model.test.client.Component bestFriend
+model.test.server.ComponentP playmates
+model.test.server.ComponentP bestFriend

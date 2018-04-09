@@ -1,0 +1,42 @@
+package id225s5cndfe3k4cndfow6s;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Clamp:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.RoleKey:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference39 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Transition:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference57 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.RoleKey:oiref>=10,290,219,393,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Clamp:oiref>=10,10,219,185,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.Clamp#inverseClamp:oiref>=192,195,192,242,276,242,276,158,229,158:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Transition:oiref>=316,10,219,261,1:oigroup> 
+*/
+class __positions {
+}

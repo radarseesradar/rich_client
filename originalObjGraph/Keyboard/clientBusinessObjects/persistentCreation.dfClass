@@ -1,0 +1,36 @@
+package id38pt7cndfe3k4cndfl2g9;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ClientSideIDFactory:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.KBCPersistentObjectFactory:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference24 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ClientSideIDFactory:oiref>=10,10,146,109,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.KBCPersistentObjectFactory:oiref>=252,10,203,157,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.KBCPersistentObjectFactory#singleton:oiref>=424,167,424,208,496,208,496,136,455,136:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.KBCPersistentObjectFactory#idFactory:oiref>=252,64,156,64:oigroup>
+*/
+class __positions {
+}

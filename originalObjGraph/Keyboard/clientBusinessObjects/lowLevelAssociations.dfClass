@@ -1,0 +1,113 @@
+package id1q9yccndbdkf5cndbf4pe;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AssociationsCoordinator:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference16 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ManyToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference27 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.OneToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference33 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.OneToOneRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference35 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.RegistryMerger:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference36 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.RemembersRemovalsMapImpl:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference37 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.RoleKey:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference38 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference55 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference61 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOneRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference63 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOneRegistry:oiref>=821,281,203,222,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#unidirectionalToManyRegistry:oiref>=679,745,508,745:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToManyRegistry:oiref>=305,705,203,81,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.OneToManyRegistry#toManys:oiref>=598,430,508,430:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.ManyToManyRegistry#toManys:oiref>=213,401,305,401:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.RegistryMerger#associationsCoordinator:oiref>=949,150,1044,150,1044,748,898,748:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AssociationsCoordinator:oiref>=679,705,219,602,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.OneToManyRegistry#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=733,281,733,215,847,215,847,185:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ToManyRegistry:oiref>=305,281,203,317,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#lastRetrieval:oiref>=855,1307,855,1360,951,1360,951,1264,898,1264:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.OneToOneRegistry#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=1165,281,1165,215,847,215,847,185:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.OneToManyRegistry:oiref>=598,281,203,279,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.OneToOneRegistry:oiref>=1064,281,203,279,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.OneToManyRegistry#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref>=665,281,439,128:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#oneToManyRegistry:oiref>=740,705,740,560:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref>=304,10,203,118,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.ManyToManyRegistry#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref>=111,281,371,128:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ManyToManyRegistry:oiref>=10,281,203,232,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.RoleKey:oiref>=1287,10,219,393,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=746,10,203,175,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToOneRegistry#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=922,281,922,215,847,215,847,185:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#oneToOneRegistry:oiref>=878,705,1165,560:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.RemembersRemovalsMapImpl:oiref>=1026,650,219,393,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.ToManyRegistry#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=406,281,406,215,847,215,847,185:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToManyRegistry#Keyboard.clientBusinessObjects.ToManyRegistry:oiref>=406,705,406,598:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#manyToManyRegistry:oiref>=679,735,111,735,111,513:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#unidirectionalToOneRegistry:oiref>=840,705,840,503:oigroup>
+*/
+class __positions {
+}

@@ -1,0 +1,678 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1' ?>
+<!-- <!DOCTYPE XMI SYSTEM 'Model.dtd' > -->
+<XMI xmi.version = '1.1' xmlns:Model='org.omg.mof/Model/1.3' timestamp = 'Fri Mar 09 14:12:54 2001' >
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>Unisys.JCR.1</XMI.exporter>
+   <XMI.exporterVersion>1.3</XMI.exporterVersion>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name = 'org.omg.mof.Model' xmi.version = '1.3'/>
+ </XMI.header>
+<XMI.content>
+<!-- ==================== Keyboard    [Package] ==================== -->
+<Model:Package xmi.id = 'a3A099A1A001B' 
+  name = 'Keyboard' annotation = '' 
+  isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+  <Model:Namespace.contents>
+    <!-- ==================== clientBusinessObjects    [Package] ==================== -->
+    <Model:Package xmi.id = 'a3A0B038F00EA' 
+      name = 'clientBusinessObjects' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+      <Model:Namespace.contents>
+        <!-- ==================== clientBusinessObjects.Visitor    [Class] ==================== -->
+        <Model:Class xmi.id = 'a3A0B041C0006' 
+          name = 'Visitor' annotation = '' 
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+          isSingleton = 'false' />
+        <!-- ==================== clientBusinessObjects.Visitable    [Class] ==================== -->
+        <Model:Class xmi.id = 'a3A0B04440054' 
+          name = 'Visitable' annotation = '' 
+          isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+          isSingleton = 'false' />
+      </Model:Namespace.contents>
+    </Model:Package>
+    <!-- ==================== Keyboard.TVSessionBean    [Class] ==================== -->
+    <Model:Class xmi.id = 'a3A099B060364' 
+      name = 'TVSessionBean' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+      <Model:Namespace.contents>
+        <!-- ==================== Keyboard.TVSessionBean.greeting    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A099DCB027D' 
+          name = 'greeting' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.1' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.16' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVSessionBean.createTVSessionBean    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A099EED03CE' 
+          name = 'createTVSessionBean' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.2' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'a3A099B060364' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVSessionBean.storeAll    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A0B7379003C' 
+          name = 'storeAll' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.3' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.17' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+            <Model:Parameter xmi.id = 'XX.4' 
+              name = 'objectGraph' annotation = '' 
+              direction = 'in_dir' 
+              type = 'G.18' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVSessionBean.testCreateOne    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A0EE94B0016' 
+          name = 'testCreateOne' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.5' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.17' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVSessionBean.testCreateAll    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A0EE9900155' 
+          name = 'testCreateAll' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.6' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.17' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVSessionBean.retrieveAll    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A11D8C0026E' 
+          name = 'retrieveAll' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.7' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.18' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+            <Model:Parameter xmi.id = 'XX.8' 
+              name = 'seedID' annotation = '' 
+              direction = 'in_dir' 
+              type = 'G.19' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+            <Model:Parameter xmi.id = 'XX.9' 
+              name = 'seedClass' annotation = '' 
+              direction = 'in_dir' 
+              type = 'G.16' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVSessionBean.retrieveAllFromStub    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A64C1B4028E' 
+          name = 'retrieveAllFromStub' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.10' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.18' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+            <Model:Parameter xmi.id = 'XX.11' 
+              name = 'stub' annotation = '' 
+              direction = 'in_dir' 
+              type = 'G.18' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVSessionBean.clearDB    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A64C1F701EA' 
+          name = 'clearDB' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.12' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.17' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVSessionBean.execute    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A6A3DFE0032' 
+          name = 'execute' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.13' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.17' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+            <Model:Parameter xmi.id = 'XX.14' 
+              name = 'command' annotation = '' 
+              direction = 'in_dir' 
+              type = 'G.18' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+      </Model:Namespace.contents>
+    </Model:Class>
+    <!-- ==================== Keyboard.string    [DataType] ==================== -->
+    <Model:DataType xmi.id = 'G.16' 
+      name = 'string' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+      <Model:DataType.typeCode>
+        <XMI.CorbaTypeCode>
+          <XMI.CorbaTcString xmi.tcLength = '0'/>
+        </XMI.CorbaTypeCode>
+      </Model:DataType.typeCode>
+    </Model:DataType>
+    <!-- ==================== Keyboard.void    [DataType] ==================== -->
+    <Model:DataType xmi.id = 'G.17' 
+      name = 'void' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+      <Model:DataType.typeCode>
+        <XMI.CorbaTypeCode>
+          <XMI.CorbaTcVoid/>
+        </XMI.CorbaTypeCode>
+      </Model:DataType.typeCode>
+    </Model:DataType>
+    <!-- ==================== Keyboard.ByteArray    [DataType] ==================== -->
+    <Model:DataType xmi.id = 'G.18' 
+      name = 'ByteArray' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+      <Model:DataType.typeCode>
+        <XMI.CorbaTypeCode>
+          <XMI.CorbaTcString xmi.tcLength = '0'/>
+        </XMI.CorbaTypeCode>
+      </Model:DataType.typeCode>
+    </Model:DataType>
+    <!-- ==================== Keyboard.long long    [DataType] ==================== -->
+    <Model:DataType xmi.id = 'G.19' 
+      name = 'long long' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+      <Model:DataType.typeCode>
+        <XMI.CorbaTypeCode>
+          <XMI.CorbaTcLongLong/>
+        </XMI.CorbaTypeCode>
+      </Model:DataType.typeCode>
+    </Model:DataType>
+    <!-- ==================== Keyboard.TVPComponent    [Class] ==================== -->
+    <Model:Class xmi.id = 'a3A0A289D02D8' 
+      name = 'TVPComponent' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' >
+      <Model:Namespace.contents>
+        <!-- ==================== parent{3A0A2EDB02A4}    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra3A0A2EDB02A4' 
+          name = 'parent' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a3A0A2C7A0398' 
+          referencedEnd = 'a3A0A2EDB02A4' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+        <!-- ==================== Keyboard.TVPComponent.kboid    [Attribute] ==================== -->
+        <Model:Attribute xmi.id = 'a3A0A2B370023' 
+          name = 'kboid' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          isDerived = 'false' 
+          type = 'G.19' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Attribute>
+        <!-- ==================== Keyboard.TVPComponent.newlyCreated    [Attribute] ==================== -->
+        <Model:Attribute xmi.id = 'a3A5696E40357' 
+          name = 'newlyCreated' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          isDerived = 'false' 
+          type = 'G.20' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Attribute>
+        <!-- ==================== Keyboard.TVPComponent.modified    [Attribute] ==================== -->
+        <Model:Attribute xmi.id = 'a3A5698090091' 
+          name = 'modified' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          isDerived = 'false' 
+          type = 'G.20' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Attribute>
+        <!-- ==================== Keyboard.TVPComponent.name    [Attribute] ==================== -->
+        <Model:Attribute xmi.id = 'a3A5697CD0167' 
+          name = 'name' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          isDerived = 'false' 
+          type = 'G.16' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Attribute>
+        <!-- ==================== Keyboard.TVPComponent.alias    [Attribute] ==================== -->
+        <Model:Attribute xmi.id = 'a3A5A296F02E1' 
+          name = 'alias' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          isDerived = 'false' 
+          type = 'G.16' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Attribute>
+        <!-- ==================== Keyboard.TVPComponent.updateCounter    [Attribute] ==================== -->
+        <Model:Attribute xmi.id = 'a3A70BA07029A' 
+          name = 'updateCounter' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          isDerived = 'false' 
+          type = 'G.21' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Attribute>
+        <!-- ==================== Keyboard.TVPComponent.xsetKboid    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A1217740144' 
+          name = 'xsetKboid' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.15' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.17' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+            <Model:Parameter xmi.id = 'XX.16' 
+              name = 'theKboid' annotation = '' 
+              direction = 'in_dir' 
+              type = 'G.19' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVPComponent.isNewlyCreated    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A57E7340067' 
+          name = 'isNewlyCreated' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.17' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.20' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+        <!-- ==================== Keyboard.TVPComponent.isModified    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A57E75F00EB' 
+          name = 'isModified' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.18' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.20' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+      </Model:Namespace.contents>
+    </Model:Class>
+    <!-- ==================== Keyboard.boolean    [DataType] ==================== -->
+    <Model:DataType xmi.id = 'G.20' 
+      name = 'boolean' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+      <Model:DataType.typeCode>
+        <XMI.CorbaTypeCode>
+          <XMI.CorbaTcBoolean/>
+        </XMI.CorbaTypeCode>
+      </Model:DataType.typeCode>
+    </Model:DataType>
+    <!-- ==================== Keyboard.long    [DataType] ==================== -->
+    <Model:DataType xmi.id = 'G.21' 
+      name = 'long' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' >
+      <Model:DataType.typeCode>
+        <XMI.CorbaTypeCode>
+          <XMI.CorbaTcLong/>
+        </XMI.CorbaTypeCode>
+      </Model:DataType.typeCode>
+    </Model:DataType>
+    <!-- ==================== Keyboard.TVPComposite    [Class] ==================== -->
+    <Model:Class xmi.id = 'a3A0A2C7A0398' 
+      name = 'TVPComposite' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' 
+      supertypes = 'a3A0A289D02D8' >
+      <Model:Namespace.contents>
+        <!-- ==================== children{3A0A2EDB029A}    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra3A0A2EDB029A' 
+          name = 'children' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a3A0A289D02D8' 
+          referencedEnd = 'a3A0A2EDB029A' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+        <!-- ==================== Keyboard.TVPComposite.addChild    [Operation] ==================== -->
+        <Model:Operation xmi.id = 'a3A0EEA350116' 
+          name = 'addChild' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isQuery = 'false' >
+          <Model:Namespace.contents>
+            <Model:Parameter xmi.id = 'XX.19' 
+              name = '*return' annotation = '' 
+              direction = 'return_dir' 
+              type = 'G.17' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+            <Model:Parameter xmi.id = 'XX.20' 
+              name = 'aChild' annotation = '' 
+              direction = 'in_dir' 
+              type = 'a3A0A289D02D8' >
+              <Model:Parameter.multiplicity>
+                <Model:MultiplicityType lower = '1' upper = '1' is_ordered = 'false' is_unique = 'false' />
+              </Model:Parameter.multiplicity>
+            </Model:Parameter>
+          </Model:Namespace.contents>
+        </Model:Operation>
+      </Model:Namespace.contents>
+    </Model:Class>
+    <!-- ==================== Keyboard.TVPCa    [Class] ==================== -->
+    <Model:Class xmi.id = 'a3A0A2FB70264' 
+      name = 'TVPCa' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' 
+      supertypes = 'a3A0A289D02D8' >
+      <Model:Namespace.contents>
+        <!-- ==================== toOneCb{3A146B2D02CC}    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra3A146B2D02CC' 
+          name = 'toOneCb' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a3A0A33220334' 
+          referencedEnd = 'a3A146B2D02CC' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+        <!-- ==================== husband{3A2C128D0002}    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra3A2C128D0002' 
+          name = 'husband' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a3A0A33220334' 
+          referencedEnd = 'a3A2C128D0002' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+        <!-- ==================== brothers{3A3129F30183}    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra3A3129F30183' 
+          name = 'brothers' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a3A0A33220334' 
+          referencedEnd = 'a3A3129F30183' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+        <!-- ==================== toManyCbs{3A4230E2009F}    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra3A4230E2009F' 
+          name = 'toManyCbs' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a3A0A33220334' 
+          referencedEnd = 'a3A4230E2009F' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+      </Model:Namespace.contents>
+    </Model:Class>
+    <!-- ==================== Keyboard.TVPCb    [Class] ==================== -->
+    <Model:Class xmi.id = 'a3A0A33220334' 
+      name = 'TVPCb' annotation = '' 
+      isRoot = 'false' isLeaf = 'false' isAbstract = 'false' visibility = 'public_vis' 
+      isSingleton = 'false' 
+      supertypes = 'a3A0A289D02D8' >
+      <Model:Namespace.contents>
+        <!-- ==================== wife{3A2C128C03E0}    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra3A2C128C03E0' 
+          name = 'wife' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a3A0A2FB70264' 
+          referencedEnd = 'a3A2C128C03E0' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+        <!-- ==================== sisters{3A3129F30179}    [Reference] ==================== -->
+        <Model:Reference xmi.id = 'ra3A3129F30179' 
+          name = 'sisters' annotation = '' 
+          scope = 'instance_level' visibility = 'public_vis' 
+          isChangeable = 'true' 
+          type = 'a3A0A2FB70264' 
+          referencedEnd = 'a3A3129F30179' >
+          <Model:StructuralFeature.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:StructuralFeature.multiplicity>
+        </Model:Reference>
+      </Model:Namespace.contents>
+    </Model:Class>
+    <!-- ==================== Keyboard.A_children_parent    [Association] ==================== -->
+    <Model:Association xmi.id = 'a3A0A2EDA0071' 
+      name = 'A_children_parent' annotation = '' 
+      isRoot = 'true' isLeaf = 'true' isAbstract = 'false' visibility = 'public_vis' 
+      isDerived = 'false' >
+      <Model:Namespace.contents>
+        <Model:AssociationEnd xmi.id = 'a3A0A2EDB029A' 
+          name = 'children' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A289D02D8' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+        <Model:AssociationEnd xmi.id = 'a3A0A2EDB02A4' 
+          name = 'parent' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A2C7A0398' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+      </Model:Namespace.contents>
+    </Model:Association>
+    <!-- ==================== Keyboard.A_toOneCb_tVPCa    [Association] ==================== -->
+    <Model:Association xmi.id = 'a3A146B2C0158' 
+      name = 'A_toOneCb_tVPCa' annotation = '' 
+      isRoot = 'true' isLeaf = 'true' isAbstract = 'false' visibility = 'public_vis' 
+      isDerived = 'false' >
+      <Model:Namespace.contents>
+        <Model:AssociationEnd xmi.id = 'a3A146B2D02CC' 
+          name = 'toOneCb' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A33220334' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+        <Model:AssociationEnd xmi.id = 'a3A146B2D02D6' 
+          name = 'tVPCa' annotation = '' 
+          isNavigable = 'false' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A2FB70264' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+      </Model:Namespace.contents>
+    </Model:Association>
+    <!-- ==================== Keyboard.A_wife_husband    [Association] ==================== -->
+    <Model:Association xmi.id = 'a3A2C128A00DA' 
+      name = 'A_wife_husband' annotation = '' 
+      isRoot = 'true' isLeaf = 'true' isAbstract = 'false' visibility = 'public_vis' 
+      isDerived = 'false' >
+      <Model:Namespace.contents>
+        <Model:AssociationEnd xmi.id = 'a3A2C128C03E0' 
+          name = 'wife' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A2FB70264' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+        <Model:AssociationEnd xmi.id = 'a3A2C128D0002' 
+          name = 'husband' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A33220334' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '1' is_ordered = 'false' is_unique = 'false' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+      </Model:Namespace.contents>
+    </Model:Association>
+    <!-- ==================== Keyboard.A_sisters_brothers    [Association] ==================== -->
+    <Model:Association xmi.id = 'a3A3129F0037D' 
+      name = 'A_sisters_brothers' annotation = '' 
+      isRoot = 'true' isLeaf = 'true' isAbstract = 'false' visibility = 'public_vis' 
+      isDerived = 'false' >
+      <Model:Namespace.contents>
+        <Model:AssociationEnd xmi.id = 'a3A3129F30179' 
+          name = 'sisters' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A2FB70264' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+        <Model:AssociationEnd xmi.id = 'a3A3129F30183' 
+          name = 'brothers' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A33220334' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+      </Model:Namespace.contents>
+    </Model:Association>
+    <!-- ==================== Keyboard.A_toManyCbs_tVPCa    [Association] ==================== -->
+    <Model:Association xmi.id = 'a3A4230E001D2' 
+      name = 'A_toManyCbs_tVPCa' annotation = '' 
+      isRoot = 'true' isLeaf = 'true' isAbstract = 'false' visibility = 'public_vis' 
+      isDerived = 'false' >
+      <Model:Namespace.contents>
+        <Model:AssociationEnd xmi.id = 'a3A4230E2009F' 
+          name = 'toManyCbs' annotation = '' 
+          isNavigable = 'true' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A33220334' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+        <Model:AssociationEnd xmi.id = 'a3A4230E200A9' 
+          name = 'tVPCa' annotation = '' 
+          isNavigable = 'false' aggregation = 'none' isChangeable = 'true' 
+          type = 'a3A0A2FB70264' >
+          <Model:AssociationEnd.multiplicity>
+            <Model:MultiplicityType lower = '0' upper = '-1' is_ordered = 'false' is_unique = 'true' />
+          </Model:AssociationEnd.multiplicity>
+        </Model:AssociationEnd>
+      </Model:Namespace.contents>
+    </Model:Association>
+  </Model:Namespace.contents>
+</Model:Package>
+</XMI.content>
+</XMI>

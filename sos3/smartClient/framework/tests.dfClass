@@ -1,0 +1,165 @@
+package id2qgixcuo83bh9cup0eper;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.DataGenerator:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestAccessMethodNameGenerator:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference179 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestAll:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference180 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestAllTransient:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference181 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestManyToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference182 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestManyToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference183 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestManyToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference184 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestOneToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference185 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestOneToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference186 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestOneToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference187 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestOneToOneRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference188 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestRoleKey:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference189 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference190 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestUnidirectionalToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference191 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitor:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference192 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorPersistence:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference193 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorPersistenceCouplesOnly:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference194 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorPersistenceOrphansOnly:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference195 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorUniRetrievalClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference196 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorUniStorageClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference197 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#smartClient.framework.TestAll:oiref>=863,390,137,133,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestOneToOne:oiref>=460,1110,180,149,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorUniStorageClamps:oiref>=860,270,200,101,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorPersistenceOrphansOnly:oiref>=233,10,200,270,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestToManyRepository:oiref>=640,10,200,270,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestOneToOneRepository:oiref>=667,1110,200,382,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestManyToOne:oiref>=861,710,185,149,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestOneToManyRepository:oiref>=230,1110,200,350,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorPersistenceCouplesOnly:oiref>=10,10,200,334,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.TestVisitorUniStorageClamps#smartClient.framework.TestVisitorUniRetrievalClamps:oiref>=952,270,952,200:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestAccessMethodNameGenerator:oiref>=640,510,200,133,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorPersistenceOrphansOnly#aDataGenerator:oiref>=291,280,291,420:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorPersistence#aDataGenerator:oiref>=417,563,350,563:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.TestUnidirectionalToManyRepository#smartClient.framework.TestToManyRepository:oiref>=740,364,740,280:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestManyToManyRepository:oiref>=10,1090,200,414,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitor:oiref>=1280,10,200,485,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestUnidirectionalToManyRepository:oiref>=640,364,200,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorPersistence:oiref>=417,419,200,574,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorPersistenceCouplesOnly#aDataGenerator:oiref>=115,344,115,420:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestRoleKey:oiref>=1086,10,166,149,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.DataGenerator:oiref>=20,420,330,286,0:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestOneToMany:oiref>=861,890,185,181,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorUniRetrievalClamps:oiref>=860,10,200,190,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestAllTransient:oiref>=863,550,185,133,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestManyToMany:oiref>=640,710,190,238,1:oigroup>
+*/
+class __positions {
+}

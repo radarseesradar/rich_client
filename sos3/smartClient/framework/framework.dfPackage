@@ -1,0 +1,806 @@
+package id3am8kcuo7gc97cuo7ycb5;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.ServerInterface:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalToOneRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestOneToOne:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.OneToOne:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ManyToMany:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullToStringIgnoreClamps:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Client:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorSynchronizer:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.SwizzleProxy:oiref><oihard>
+@__modelType reference 
+*/
+class reference9 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestToManyRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AllocateIDsException:oiref><oihard>
+@__modelType reference 
+*/
+class reference11 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Serializer:oiref><oihard>
+@__modelType reference 
+*/
+class reference12 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPostStorage:oiref><oihard>
+@__modelType reference 
+*/
+class reference13 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ClampProvider:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Session:oiref><oihard>
+@__modelType reference 
+*/
+class reference15 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestAll:oiref><oihard>
+@__modelType reference 
+*/
+class reference16 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPersister:oiref><oihard>
+@__modelType reference 
+*/
+class reference17 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorPersistenceCouplesOnly:oiref><oihard>
+@__modelType reference 
+*/
+class reference18 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.CRUDPacket:oiref><oihard>
+@__modelType reference 
+*/
+class reference19 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorUniStorageClamps:oiref><oihard>
+@__modelType reference 
+*/
+class reference20 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Clamp:oiref><oihard>
+@__modelType reference 
+*/
+class reference21 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Stub:oiref><oihard>
+@__modelType reference 
+*/
+class reference22 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullEqualityTester:oiref><oihard>
+@__modelType reference 
+*/
+class reference23 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.BidirectionalToManyRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference25 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestRoleKey:oiref><oihard>
+@__modelType reference 
+*/
+class reference26 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.CommandInterface:oiref><oihard>
+@__modelType reference 
+*/
+class reference27 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ClientSideIDFactory:oiref><oihard>
+@__modelType reference 
+*/
+class reference28 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullToString:oiref><oihard>
+@__modelType reference 
+*/
+class reference29 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.IDFactoryInterface:oiref><oihard>
+@__modelType reference 
+*/
+class reference30 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPrinterIgnoreClamps:oiref><oihard>
+@__modelType reference 
+*/
+class reference31 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Registrar:oiref><oihard>
+@__modelType reference 
+*/
+class reference32 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorPersistence:oiref><oihard>
+@__modelType reference 
+*/
+class reference33 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.DataGenerator:oiref><oihard>
+@__modelType reference 
+*/
+class reference34 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.NullToMany:oiref><oihard>
+@__modelType reference 
+*/
+class reference35 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ServerSideIDFactory:oiref><oihard>
+@__modelType reference 
+*/
+class reference36 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RemoveCommand:oiref><oihard>
+@__modelType reference 
+*/
+class reference37 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorEqualityTesterIgnoreClamps:oiref><oihard>
+@__modelType reference 
+*/
+class reference38 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.SetCommand:oiref><oihard>
+@__modelType reference 
+*/
+class reference39 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.OneToOneRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference40 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.StubInterface:oiref><oihard>
+@__modelType reference 
+*/
+class reference41 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PropagatorSynchronizer:oiref><oihard>
+@__modelType reference 
+*/
+class reference42 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RMISession:oiref><oihard>
+@__modelType reference 
+*/
+class reference43 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.OneToManyRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference44 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.SimpleIDFactory:oiref><oihard>
+@__modelType reference 
+*/
+class reference46 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Transition:oiref><oihard>
+@__modelType reference 
+*/
+class reference47 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.OneToMany:oiref><oihard>
+@__modelType reference 
+*/
+class reference48 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullPrinterIgnoreClamps:oiref><oihard>
+@__modelType reference 
+*/
+class reference49 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorUniRetrievalClamps:oiref><oihard>
+@__modelType reference 
+*/
+class reference50 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalToMany:oiref><oihard>
+@__modelType reference 
+*/
+class reference51 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalAssociation:oiref><oihard>
+@__modelType reference 
+*/
+class reference52 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RMIPersistencePolicy:oiref><oihard>
+@__modelType reference 
+*/
+class reference53 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ToMany:oiref><oihard>
+@__modelType reference 
+*/
+class reference54 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorEqualityTester:oiref><oihard>
+@__modelType reference 
+*/
+class reference55 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AssociationsCoordinator:oiref><oihard>
+@__modelType reference 
+*/
+class reference56 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ToManyRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference57 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestAllTransient:oiref><oihard>
+@__modelType reference 
+*/
+class reference58 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestManyToManyRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference59 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RoleKey:oiref><oihard>
+@__modelType reference 
+*/
+class reference60 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPrimitivesCopier:oiref><oihard>
+@__modelType reference 
+*/
+class reference61 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorRetriever:oiref><oihard>
+@__modelType reference 
+*/
+class reference62 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorCopier:oiref><oihard>
+@__modelType reference 
+*/
+class reference63 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalToManyRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference64 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitor:oiref><oihard>
+@__modelType reference 
+*/
+class reference65 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ManyToOne:oiref><oihard>
+@__modelType reference 
+*/
+class reference66 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AssociationChangeList:oiref><oihard>
+@__modelType reference 
+*/
+class reference67 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalToOne:oiref><oihard>
+@__modelType reference 
+*/
+class reference68 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestManyToMany:oiref><oihard>
+@__modelType reference 
+*/
+class reference69 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Propagator:oiref><oihard>
+@__modelType reference 
+*/
+class reference70 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestUnidirectionalToManyRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference71 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.NullToOne:oiref><oihard>
+@__modelType reference 
+*/
+class reference72 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestAccessMethodNameGenerator:oiref><oihard>
+@__modelType reference 
+*/
+class reference73 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RemembersRemovalsMapImpl:oiref><oihard>
+@__modelType reference 
+*/
+class reference74 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestOneToOneRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference75 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorViaAllPaths:oiref><oihard>
+@__modelType reference 
+*/
+class reference76 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorCRUDPacketBuilder:oiref><oihard>
+@__modelType reference 
+*/
+class reference77 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AccessMethodNameGenerator:oiref><oihard>
+@__modelType reference 
+*/
+class reference78 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.SmartClientFramework:oiref><oihard>
+@__modelType reference 
+*/
+class reference79 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PropagatorViaAllPaths:oiref><oihard>
+@__modelType reference 
+*/
+class reference80 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.BidirectionalAssociation:oiref><oihard>
+@__modelType reference 
+*/
+class reference81 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullPrinter:oiref><oihard>
+@__modelType reference 
+*/
+class reference82 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestManyToOne:oiref><oihard>
+@__modelType reference 
+*/
+class reference83 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPruner:oiref><oihard>
+@__modelType reference 
+*/
+class reference84 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPrinter:oiref><oihard>
+@__modelType reference 
+*/
+class reference85 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestOneToMany:oiref><oihard>
+@__modelType reference 
+*/
+class reference86 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestVisitorPersistenceOrphansOnly:oiref><oihard>
+@__modelType reference 
+*/
+class reference87 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PersistencePolicyInterface:oiref><oihard>
+@__modelType reference 
+*/
+class reference88 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AddCommand:oiref><oihard>
+@__modelType reference 
+*/
+class reference89 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Server:oiref><oihard>
+@__modelType reference 
+*/
+class reference91 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.SessionInterface:oiref><oihard>
+@__modelType reference 
+*/
+class reference92 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullEqualityTesterIgnoreClamps:oiref><oihard>
+@__modelType reference 
+*/
+class reference93 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.TestOneToManyRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference94 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ConcurrencyException:oiref><oihard>
+@__modelType reference 
+*/
+class reference95 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Command:oiref><oihard>
+@__modelType reference 
+*/
+class reference96 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PostVisitable:oiref><oihard>
+@__modelType reference 
+*/
+class reference97 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.DirtyObjectList:oiref><oihard>
+@__modelType reference 
+*/
+class reference98 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorUpdater:oiref><oihard>
+@__modelType reference 
+*/
+class reference99 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RepositoryMerger:oiref><oihard>
+@__modelType reference 
+*/
+class reference100 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ClampFileIOException:oiref><oihard>
+@__modelType reference 
+*/
+class reference101 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PropagatorRetriever:oiref><oihard>
+@__modelType reference 
+*/
+class reference102 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ToOne:oiref><oihard>
+@__modelType reference 
+*/
+class reference103 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ManyToManyRepository:oiref><oihard>
+@__modelType reference 
+*/
+class reference104 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Persistable:oiref><oihard>
+@__modelType reference 
+*/
+class reference105 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PostVisitable:oiref><oihard>
+@__modelType reference 
+*/
+class reference106 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Identifiable:oiref><oihard>
+@__modelType reference 
+*/
+class reference107 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Visitable:oiref><oihard>
+@__modelType reference 
+*/
+class reference109 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AbstractPersistentObjectFactory:oiref><oihard>
+@__modelType reference 
+*/
+class reference24 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#smartClient.framework.StubInterface#smartClient.framework.Visitable:oiref>=742,65,419,65:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestToManyRepository:oiref>=4523,1958,200,270,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Identifiable:oiref>=1,341,99,130,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.ClampProvider#singleton:oiref>=6158,264,6158,314,6248,314,6248,224,6198,224:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorPrinter#smartClient.framework.Visitor:oiref>=2188,1164,2188,1034,1727,1034,1727,964:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#leafKeya1:oiref>=5103,1958,5103,1694,4996,1694,4991,1546:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Session:oiref>=4183,1164,200,261,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestAll:oiref>=6973,490,137,133,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.AddCommand#smartClient.framework.Command:oiref>=5362,1958,5362,1808,5695,1808,5695,1466:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestManyToOne:oiref>=7097,1370,185,149,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#lastRetrieval:oiref>=3921,2500,3921,2553,4017,2553,4017,2457,3964,2457:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.Persistable#smartClient.framework.PostVisitable:oiref>=286,497,659,1164:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestManyToManyRepository:oiref>=3005,1164,200,414,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestAccessMethodNameGenerator:oiref>=6874,1370,200,133,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.UnidirectionalToOne#smartClient.framework.ToOne:oiref>=6432,2763,6432,2647,6751,2647,6701,2075:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ManyToOne:oiref>=6475,3200,200,165,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#aManyToManyRepository:oiref>=3105,1578,3269,1958:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#leafKeybx1:oiref>=3205,1244,3318,1244,3318,1084,4712,1084,4712,1250,4822,1250:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AccessMethodNameGenerator:oiref>=6569,10,200,270,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestOneToMany:oiref>=6874,1550,185,181,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorUpdater#smartClient.framework.VisitorPersister:oiref>=736,3200,736,2896:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RepositoryMerger:oiref>=4422,1164,200,197,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.SimpleIDFactory#smartClient.framework.IDFactoryInterface:oiref>=722,278,722,184,635,184,635,111:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullToStringIgnoreClamps:oiref>=1782,3200,200,85,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.OneToMany:oiref>=6714,3200,200,213,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.CRUDPacket:oiref>=5960,1958,200,254,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.Persistable#smartClient.framework.StubInterface:oiref>=320,220,775,169:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.AssociationChangeList#smartClient.framework.CommandInterface:oiref>=6523,1164,6523,591,5918,591,5942,137:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestToManyRepository#roleKey2:oiref>=4590,1958,4590,1694,4833,1694,4852,1546:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.ManyToMany#smartClient.framework.OneToMany:oiref>=6814,3483,6814,3413:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.ServerSideIDFactory#singleton:oiref>=6466,168,6466,203,6526,203,6526,143,6491,143:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullEqualityTester#smartClient.framework.VisitorSynchronizer:oiref>=993,2763,993,2673,1124,2673,1178,2324:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorPersistenceOrphansOnly:oiref>=3570,20,200,270,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.NullToMany#smartClient.framework.ToMany:oiref>=7127,2763,7127,2376,7010,2376,6957,2107:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.VisitorEqualityTester#other:oiref>=1183,1382,1153,1382,1153,1533,319,497:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SwizzleProxy:oiref>=7073,150,200,286,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AllocateIDsException:oiref>=6543,490,200,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalToManyRepository:oiref>=3998,2763,200,101,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#unidirectionalToOneRepository:oiref>=3827,2500,3827,2763:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestOneToOneRepository:oiref>=4969,1958,200,382,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorCRUDPacketBuilder:oiref>=1923,1958,200,222,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.OneToOne:oiref>=6236,3200,200,165,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.Clamp#inverseClamp:oiref>=6211,1370,6211,1417,6295,1417,6295,1333,6248,1333:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalToOneRepository:oiref>=3775,2763,200,222,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.PersistentObjectFactory#idFactory:oiref>=436,50,577,50:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.DirtyObjectList:oiref>=5825,1164,200,158,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.CRUDPacket#newlyCreatedObjects:oiref>=5967,1958,5931,1322:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.IDFactoryInterface:oiref>=577,10,119,101,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorEqualityTester:oiref>=1183,1164,200,302,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPrinter:oiref>=2091,1164,200,158,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.SmartClientFramework#singleton:oiref>=4050,1754,4050,1804,4140,1804,4140,1714,4090,1714:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PostVisitable:oiref>=611,1164,200,149,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.OneToManyRepository#smartClient.framework.BidirectionalToManyRepository:oiref>=4288,2763,4288,2655,4066,2655,4066,1893,3499,1893,3544,1297:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.NullToOne#smartClient.framework.ToOne:oiref>=6607,2763,6607,2647,6751,2647,6685,2075:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.NullToMany#singleton:oiref>=7169,2937,7169,2982,7249,2982,7249,2902,7204,2902:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToManyRepository#leafKeyb1:oiref>=4902,1958,4902,1546:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RMIPersistencePolicy:oiref>=3515,2763,200,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SessionInterface:oiref>=3267,20,200,245,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.PropagatorViaAllPaths#smartClient.framework.Propagator:oiref>=2625,1164,2625,217:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#unidirectionalToManyRegistry:oiref>=3866,2560,3866,2738,4065,2738,4065,2763:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullEqualityTesterIgnoreClamps:oiref>=879,3200,200,101,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#oneToOneRepository:oiref>=3899,2500,4463,2763:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#aManyToManyRegistry:oiref>=3106,1443,3106,1725,3269,1725,3269,1958:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPersister:oiref>=661,2763,200,133,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Command:oiref>=5586,1164,200,302,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorPersistence:oiref>=2752,1164,200,574,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#leafKeyax2:oiref>=3205,1284,3328,1284,3328,1094,4702,1094,4702,1293,4822,1293:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullPrinterIgnoreClamps#smartClient.framework.VisitorFullPrinter:oiref>=1672,2763,1672,2713,1797,2713,1797,2116:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.Session#smartClient.framework.SessionInterface:oiref>=4292,1164,4292,705,3429,705,3429,265:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorUniRetrievalClamps#tvObject:oiref>=2407,1164,2407,532,3307,532,3307,265:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPostStorage:oiref>=1477,1958,200,133,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToManyRepository#leafKeya2:oiref>=4912,1958,4912,1546:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.Server#smartClient.framework.ServerInterface:oiref>=107,198,107,143:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RMISession:oiref>=4076,1958,98,101,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#leafKeyb1:oiref>=5057,1958,5057,1778,4966,1778,4966,1546:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AssociationsCoordinator:oiref>=3764,1958,200,542,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ConcurrencyException:oiref>=7090,1690,200,117,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.Command#arg:oiref>=5586,1207,5546,1207,5546,1054,1123,1054,1123,1207,1064,1207:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorPersistenceOrphansOnly#aDataGenerator:oiref>=3710,290,3710,1164:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorPersistenceOrphansOnly#tvObject:oiref>=3570,142,3467,142:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RemoveCommand:oiref>=5484,1958,200,117,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.RMISession#smartClient.framework.Session:oiref>=4128,1958,4128,1878,4292,1878,4292,1425:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#leafKeya2:oiref>=5080,1958,5080,1736,4981,1736,4981,1546:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.OneToManyRepository#toManys:oiref>=4331,2763,4331,2267:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.OneToOne#smartClient.framework.BidirectionalAssociation:oiref>=6309,3200,6309,3136,6164,3136,6230,2960:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToManyRepository#trunkKey1:oiref>=4882,1958,4882,1546:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.SmartClientFramework#persistencePolicy:oiref>=3905,1754,3905,1836,3612,1836,3612,1958:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.PropagatorRetriever#smartClient.framework.PropagatorSynchronizer:oiref>=2732,2763,2732,2299:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#leafKeya1:oiref>=3205,1433,3378,1433,3378,1144,4652,1144,4652,1508,4822,1508:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorCopier:oiref>=1123,2763,200,117,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestToManyRepository#aToManyRegistry:oiref>=4523,2069,4433,2069:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.StubInterface:oiref>=742,20,165,149,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPruner:oiref>=1645,1164,200,302,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.OneToMany#smartClient.framework.ToMany:oiref>=6860,3200,6860,3136,7016,3136,7016,2376,7010,2376,6931,2107:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#leafKeybx2:oiref>=3205,1204,3308,1204,3308,1074,4722,1074,4722,1207,4822,1207:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorEqualityTesterIgnoreClamps#smartClient.framework.VisitorEqualityTester:oiref>=1316,1958,1316,1466:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.NullToMany:oiref>=7026,2763,178,174,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorPersistence#aDataGenerator:oiref>=2952,1503,3621,1503,3621,1392,3651,1392:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorPrinterIgnoreClamps#smartClient.framework.VisitorPrinter:oiref>=2220,1958,2220,1322:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.VisitorCRUDPacketBuilder#crudPacket:oiref>=2123,2114,2172,2114,2172,2633,5930,2633,5930,2132,5960,2132:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.VisitorSynchronizer#other:oiref>=1088,1958,1088,1772,712,1772,253,497:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.Propagator#delegator:oiref>=2529,141,1892,141:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ClientSideIDFactory:oiref>=470,278,151,142,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PropagatorRetriever:oiref>=2627,2763,200,165,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalToMany:oiref>=6767,2763,200,213,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.TestUnidirectionalToManyRepository#smartClient.framework.TestToManyRepository:oiref>=4695,2763,4695,2228:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.NullToOne:oiref>=6525,2763,160,158,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.ClientSideIDFactory#smartClient.framework.IDFactoryInterface:oiref>=548,278,548,184,635,184,665,111:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestAllTransient:oiref>=6979,650,185,133,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SetCommand:oiref>=5707,1958,200,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestUnidirectionalToManyRepository:oiref>=4667,2763,200,117,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorViaAllPaths#smartClient.framework.Visitor:oiref>=1523,1164,1523,1034,1727,1034,1727,964:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullPrinter#smartClient.framework.VisitorViaAllPaths:oiref>=1801,1958,1801,1694,1523,1694,1523,1457:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.OneToManyRepository#smartClient.framework.RepositoryMerger:oiref>=4356,2763,4356,2648,4473,2648,4473,1908,4557,1908,4573,1361:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.RemoveCommand#smartClient.framework.Command:oiref>=5585,1958,5585,1808,5695,1808,5739,1466:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.UnidirectionalToManyRepository#smartClient.framework.ToManyRepository:oiref>=4133,2763,4133,2708,4276,2708,4276,2267:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ServerSideIDFactory:oiref>=6291,10,200,158,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.PostVisitable#smartClient.framework.Visitable:oiref>=708,1164,280,110:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#oneToManyRepository:oiref>=3875,2500,4254,2763:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.Clamp#changeList:oiref>=6248,1267,6414,1267:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestToManyRepository#aToManyRepository:oiref>=4523,2093,4430,2093:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.CRUDPacket#smartClient.framework.CommandInterface:oiref>=5971,1958,5971,1668,5526,1668,5526,591,5918,591,5955,137:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Server:oiref>=10,198,200,133,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.UnidirectionalToMany#smartClient.framework.ToMany:oiref>=6913,2763,6913,2376,7010,2376,6983,2107:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.Stub#smartClient.framework.StubInterface:oiref>=973,1164,973,670,843,670,843,169:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.OneToManyRepository#toOnesKeys:oiref>=4366,2763,4832,1546:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.OneToMany#smartClient.framework.BidirectionalAssociation:oiref>=6787,3200,6787,3136,6164,3136,6197,2960:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.StubInterface#smartClient.framework.Identifiable:oiref>=809,169,50,341:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Client:oiref>=7073,10,200,133,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.VisitorViaAllPaths#previouslyTransitioned:oiref>=1522,1164,6840,920:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.CRUDPacket#associationChanges:oiref>=6084,1958,6084,1691,6460,1691,6460,1434:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#leafKeyax1:oiref>=5013,1958,5013,1863,4936,1863,4943,1546:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Clamp:oiref>=6048,1164,200,206,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToManyRepository#leafKeyb2:oiref>=4892,1958,4892,1546:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.TestVisitorUniStorageClamps#smartClient.framework.TestVisitorUniRetrievalClamps:oiref>=2455,1958,2455,1354:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.ManyToManyRepository#smartClient.framework.BidirectionalToManyRepository:oiref>=3337,1958,3337,1893,3499,1893,3499,1297:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.ToManyRepository#smartClient.framework.RepositoryMerger:oiref>=4331,1958,4331,1908,4557,1908,4557,1361:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorPersistence#tvObject:oiref>=2853,1164,2853,793,3347,793,3347,265:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#oneToOneRegistry:oiref>=3915,2560,3915,2678,4463,2678,4463,2763:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.UnidirectionalToOneRepository#smartClient.framework.RepositoryMerger:oiref>=3910,2763,3910,2693,4190,2693,4190,1908,4557,1908,4605,1361:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullToString#smartClient.framework.VisitorFullPrinter:oiref>=1895,2763,1895,2713,1797,2713,1844,2116:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalToOne:oiref>=6286,2763,200,181,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorPersister#smartClient.framework.VisitorSynchronizer:oiref>=762,2763,762,2673,1124,2673,1196,2324:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Registrar:oiref>=7137,490,151,85,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorEqualityTesterIgnoreClamps:oiref>=1254,1958,200,101,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.SmartClientFramework#session:oiref>=3991,1164,3991,879,3388,879,3388,265:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorSynchronizer#smartClient.framework.VisitorViaAllPaths:oiref>=1161,1958,1161,1694,1523,1694,1597,1457:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.UnidirectionalToOne#smartClient.framework.UnidirectionalAssociation:oiref>=6359,2763,6359,2542,6489,2542,6519,2331:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalAssociation:oiref>=6380,1958,200,373,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#leafKeyb1:oiref>=3205,1404,3358,1404,3358,1124,4672,1124,4672,1422,4822,1422:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorEqualityTester#smartClient.framework.Visitor:oiref>=1292,1164,1292,1034,1727,1034,1727,964:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.SetCommand#smartClient.framework.Command:oiref>=5808,1958,5808,1808,5695,1808,5717,1466:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullPrinter:oiref>=1700,1958,200,158,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestOneToManyRepository:oiref>=4746,1958,200,350,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToManyRepository#trunkKey2:oiref>=4872,1958,4872,1546:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#leafKeybx1:oiref>=5149,1958,5149,1609,5026,1609,5011,1546:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#leafKeya2:oiref>=3205,1423,3368,1423,3368,1134,4662,1134,4662,1465,4822,1465:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#manyToManyRepository:oiref>=3764,2097,3402,2097:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.ManyToManyRepository#toManys:oiref>=3402,1998,3455,1998,3455,1938,4200,1938,4200,1998,4230,1998:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestRoleKey:oiref>=6543,650,166,149,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#leafKeyb2:oiref>=5035,1958,5035,1821,4951,1821,4954,1546:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorViaAllPaths:oiref>=1422,1164,200,293,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SimpleIDFactory:oiref>=646,278,148,126,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.ManyToOne#smartClient.framework.BidirectionalAssociation:oiref>=6548,3200,6548,3136,6164,3136,6164,2960:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorCopier#smartClient.framework.VisitorSynchronizer:oiref>=1224,2763,1224,2673,1124,2673,1124,2324:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SmartClientFramework:oiref>=3890,1164,200,590,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PropagatorViaAllPaths:oiref>=2529,1164,200,213,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.RepositoryMerger#associationsCoordinator:oiref>=4489,1361,4489,1848,3952,1848,3952,1958:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ToOne:oiref>=6669,1958,156,117,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorRetriever#smartClient.framework.VisitorSynchronizer:oiref>=2459,2763,2459,2673,1124,2673,1142,2324:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorPersistenceCouplesOnly#aDataGenerator:oiref>=3837,354,3837,1164:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AccessMethodNameGenerator#singleton:oiref>=6729,280,6729,330,6819,330,6819,240,6769,240:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ClampFileIOException:oiref>=7030,2150,200,117,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.OneToOne#smartClient.framework.ToOne:oiref>=6342,3200,6382,3029,6996,3029,6996,2647,6751,2647,6735,2075:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#manyToManyRegistry:oiref>=3764,2152,3405,2152:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#unidirectionalToManyRepository:oiref>=3851,2500,4065,2763:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Stub:oiref>=864,1164,200,341,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestManyToMany:oiref>=6653,1370,190,238,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToManyRepository#aOneToManyRepository:oiref>=4846,2308,4377,2763:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#unidirectionalToOneRegistry:oiref>=3842,2560,3842,2763:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.BidirectionalAssociation:oiref>=6063,2763,200,197,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorUpdater:oiref>=648,3200,200,117,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#workingSet:oiref>=3789,1958,352,497:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ToManyRepository:oiref>=4230,1958,200,309,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Transition:oiref>=6740,650,200,270,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.BidirectionalAssociation#smartClient.framework.UnidirectionalAssociation:oiref>=6164,2763,6164,2542,6489,2542,6489,2331:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullToString:oiref>=1794,2763,200,142,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Visitable:oiref>=219,9,200,101,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorPostStorage#smartClient.framework.VisitorViaAllPaths:oiref>=1578,1958,1578,1694,1523,1694,1572,1457:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Propagator:oiref>=2529,20,200,197,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullPrinterIgnoreClamps:oiref>=1571,2763,200,85,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorRetriever:oiref>=2386,2763,200,293,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPrinterIgnoreClamps:oiref>=2192,1958,200,85,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.DirtyObjectList#smartClient.framework.CommandInterface:oiref>=5926,1164,5926,591,5918,591,5918,137:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorPrimitivesCopier#smartClient.framework.VisitorSynchronizer:oiref>=1447,2763,1447,2673,1124,2673,1160,2324:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.DataGenerator#savedAssociationsCoordinator:oiref>=3815,1450,3815,1958:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullToStringIgnoreClamps#smartClient.framework.VisitorFullToString:oiref>=1870,3200,1870,2905:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorPruner#smartClient.framework.Visitor:oiref>=1746,1164,1746,1034,1727,1034,1727,964:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AbstractPersistentObjectFactory:oiref>=430,430,200,142,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.PersistentObjectFactory#singleton:oiref>=405,167,405,208,477,208,477,136,436,136:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ServerInterface:oiref>=10,10,200,133,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.ManyToOne#smartClient.framework.ToOne:oiref>=6581,3200,6621,3083,7006,3083,7006,2647,6751,2647,6718,2075:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullEqualityTesterIgnoreClamps#smartClient.framework.VisitorFullEqualityTester:oiref>=981,3200,981,3113:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#leafKeyax2:oiref>=4991,1958,4991,1905,4921,1905,4922,1546:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationChangeList#associationChangeList:oiref>=6468,1164,5968,137:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToManyRepository#aOneToManyRegistry:oiref>=4847,2199,4847,2663,4390,2663,4390,2763:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ManyToManyRepository:oiref>=3202,1958,200,238,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PropagatorSynchronizer:oiref>=2638,1958,200,341,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.OneToOneRepository#toOnesKeys:oiref>=4536,2763,4842,1546:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorUniStorageClamps:oiref>=2415,1958,200,101,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestVisitorPersistenceCouplesOnly#tvObject:oiref>=3823,60,3793,60,3793,10,3520,10,3520,60,3467,60:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RemembersRemovalsMapImpl:oiref>=7036,3030,200,382,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.UnidirectionalAssociation#changeList:oiref>=6497,1958,6497,1434:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestToManyRepository#roleKey1:oiref>=4658,1958,4658,1821,4844,1821,4862,1546:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.DataGenerator:oiref>=3651,1164,200,286,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.CRUDPacket#modifiedObjects:oiref>=5964,1958,5878,1322:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ManyToMany:oiref>=6714,3483,200,165,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.OneToOneRepository#smartClient.framework.RepositoryMerger:oiref>=4483,2763,4483,1908,4557,1908,4589,1361:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitor:oiref>=6979,810,200,485,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.PropagatorSynchronizer#smartClient.framework.PropagatorViaAllPaths:oiref>=2680,1958,2680,1377:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorCRUDPacketBuilder#smartClient.framework.VisitorViaAllPaths:oiref>=2032,1958,2032,1694,1523,1694,1547,1457:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPrimitivesCopier:oiref>=1346,2763,200,181,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.Command#smartClient.framework.CommandInterface:oiref>=5695,1164,5695,591,5918,591,5930,137:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PersistencePolicyInterface:oiref>=3511,1958,200,149,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ToMany:oiref>=6905,1958,198,149,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorUniRetrievalClamps:oiref>=2306,1164,200,190,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RoleKey:oiref>=4822,1164,200,382,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.Command#receiver:oiref>=5586,1250,5536,1250,5536,1064,1133,1064,1133,1250,1064,1250:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.CommandInterface:oiref>=5859,20,122,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AssociationChangeList:oiref>=6414,1164,200,270,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#aOneToOneRepository:oiref>=5069,2340,4590,2763:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.BidirectionalToManyRepository:oiref>=3398,1164,200,133,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#leafKeybx2:oiref>=5126,1958,5126,1651,5011,1651,5001,1546:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToOneRepository#aOneToOneRegistry:oiref>=5070,2199,5070,2708,4565,2708,4565,2763:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.OneToManyRepository:oiref>=4221,2763,200,286,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestOneToManyRepository#leafKeya1:oiref>=4932,1958,4932,1546:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestVisitorPersistenceCouplesOnly:oiref>=3823,20,200,334,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorSynchronizer:oiref>=1015,1958,200,366,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.TestOneToOne:oiref>=6862,10,180,149,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.SmartClientFramework#globalAssociationsCoordinator:oiref>=3927,1754,3927,1958:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Serializer:oiref>=6766,490,182,117,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#oneToManyRegistry:oiref>=3890,2560,3890,2723,4254,2723,4254,2763:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#leafKeyb2:oiref>=3205,1364,3348,1364,3348,1114,4682,1114,4682,1379,4822,1379:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ClampProvider:oiref>=5998,10,200,254,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.OneToOneRepository:oiref>=4444,2763,200,270,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AddCommand:oiref>=5261,1958,200,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Persistable:oiref>=220,220,200,277,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.UnidirectionalToMany#smartClient.framework.UnidirectionalAssociation:oiref>=6840,2763,6840,2542,6489,2542,6549,2331:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.VisitorRetriever#associationsCoordinator:oiref>=2532,2763,2532,2673,3803,2673,3803,2500:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullEqualityTester:oiref>=884,2763,200,350,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.TestManyToManyRepository#leafKeyax1:oiref>=3205,1324,3338,1324,3338,1104,4692,1104,4692,1336,4822,1336:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.DirtyObjectList#dirtyObjectList:oiref>=5875,1164,386,497:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AbstractPersistentObjectFactory#idFactory:oiref>=603,430,603,111:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.RMIPersistencePolicy#smartClient.framework.PersistencePolicyInterface:oiref>=3613,2763,3613,2107:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.NullToOne#singleton:oiref>=6658,2921,6658,2958,6722,2958,6722,2894,6685,2894:oigroup>
+*/
+class __positions {
+}

@@ -1,0 +1,72 @@
+package id48aufcuo83bh9cuohofa9;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.ServerInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Server:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference118 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Client:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference119 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.SessionInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference120 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Session:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference121 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Registrar:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference122 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RMISession:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference123 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#smartClient.framework.Session:oiref>=233,323,200,261,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RMISession:oiref>=290,649,98,101,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.RMISession#smartClient.framework.Session:oiref>=335,649,335,584:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.Server#smartClient.framework.ServerInterface:oiref>=107,209,107,143:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.Session#smartClient.framework.SessionInterface:oiref>=337,323,337,255:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Registrar:oiref>=464,150,151,85,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Server:oiref>=10,209,200,133,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Client:oiref>=464,10,200,133,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SessionInterface:oiref>=241,10,200,245,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ServerInterface:oiref>=10,10,200,133,1:oigroup>
+*/
+class __positions {
+}

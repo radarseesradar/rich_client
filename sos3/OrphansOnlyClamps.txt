@@ -1,0 +1,4 @@
+model.test.client.Component parent
+model.test.client.Composite children
+model.test.server.ComponentP parent
+model.test.server.CompositeP children

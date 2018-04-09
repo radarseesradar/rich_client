@@ -1,0 +1,120 @@
+package id12at0cuo83bh9cuoojayq;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.ToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference133 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalAssociation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference134 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.NullToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference135 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.NullToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference136 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference137 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference138 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.BidirectionalAssociation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference139 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.OneToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference140 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ManyToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference141 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.OneToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference142 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ManyToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference143 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Implements#smartClient.framework.ManyToOne#smartClient.framework.ToOne:oiref>=794,884,794,833,298,833,298,517,697,517,647,127:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.ManyToMany#smartClient.framework.OneToMany:oiref>=582,1172,582,1097:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.ManyToOne#smartClient.framework.BidirectionalAssociation:oiref>=827,884,867,813,1088,813,1134,771:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.OneToMany#smartClient.framework.ToMany:oiref>=555,884,555,853,288,853,288,339,353,339,278,159:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.OneToMany:oiref>=482,884,200,213,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ToMany:oiref>=252,10,198,149,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.UnidirectionalToOne#smartClient.framework.UnidirectionalAssociation:oiref>=935,574,935,540,908,540,938,383:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.NullToOne#singleton:oiref>=441,732,441,769,505,769,505,705,468,705:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.OneToOne#smartClient.framework.ToOne:oiref>=1186,884,1241,517,697,517,631,127:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.BidirectionalAssociation:oiref>=1028,574,200,197,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.OneToOne#smartClient.framework.BidirectionalAssociation:oiref>=1158,884,1158,813,1088,813,1088,771:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.BidirectionalAssociation#smartClient.framework.UnidirectionalAssociation:oiref>=1129,574,1129,540,908,540,908,383:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.OneToOne:oiref>=1075,884,200,165,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalToOne:oiref>=789,574,200,181,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalAssociation:oiref>=799,10,200,373,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.NullToOne#smartClient.framework.ToOne:oiref>=390,574,390,517,697,517,681,127:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ManyToMany:oiref>=482,1172,200,165,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.UnidirectionalToOne#smartClient.framework.ToOne:oiref>=862,574,862,517,697,517,664,127:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ManyToOne:oiref>=721,884,200,165,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.NullToMany#singleton:oiref>=153,748,153,793,233,793,233,713,188,713:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.NullToMany:oiref>=10,574,178,174,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.NullToMany#smartClient.framework.ToMany:oiref>=111,574,111,339,353,339,304,159:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalToMany:oiref>=550,574,200,213,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.UnidirectionalToMany#smartClient.framework.ToMany:oiref>=623,574,623,339,353,339,330,159:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.OneToMany#smartClient.framework.BidirectionalAssociation:oiref>=628,884,628,813,1088,813,1181,771:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.NullToOne:oiref>=308,574,160,158,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.UnidirectionalToMany#smartClient.framework.UnidirectionalAssociation:oiref>=696,574,696,540,908,540,968,383:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ToOne:oiref>=615,10,156,117,1:oigroup>
+*/
+class __positions {
+}

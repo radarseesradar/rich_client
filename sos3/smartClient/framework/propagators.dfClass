@@ -1,0 +1,51 @@
+package id4b6a4cuo83bh9cuoxnx1e;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.Propagator:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PropagatorViaAllPaths:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference166 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PropagatorSynchronizer:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference167 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PropagatorRetriever:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference168 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#smartClient.framework.Propagator:oiref>=10,10,200,197,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PropagatorViaAllPaths:oiref>=10,346,200,213,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.PropagatorViaAllPaths#smartClient.framework.Propagator:oiref>=106,346,106,207:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PropagatorRetriever:oiref>=10,1104,200,165,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PropagatorSynchronizer:oiref>=10,635,200,341,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.PropagatorRetriever#smartClient.framework.PropagatorSynchronizer:oiref>=110,1104,110,976:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.PropagatorSynchronizer#smartClient.framework.PropagatorViaAllPaths:oiref>=106,635,106,559:oigroup>
+*/
+class __positions {
+}

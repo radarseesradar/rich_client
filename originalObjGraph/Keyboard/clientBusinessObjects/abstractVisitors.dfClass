@@ -1,0 +1,53 @@
+package iddnpvcndfe3k4cndfniav;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.PostVisitHelper:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Visitor:oiref><oihard>
+@__modelType reference
+@__imported
+@hideOperations 
+*/
+class reference65 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorSynchronizer:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference81 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorViaAllPaths:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference82 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Visitor:oiref>=358,10,168,89,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorViaAllPaths#Keyboard.clientBusinessObjects.Visitor:oiref>=570,493,570,129,442,129,442,99:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorSynchronizer#Keyboard.clientBusinessObjects.Visitor:oiref>=339,493,339,129,442,129,442,99:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.PostVisitHelper#visitor:oiref>=213,82,358,82:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorSynchronizer:oiref>=230,493,219,413,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.Visitor#postVisitHelper:oiref>=358,46,213,46:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorViaAllPaths:oiref>=469,493,203,233,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.PostVisitHelper:oiref>=10,10,203,404,1:oigroup>
+*/
+class __positions {
+}

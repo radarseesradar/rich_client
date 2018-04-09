@@ -1,0 +1,42 @@
+package id48dimcuo83bh9cup0n9je;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.Clamp:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Transition:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference198 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RoleKey:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference199 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#smartClient.framework.Clamp:oiref>=10,10,200,206,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.Clamp#inverseClamp:oiref>=173,216,173,263,257,263,257,179,210,179:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Transition:oiref>=10,290,200,270,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RoleKey:oiref>=316,10,200,382,1:oigroup>
+*/
+class __positions {
+}

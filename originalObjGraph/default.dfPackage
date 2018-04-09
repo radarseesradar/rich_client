@@ -1,0 +1,30 @@
+package idrag6cndbdkf5cndbicyv;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#idq7ohcndbdkf5cndbife7.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#Keyboard:oiref> 
+*/
+class reference1 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+
+<oigroup:<oiref:design#Class#idq7ohcndbdkf5cndbife7.diagram:oiref>=10,110,203,490,1:oigroup>
+*/
+class __positions {
+}

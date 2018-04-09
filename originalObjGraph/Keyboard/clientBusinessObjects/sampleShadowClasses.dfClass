@@ -1,0 +1,59 @@
+package id4693cndbdkf5cndf60hz;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TVCa:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TVCb:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference13 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TVComponent:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TVComposite:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference15 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Visitable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference64 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.TVComposite#Keyboard.clientBusinessObjects.TVComponent:oiref>=119,1185,303,1099:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.TVCb#Keyboard.clientBusinessObjects.TVComponent:oiref>=358,1185,358,1099:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TVCb:oiref>=249,1185,219,261,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TVComponent:oiref>=249,515,219,584,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TVCa:oiref>=488,1185,219,242,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.TVCa#Keyboard.clientBusinessObjects.TVComponent:oiref>=597,1185,413,1099:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Visitable:oiref>=257,10,203,422,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.TVComponent#Keyboard.clientBusinessObjects.Visitable:oiref>=358,515,358,432:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TVComposite:oiref>=10,1185,219,223,1:oigroup> 
+*/
+class __positions {
+}

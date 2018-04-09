@@ -1,0 +1,112 @@
+package id14t28cndbdkf5cndf6gjh;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.DataGenerator:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestAccessMethodNameGenerator:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference42 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference43 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference44 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference45 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference46 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference47 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference48 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToOneRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference49 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestRoleKey:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference50 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference51 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestUnidirectionalToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference52 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestVisitor:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference53 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToManyRegistry:oiref>=443,470,203,374,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToMany:oiref>=472,10,201,241,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestVisitor:oiref>=892,10,219,517,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToMany:oiref>=233,470,196,175,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestRoleKey:oiref>=666,750,177,137,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToOne:oiref>=687,10,191,137,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToOne:oiref>=456,290,196,137,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToManyRegistry:oiref>=10,510,203,450,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToOneRegistry:oiref>=666,290,203,412,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestToManyRegistry:oiref>=10,10,203,279,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.DataGenerator:oiref>=233,10,219,100,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.TestUnidirectionalToManyRegistry#Keyboard.clientBusinessObjects.TestToManyRegistry:oiref>=111,372,111,289:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestAccessMethodNameGenerator:oiref>=233,150,203,118,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestUnidirectionalToManyRegistry:oiref>=10,372,203,100,1:oigroup>
+*/
+class __positions {
+}

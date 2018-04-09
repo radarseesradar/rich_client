@@ -1,0 +1,44 @@
+About to print retrieved objGraph
+Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+ Transition: Keyboard.clientBusinessObjects.TVCb;zz981254568224:0  parent  Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0
+ Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0
+  Transition: Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0  parent  Keyboard.clientBusinessObjects.TVComposite;branch_two981254568194:0
+  Keyboard.clientBusinessObjects.TVComposite;branch_two981254568194:0
+   Transition: Keyboard.clientBusinessObjects.TVComposite;branch_two981254568194:0  parent  Keyboard.clientBusinessObjects.TVComposite;branch_three981254568204:0
+   Keyboard.clientBusinessObjects.TVComposite;branch_three981254568204:0
+    Transition: Keyboard.clientBusinessObjects.TVComposite;branch_three981254568204:0  parent  Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0
+    Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0
+     Transition: Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0  children  Keyboard.clientBusinessObjects.TVComposite;branch_three981254568204:0
+     Transition: Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0  children  Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0
+     Transition: Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0  children  Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+     Keyboard.clientBusinessObjects.TVComposite;branch_three981254568204:0
+      Transition: Keyboard.clientBusinessObjects.TVComposite;branch_three981254568204:0  children  Keyboard.clientBusinessObjects.TVComposite;branch_two981254568194:0
+      Keyboard.clientBusinessObjects.TVComposite;branch_two981254568194:0
+       Transition: Keyboard.clientBusinessObjects.TVComposite;branch_two981254568194:0  children  Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0
+       Transition: Keyboard.clientBusinessObjects.TVComposite;branch_two981254568194:0  children  Keyboard.clientBusinessObjects.TVCb;leaf_four981254568244:0
+       Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0
+       Keyboard.clientBusinessObjects.TVCb;leaf_four981254568244:0
+        Transition: Keyboard.clientBusinessObjects.TVCb;leaf_four981254568244:0  parent  Keyboard.clientBusinessObjects.TVComposite;branch_two981254568194:0
+        Keyboard.clientBusinessObjects.TVComposite;branch_two981254568194:0
+        Transition: Keyboard.clientBusinessObjects.TVCb;leaf_four981254568244:0  sisters  Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0
+        Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0
+         Transition: Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0  parent  Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0
+         Keyboard.clientBusinessObjects.TVComposite;branch_one981254568184:0
+         Transition: Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0  toOneCb  Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+         Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+          Transition: Keyboard.clientBusinessObjects.TVCb;zz981254568224:0  wife  Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0
+          Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0
+           Transition: Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0  husband  Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+           Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+            Transition: Keyboard.clientBusinessObjects.TVCb;zz981254568224:0  sisters  Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0
+            Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0
+             Transition: Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0  brothers  Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+             Transition: Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0  brothers  Keyboard.clientBusinessObjects.TVCb;leaf_four981254568244:0
+             Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+             Keyboard.clientBusinessObjects.TVCb;leaf_four981254568244:0
+             Transition: Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0  toManyCbs  Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+             Transition: Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0  toManyCbs  Keyboard.clientBusinessObjects.TVCb;leaf_four981254568244:0
+             Keyboard.clientBusinessObjects.TVCb;zz981254568224:0
+             Keyboard.clientBusinessObjects.TVCb;leaf_four981254568244:0
+     Keyboard.clientBusinessObjects.TVCa;leaf_one981254568214:0
+     Keyboard.clientBusinessObjects.TVCb;zz981254568224:0

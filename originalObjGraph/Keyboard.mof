@@ -1,0 +1,138 @@
+(model,
+ (interfaces, 9,
+  ((name,"Keyboard.TVPComponent"),
+   (flags,0x800e00),
+   (classid,10289880),
+   (keyClass,"Keyboard.TVPComponent"),
+   (nchildren,3),
+   (attributes,8,
+    ((name,"kboid"),(getter,"getKboid"),(setter,"setKboid"),(elementName,"kboid"),(type,25),(flags,0x900040),(size,8),(fieldId,0x2d80001)),
+    ((name,"newlyCreated"),(getter,"getNewlyCreated"),(setter,"setNewlyCreated"),(elementName,"newlyCreated"),(type,8),(flags,0x100000),(size,1),(fieldId,0x2d80002)),
+    ((name,"modified"),(getter,"getModified"),(setter,"setModified"),(elementName,"modified"),(type,8),(flags,0x100000),(size,1),(fieldId,0x2d80003)),
+    ((name,"name"),(getter,"getName"),(setter,"setName"),(elementName,"name"),(type,18),(flags,0x3100000),(size,65),(fieldId,0x2d80004)),
+    ((name,"alias"),(getter,"getAlias"),(setter,"setAlias"),(elementName,"alias"),(type,18),(flags,0x3100000),(size,65),(fieldId,0x2d80005)),
+    ((name,"updateCounter"),(getter,"getUpdateCounter"),(setter,"setUpdateCounter"),(elementName,"updateCounter"),(type,3),(flags,0x100000),(size,4),(fieldId,0x2d80006)),
+    ((name,"Fk_14286961"),(getter,"getFk_14286961"),(setter,"setFk_14286961"),(elementName,"Fk_14286961"),(type,25),(flags,0x100400),(size,8),(fieldId,0x2d80007)),
+    ((name,"parent"),(getter,"getParent"),(setter,"Keyboard.TVPComposite"),(elementName,"10289880:6=10289880:0/7996312:0"),(type,0),(typeName,"Keyboard.TVPComposite"),(flags,0x1300805),(size,0),(fieldId,0x2d80008))
+   ),
+   (keys,2,
+    ((name,"kboid"),(type,25),(size,0)),
+    ((size,8))
+   ),
+   (polyclasses, 3, "Keyboard.TVPCa", "Keyboard.TVPCb", "Keyboard.TVPComposite")
+  ),
+  ((name,"Keyboard.TVSessionBean"),
+   (flags,0x400)
+  ),
+  ((name,"Keyboard.TVPCa"),
+   (flags,0xa00a00),
+   (classid,11993700),
+   (keyClass,"Keyboard.TVPCa"),
+   (loadClass,"Keyboard.TVPCa"),
+   (tableName,"TVPCa"),
+   (attributes,3,
+    ((name,"Fk_9044186"),(getter,"getFk_9044186"),(setter,"setFk_9044186"),(elementName,"Fk_9044186"),(type,25),(flags,0x100400),(size,8),(fieldId,0x2640001)),
+    ((name,"husband"),(getter,"getHusband"),(setter,"Keyboard.TVPCb"),(elementName,"11993700:0=10289880:0/2229044:0"),(type,0),(typeName,"Keyboard.TVPCb"),(flags,0x1300805),(size,0),(fieldId,0x2640002)),
+    ((name,"brothers"),(getter,"getBrothers"),(setter,"Keyboard.TVPCbList"),(elementName,"23570"),(type,0),(typeName,"Keyboard.TVPCbList"),(flags,0x5380815),(size,0),(fieldId,0x2640003))
+   ),
+   (keys,2,
+    ((name,"kboid"),(type,25),(size,0)),
+    ((size,8))
+   ),
+   (parents,1,"Keyboard.TVPComponent"
+   )
+  ),
+  ((name,"Keyboard.TVPCb"),
+   (flags,0xa00a00),
+   (classid,2229044),
+   (keyClass,"Keyboard.TVPCb"),
+   (loadClass,"Keyboard.TVPCb"),
+   (tableName,"TVPCb"),
+   (attributes,2,
+    ((name,"wife"),(getter,"getWife"),(setter,"Keyboard.TVPCa"),(elementName,"10289880:0=11993700:0/11993700:1"),(type,0),(typeName,"Keyboard.TVPCa"),(flags,0x1340805),(size,0),(fieldId,0x3340001)),
+    ((name,"sisters"),(getter,"getSisters"),(setter,"Keyboard.TVPCaList"),(elementName,"23570"),(type,0),(typeName,"Keyboard.TVPCaList"),(flags,0x1380815),(size,0),(fieldId,0x3340002))
+   ),
+   (keys,2,
+    ((name,"kboid"),(type,25),(size,0)),
+    ((size,8))
+   ),
+   (parents,1,"Keyboard.TVPComponent"
+   )
+  ),
+  ((name,"Keyboard.TVPComponentList"),
+   (flags,0x20100),
+   (assocType,"Keyboard.TVPComponent"),
+   (collection,"java.util.LinkedList"),
+   (iterator,"java.util.ListIterator")),
+  ((name,"Keyboard.TVPComposite"),
+   (flags,0xa00a00),
+   (classid,7996312),
+   (keyClass,"Keyboard.TVPComposite"),
+   (loadClass,"Keyboard.TVPComposite"),
+   (tableName,"TVPComposite"),
+   (attributes,1,
+    ((name,"children"),(getter,"getChildren"),(setter,"Keyboard.TVPComponentList"),(elementName,"10289880:0=10289880:6/10289880:7"),(type,0),(typeName,"Keyboard.TVPComponentList"),(flags,0x1340815),(size,0),(fieldId,0x3980001))
+   ),
+   (keys,2,
+    ((name,"kboid"),(type,25),(size,0)),
+    ((size,8))
+   ),
+   (parents,1,"Keyboard.TVPComponent"
+   )
+  ),
+  ((name,"Keyboard.TVPCaList"),
+   (flags,0x20100),
+   (assocType,"Keyboard.TVPCa"),
+   (collection,"java.util.LinkedList"),
+   (iterator,"java.util.ListIterator")),
+  ((name,"Keyboard.TVPCbList"),
+   (flags,0x20100),
+   (assocType,"Keyboard.TVPCb"),
+   (collection,"java.util.LinkedList"),
+   (iterator,"java.util.ListIterator")),
+  ((name,"Keyboard.Assoc_15729533"),
+   (flags,0xac0200),
+   (classid,23570),
+   (keyClass,"Keyboard.Assoc_15729533"),
+   (loadClass,"Keyboard.Assoc_15729533"),
+   (tableName,"Assoc_15729533"),
+   (attributes,4,
+    ((name,"Keyboard_TVPCakboid"),(getter,"getKeyboard_TVPCakboid"),(setter,"setKeyboard_TVPCakboid"),(elementName,"kboid"),(type,25),(flags,0x4900040),(size,8),(fieldId,0x5c120001)),
+    ((name,"Keyboard_TVPCbkboid"),(getter,"getKeyboard_TVPCbkboid"),(setter,"setKeyboard_TVPCbkboid"),(elementName,"kboid_"),(type,25),(flags,0x900040),(size,8),(fieldId,0x5c120002)),
+    ((name,"obj1"),(getter,"getObj1"),(setter,"setObj1"),(elementName,"11993700:2"),(type,3),(flags,0x110000),(size,4),(fieldId,0x5c120003)),
+    ((name,"obj2"),(getter,"getObj2"),(setter,"setObj2"),(elementName,"2229044:1"),(type,3),(flags,0x110000),(size,4),(fieldId,0x5c120004))
+   ),
+   (keys,3,
+    ((name,"Keyboard_TVPCakboid"),(type,25),(size,0)),
+    ((name,"Keyboard_TVPCbkboid"),(type,25),(size,8)),
+    ((size,16))
+   )
+  )
+ )
+ (components
+ )
+)
+######################
+{EJBMof
+  (odlFile Keyboard.odl)
+  (ejbDeployments
+    {secant.util.VectorInfoPkg
+      {PropertyInfoPkg // an ejbType=standard deployment
+        (isSession true)
+        (isStateless false)
+        (deploymentName TVSessionBean)
+        (jndiName TVSessionBean)
+        (ejbName TVSessionBean)
+        (ejbClass Keyboard.TVSessionBean)
+        (ejbObjectImpl Keyboard.TVSessionBeanObject_TVSessionBean)
+        (ejbHomeImpl Keyboard.TVSessionBeanHome_TVSessionBean)
+        (txBeanManaged false)
+        (ejbEnvironment
+          {EJBEnv
+
+          }
+        ) // end of ejbEnvironment for TVSessionBean
+      } // end of standard deployment for TVSessionBean
+    } // end of Deployments Vector
+  ) // end of deployments for Keyboard.odl
+} // end of mofInfo for Keyboard.odl

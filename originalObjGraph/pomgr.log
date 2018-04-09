@@ -1,0 +1,2192 @@
+Product ID: ESJN-3.5.2-1220 Dec 21 2000
+(C)Secant Technologies, Inc.
+
+Java_secant_pos_ObjectMgr_cppinit: msgLevel set to 10
+
+JODMGCollection::JODMGCollection -- entry
+
+JODMGCollection::init -- entry
+GLB: returning new global ref = 774688
+GLB: returning new global ref = 77465c
+JODMGCollection::init -- exit
+JODMGCollection::JODMGCollection -- exit
+
+JavaCollection::JavaCollection -- entry
+
+JavaCollection::init -- entry
+GLB: returning new global ref = 774658
+GLB: returning new global ref = 774628
+JavaCollection::init -- exit
+JavaCollection::JavaCollection -- exit
+
+JMapCollection::JMapCollection -- entry
+
+JMapCollection::init -- entry
+GLB: returning new global ref = 774624
+GLB: returning new global ref = 774620
+GLB: returning new global ref = 77461c
+GLB: returning new global ref = 774618
+JMapCollection::init -- exit
+JMapCollection::JMapCollection -- exit
+GLB: returning new global jobject ref = 774614
+GLB: returning new global jobject ref = 77aa90
+
+Java_secant_pos_ObjectMgr_SetMessageLevel -- entry
+messageLevel now 10
+Java_secant_pos_ObjectMgr_SetMessageLevel -- exit
+Acquiring connection:
+ Creating new connection (# 1) in pool 'default'
+ Allocating new PDS/DSD and connecting to DB
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+Releasing connection record @00796B70
+
+Java_secant_pos_ObjectMgr_LoadModelFromByteArray -- entry
+Processing MOF buffer: 8b843f8, len: 
+There are 9 interfaces to process
+Processing interface: Keyboard.TVPComponent
+Processing attibute: kboid
+Processing attibute: newlyCreated
+Processing attibute: modified
+Processing attibute: name
+Processing attibute: alias
+Processing attibute: updateCounter
+Processing attibute: Fk_14286961
+Processing attibute: parent
+Processing key: kboid
+Registering class object: 0079C2A0
+--Class Name / Id: Keyboard.TVPComponent / 10289880
+GLB: returning new global ref = 77aaec
+GLB: returning new global ref = 77aae0
+GLB: returning new global ref = 77aadc
+GLB: returning new global ref = 77aad8
+GLB: returning new global ref = 77aad4
+GLB: returning new global ref = 77aad0
+Processing interface: Keyboard.TVSessionBean
+Registering class object: 0079D350
+--Class Name / Id: Keyboard.TVSessionBean / 0
+GLB: returning new global ref = 77aa98
+Processing interface: Keyboard.TVPCa
+Processing attibute: Fk_9044186
+Processing attibute: husband
+Processing attibute: brothers
+Processing key: kboid
+Registering class object: 0079D3E0
+--Class Name / Id: Keyboard.TVPCa / 11993700
+GLB: returning new global ref = 7775c8
+Processing interface: Keyboard.TVPCb
+Processing attibute: wife
+Processing attibute: sisters
+Processing key: kboid
+Registering class object: 0079D8D0
+--Class Name / Id: Keyboard.TVPCb / 2229044
+GLB: returning new global ref = 7775ac
+Processing interface: Keyboard.TVPComponentList
+Registering class object: 0079EC70
+--Class Name / Id: Keyboard.TVPComponentList / 7984352
+GLB: returning new global ref = 7775a8
+Processing interface: Keyboard.TVPComposite
+Processing attibute: children
+Processing key: kboid
+Registering class object: 0079EA30
+--Class Name / Id: Keyboard.TVPComposite / 7996312
+GLB: returning new global ref = 777594
+Processing interface: Keyboard.TVPCaList
+Registering class object: 0079E6C0
+--Class Name / Id: Keyboard.TVPCaList / 7989648
+GLB: returning new global ref = 777590
+Processing interface: Keyboard.TVPCbList
+Registering class object: 0079E550
+--Class Name / Id: Keyboard.TVPCbList / 7988800
+GLB: returning new global ref = 77758c
+Processing interface: Keyboard.Assoc_15729533
+Processing attibute: Keyboard_TVPCakboid
+Processing attibute: Keyboard_TVPCbkboid
+Processing attibute: obj1
+Processing attibute: obj2
+Processing key: Keyboard_TVPCakboid
+Processing key: Keyboard_TVPCbkboid
+Registering class object: 0079E3E0
+--Class Name / Id: Keyboard.Assoc_15729533 / 23570
+GLB: returning new global ref = 777580
+MOFReader: performing fixups
+
+PomFixupClasses::Enter
+--PFC::Ready
+
+PFC:cl (0079E3E0)
+PFC:class [Keyboard.Assoc_15729533]
+  PFC:load=[Keyboard.Assoc_15729533]
+  PFC:Resolving Joins
+  PFC:Resolving Attribs
+    Attrib: Keyboard_TVPCakboid
+    Attrib: Keyboard_TVPCbkboid
+    Attrib: obj1
+    Attrib: obj2
+  PFC:Fixup parents
+PFC:Done with class (Keyboard.Assoc_15729533)
+
+PFC:cl (0079D3E0)
+PFC:class [Keyboard.TVPCa]
+  PFC:load=[Keyboard.TVPCa]
+  PFC:Resolving Joins
+  PFC:Resolving Attribs
+    Attrib: Fk_9044186
+    Attrib: husband
+    Attrib: brothers
+GLB: returning new global ref = 77757c
+  PFC:Fixup parents
+    Parent=Keyboard.TVPComponent
+    --Child: Keyboard.TVPCa
+PFC:Done with class (Keyboard.TVPCa)
+
+PFC:cl (0079E6C0)
+PFC:class [Keyboard.TVPCaList]
+  PFC:Collection classid=[Keyboard.TVPCa]
+
+PFC:cl (0079D8D0)
+PFC:class [Keyboard.TVPCb]
+  PFC:load=[Keyboard.TVPCb]
+  PFC:Resolving Joins
+  PFC:Resolving Attribs
+    Attrib: wife
+    Attrib: sisters
+  PFC:Fixup parents
+    Parent=Keyboard.TVPComponent
+    --Child: Keyboard.TVPCb
+PFC:Done with class (Keyboard.TVPCb)
+
+PFC:cl (0079E550)
+PFC:class [Keyboard.TVPCbList]
+  PFC:Collection classid=[Keyboard.TVPCb]
+
+PFC:cl (0079C2A0)
+PFC:class [Keyboard.TVPComponent]
+  PFC:load=[N/A]
+  PFC:Resolving Joins
+  PFC:Resolving Attribs
+    Attrib: kboid
+    Attrib: newlyCreated
+    Attrib: modified
+    Attrib: name
+    Attrib: alias
+    Attrib: updateCounter
+    Attrib: Fk_14286961
+    Attrib: parent
+  PFC:Fixup parents
+PFC:Done with class (Keyboard.TVPComponent)
+
+PFC:cl (0079EC70)
+PFC:class [Keyboard.TVPComponentList]
+  PFC:Collection classid=[Keyboard.TVPComponent]
+
+PFC:cl (0079EA30)
+PFC:class [Keyboard.TVPComposite]
+  PFC:load=[Keyboard.TVPComposite]
+  PFC:Resolving Joins
+  PFC:Resolving Attribs
+    Attrib: children
+  PFC:Fixup parents
+    Parent=Keyboard.TVPComponent
+    --Child: Keyboard.TVPComposite
+PFC:Done with class (Keyboard.TVPComposite)
+
+PFC:cl (0079D350)
+PFC:class [Keyboard.TVSessionBean]
+  PFC:load=[N/A]
+  PFC:Resolving Joins
+  PFC:Resolving Attribs
+  PFC:Fixup parents
+PFC:Done with class (Keyboard.TVSessionBean)
+
+PFC:cl (0917E170)
+PFC:class [_PRegistrant]
+PFC:Done!  Exiting... 
+
+MOF file processing complete
+Java_secant_pos_ObjectMgr_LoadModelFromByteArray -- exit
+GLB: returning new global jobject ref = 77a9f8
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@592174
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@39eeda
+request: clearDB, objectType: RMI:Keyboard.TVSessionBeanObject:0000000000000000, tx: kbch0000000000p0000000, cred: [[B@16c1b0
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = begin
+---- Begin Transaction (007A80E0) ----
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+
+Java_secant_pos_ObjectMgr_addPDSResource -- entry
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_addPDSResource -- exit
+
+Java_secant_pos_ObjectMgr_enableUpdateLog -- entry
+Java_secant_pos_ObjectMgr_enableUpdateLog -- exit
+
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- entry
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- exit
+
+Java_secant_pos_ObjectMgr_AllocateDataStore -- entry
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Java_secant_pos_ObjectMgr_AllocateDataStore -- exit
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = commit
+OTS_Terminator.commit entered
+Terminator :: commit with 0/1 resource
+OTS_Terminator.sync_before: notifying registrants
+POperationLog.ApplyUpdates entered
+POperationLog.ApplyUpdates exited successfully.
+Releasing connection record @00796B70
+StatusCommitted
+Terminator.sync_after: notifying registrants
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+request: allocateIDs, objectType: RMI:Keyboard.TVSessionBeanObject:0000000000000000, tx: none, cred: [[B@726605
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = begin
+---- Begin Transaction (007ACFC0) ----
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+
+Java_secant_pos_ObjectMgr_addPDSResource -- entry
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_addPDSResource -- exit
+
+Java_secant_pos_ObjectMgr_enableUpdateLog -- entry
+Java_secant_pos_ObjectMgr_enableUpdateLog -- exit
+
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- entry
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- exit
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = commit
+OTS_Terminator.commit entered
+Terminator :: commit with 0/1 resource
+OTS_Terminator.sync_before: notifying registrants
+POperationLog.ApplyUpdates entered
+POperationLog.ApplyUpdates exited successfully.
+StatusCommitted
+Terminator.sync_after: notifying registrants
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+request: execute, objectType: RMI:Keyboard.TVSessionBeanObject:0000000000000000, tx: kbch0000000000s0000000, cred: [[B@4da8f4
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = begin
+---- Begin Transaction (007AB020) ----
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+
+Java_secant_pos_ObjectMgr_addPDSResource -- entry
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_addPDSResource -- exit
+
+Java_secant_pos_ObjectMgr_enableUpdateLog -- entry
+Java_secant_pos_ObjectMgr_enableUpdateLog -- exit
+
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- entry
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLB: returning new global ref = 78ee14
+GLBThunk: object 993f810 of class Keyboard.TVPCb, with hashcode = 0 not yet registered. Returning 0.
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_pos_ObjectMgr_Activate -- entry
+GLB: returning new global jobject ref = 78ee10
+registering object: Keyboard.TVPCb::78ee10 [referenced by: 0]
+PropHashTable: now has 1 blocks
+==>JavaBind::GetObjectID, obj=78ee10, class=Keyboard.TVPCb
+Remember: recorded hashcode = 4018 for registered object 78ee10
+Java_secant_pos_ObjectMgr_Activate -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLBThunk: returning jobject ref = 78ee10 for object with hashcode = 4018 in map entry 7af0c0
+DirtyBits_setDirty: setModified on object of class Keyboard.TVPCb
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLBThunk: object 993f810 of class Keyboard.TVPCa, with hashcode = 0 not yet registered. Returning 0.
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_pos_ObjectMgr_Activate -- entry
+GLB: returning new global jobject ref = 77aa1c
+registering object: Keyboard.TVPCa::77aa1c [referenced by: 0]
+==>JavaBind::GetObjectID, obj=77aa1c, class=Keyboard.TVPCa
+Remember: recorded hashcode = 4017 for registered object 77aa1c
+Java_secant_pos_ObjectMgr_Activate -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLBThunk: returning jobject ref = 77aa1c for object with hashcode = 4017 in map entry 7add60
+DirtyBits_setDirty: setModified on object of class Keyboard.TVPCa
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLBThunk: object 993f810 of class Keyboard.TVPCb, with hashcode = 0 not yet registered. Returning 0.
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_pos_ObjectMgr_Activate -- entry
+GLB: returning new global jobject ref = 77aa18
+registering object: Keyboard.TVPCb::77aa18 [referenced by: 0]
+PropHashTable: now has 2 blocks
+==>JavaBind::GetObjectID, obj=77aa18, class=Keyboard.TVPCb
+Remember: recorded hashcode = 4016 for registered object 77aa18
+Java_secant_pos_ObjectMgr_Activate -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+DirtyBits_setDirty: setModified on object of class Keyboard.TVPCb
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLBThunk: object 993f810 of class Keyboard.TVPCa, with hashcode = 0 not yet registered. Returning 0.
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_pos_ObjectMgr_Activate -- entry
+GLB: returning new global jobject ref = 77aa14
+registering object: Keyboard.TVPCa::77aa14 [referenced by: 0]
+PropHashTable: now has 3 blocks
+==>JavaBind::GetObjectID, obj=77aa14, class=Keyboard.TVPCa
+Remember: recorded hashcode = 4015 for registered object 77aa14
+Java_secant_pos_ObjectMgr_Activate -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+DirtyBits_setDirty: setModified on object of class Keyboard.TVPCa
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLBThunk: object 993f810 of class Keyboard.TVPComposite, with hashcode = 0 not yet registered. Returning 0.
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_pos_ObjectMgr_Activate -- entry
+GLB: returning new global jobject ref = 77aa10
+registering object: Keyboard.TVPComposite::77aa10 [referenced by: 0]
+PropHashTable: now has 4 blocks
+==>JavaBind::GetObjectID, obj=77aa10, class=Keyboard.TVPComposite
+Remember: recorded hashcode = 4012 for registered object 77aa10
+Java_secant_pos_ObjectMgr_Activate -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+GLBThunk: returning jobject ref = 77aa10 for object with hashcode = 4012 in map entry 7ad280
+DirtyBits_setDirty: setModified on object of class Keyboard.TVPComposite
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_setDirty -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPComposite
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+GLB: returning new global ref = 77a9d8
+GLB: returning new global jobject ref = 77a9d4
+JavaSync(7b0d60): created for object 77a9d4 of class class secant.pos.JavaWorkspace
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 77aa10 for object with hashcode = 4012 in map entry 7ad280
+==>CreateObject: class=Keyboard.TVPComponentList
+
+JavaCollection::JavaCollection -- entry
+JavaCollection::JavaCollection -- exit
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 7aadd0
+JavaCollection::SetImpl -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPComposite
+Initializing Start Record for table TVPComposite with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961 FROM TVPComposite a WHERE a.Fk_14286961=16402
+
+
+
+
+.
+
+DB2 error: 
+Reseting ID counter.
+Adding new id of 0 for table TVPCb
+Initializing Start Record for table TVPCb with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961 FROM TVPCb a WHERE a.Fk_14286961=16402
+
+
+
+
+.
+
+DB2 error: 
+Reseting ID counter.
+Adding new id of 0 for table TVPCa
+Initializing Start Record for table TVPCa with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961,a.Fk_9044186 FROM TVPCa a WHERE a.Fk_14286961=16402
+
+
+
+
+.
+
+DB2 error: 
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 0
+JavaCollection::SetImpl -- exit
+
+JavaCollection::~JavaCollection -- entry
+JavaCollection::~JavaCollection -- exit
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 77aa10 for object with hashcode = 4012 in map entry 7ad280
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+associateObjects: attrName children
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+children
+parent
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPComposite
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 77aa10 for object with hashcode = 4012 in map entry 7ad280
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+associateObjects: attrName children
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+children
+parent
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPComposite
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCb
+Null value attribute (Fk_9044186) found when restoring relationship Keyboard.TVPCa.husband
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+associateObjects: attrName husband
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+husband
+wife
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCa
+Initializing Start Record for table TVPCa with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961,a.Fk_9044186 FROM TVPCa a WHERE a.Fk_9044186=16406
+
+
+
+
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+associateObjects: attrName wife
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+wife
+husband
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+==>CreateObject: class=Keyboard.TVPCbList
+
+JavaCollection::JavaCollection -- entry
+JavaCollection::JavaCollection -- exit
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 7aa6a0
+JavaCollection::SetImpl -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCb
+Adding new id of 1 for table Assoc_15729533
+Initializing Start Record for table TVPCb with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961 FROM TVPCb a, Assoc_15729533 b WHERE b.kboid=16405 and a.kboid=b.kboid_
+
+
+
+
+.
+
+DB2 error: 
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 0
+JavaCollection::SetImpl -- exit
+
+JavaCollection::~JavaCollection -- entry
+JavaCollection::~JavaCollection -- exit
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+associateObjects: attrName brothers
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+==>CreateObject: class=Keyboard.Assoc_15729533
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+GLB: returning new global jobject ref = 7775c0
+registering object: Keyboard.Assoc_15729533::7775c0 [referenced by: 0]
+==>JavaBind::GetObjectID, obj=7775c0, class=Keyboard.Assoc_15729533
+Remember: recorded hashcode = 3b7759 for registered object 7775c0
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+brothers
+sisters
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+==>CreateObject: class=Keyboard.TVPCaList
+
+JavaCollection::JavaCollection -- entry
+JavaCollection::JavaCollection -- exit
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 7aa6a0
+JavaCollection::SetImpl -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCa
+Adding new id of 1 for table Assoc_15729533
+Initializing Start Record for table TVPCa with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961,a.Fk_9044186 FROM TVPCa a, Assoc_15729533 b WHERE b.kboid_=16406 and a.kboid=b.kboid
+
+
+
+
+.
+
+DB2 error: 
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 0
+JavaCollection::SetImpl -- exit
+
+JavaCollection::~JavaCollection -- entry
+JavaCollection::~JavaCollection -- exit
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+associateObjects: attrName sisters
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+registering object: Keyboard.Assoc_15729533::7775c0 [referenced by: 0]
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+sisters
+brothers
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+GLBThunk: returning jobject ref = 78ee10 for object with hashcode = 4018 in map entry 7af0c0
+associateObjects: attrName brothers
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+==>CreateObject: class=Keyboard.Assoc_15729533
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+GLB: returning new global jobject ref = 7775bc
+registering object: Keyboard.Assoc_15729533::7775bc [referenced by: 0]
+==>JavaBind::GetObjectID, obj=7775bc, class=Keyboard.Assoc_15729533
+Remember: recorded hashcode = 189f84 for registered object 7775bc
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+brothers
+sisters
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 78ee10 for object with hashcode = 4018 in map entry 7af0c0
+==>CreateObject: class=Keyboard.TVPCaList
+
+JavaCollection::JavaCollection -- entry
+JavaCollection::JavaCollection -- exit
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 7a9070
+JavaCollection::SetImpl -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCa
+Adding new id of 1 for table Assoc_15729533
+Initializing Start Record for table TVPCa with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961,a.Fk_9044186 FROM TVPCa a, Assoc_15729533 b WHERE b.kboid_=16408 and a.kboid=b.kboid
+
+
+
+
+.
+
+DB2 error: 
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 0
+JavaCollection::SetImpl -- exit
+
+JavaCollection::~JavaCollection -- entry
+JavaCollection::~JavaCollection -- exit
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 78ee10 for object with hashcode = 4018 in map entry 7af0c0
+GLBThunk: returning jobject ref = 77aa14 for object with hashcode = 4015 in map entry 7ad420
+associateObjects: attrName sisters
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+registering object: Keyboard.Assoc_15729533::7775bc [referenced by: 0]
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+sisters
+brothers
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 77aa1c for object with hashcode = 4017 in map entry 7add60
+==>CreateObject: class=Keyboard.TVPCbList
+
+JavaCollection::JavaCollection -- entry
+JavaCollection::JavaCollection -- exit
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 7aadd0
+JavaCollection::SetImpl -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCb
+Adding new id of 1 for table Assoc_15729533
+Initializing Start Record for table TVPCb with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961 FROM TVPCb a, Assoc_15729533 b WHERE b.kboid=16407 and a.kboid=b.kboid_
+
+
+
+
+.
+
+DB2 error: 
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 0
+JavaCollection::SetImpl -- exit
+
+JavaCollection::~JavaCollection -- entry
+JavaCollection::~JavaCollection -- exit
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 77aa1c for object with hashcode = 4017 in map entry 7add60
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+associateObjects: attrName brothers
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+==>CreateObject: class=Keyboard.Assoc_15729533
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+GLB: returning new global jobject ref = 7775b8
+registering object: Keyboard.Assoc_15729533::7775b8 [referenced by: 0]
+==>JavaBind::GetObjectID, obj=7775b8, class=Keyboard.Assoc_15729533
+Remember: recorded hashcode = 238bd2 for registered object 7775b8
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+brothers
+sisters
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_associateObjects -- entry
+GLBThunk: returning jobject ref = 77aa18 for object with hashcode = 4016 in map entry 7ad540
+GLBThunk: returning jobject ref = 77aa1c for object with hashcode = 4017 in map entry 7add60
+associateObjects: attrName sisters
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+registering object: Keyboard.Assoc_15729533::7775b8 [referenced by: 0]
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_associateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+sisters
+brothers
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = commit
+OTS_Terminator.commit entered
+Terminator :: commit with 0/1 resource
+OTS_Terminator.sync_before: notifying registrants
+POperationLog.ApplyUpdates entered
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCb
+Initializing Start Record for table TVPCb with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+INSERT INTO TVPCb(kboid,newlyCreated,modified,name,alias,updateCounter,Fk_14286961)VALUES(?,?,?,?,?,?,?)
+.
+
+Bind :1 to 09A40008 len=21 type=25 (erc=0) [data=
+16408
+]
+
+Bind :2 to 09A40028 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :3 to 09A40038 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :4 to 09A40048 len=10 type=18 (erc=0) [data=
+leaf_four
+]
+
+Bind :5 to 09A40098 len=10 type=18 (erc=0) [data=
+leaf_four
+]
+
+Bind :6 to 09A400E8 len=4 type=3 (erc=0) [data=
+1
+]
+
+Bind :7 to 09A400F8 len=21 type=25 (erc=0) [data=
+0
+]
+
+
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+PDSResource::AcquirePDS() bumping use-count for pds @00796B70 to 1
+Reseting ID counter.
+Adding new id of 0 for table TVPCa
+Initializing Start Record for table TVPCa with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+INSERT INTO TVPCa(kboid,newlyCreated,modified,name,alias,updateCounter,Fk_14286961,Fk_9044186)VALUES(?,?,?,?,?,?,?,?)
+.
+
+Bind :1 to 09A40008 len=21 type=25 (erc=0) [data=
+16407
+]
+
+Bind :2 to 09A40028 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :3 to 09A40038 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :4 to 09A40048 len=11 type=18 (erc=0) [data=
+leaf_three
+]
+
+Bind :5 to 09A40098 len=11 type=18 (erc=0) [data=
+leaf_three
+]
+
+Bind :6 to 09A400E8 len=4 type=3 (erc=0) [data=
+1
+]
+
+Bind :7 to 09A400F8 len=21 type=25 (erc=0) [data=
+0
+]
+
+Bind :8 to 09A40118 len=21 type=25 (erc=0) [data=
+0
+]
+
+
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+PDSResource::AcquirePDS() bumping use-count for pds @00796B70 to 1
+Reseting ID counter.
+Adding new id of 0 for table TVPCb
+Initializing Start Record for table TVPCb with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+INSERT INTO TVPCb(kboid,newlyCreated,modified,name,alias,updateCounter,Fk_14286961)VALUES(?,?,?,?,?,?,?)
+.
+
+Bind :1 to 09A40008 len=21 type=25 (erc=0) [data=
+16406
+]
+
+Bind :2 to 09A40028 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :3 to 09A40038 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :4 to 09A40048 len=9 type=18 (erc=0) [data=
+leaf_two
+]
+
+Bind :5 to 09A40098 len=9 type=18 (erc=0) [data=
+leaf_two
+]
+
+Bind :6 to 09A400E8 len=4 type=3 (erc=0) [data=
+1
+]
+
+Bind :7 to 09A400F8 len=21 type=25 (erc=0) [data=
+16402
+]
+
+
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+PDSResource::AcquirePDS() bumping use-count for pds @00796B70 to 1
+Reseting ID counter.
+Adding new id of 0 for table TVPCa
+Initializing Start Record for table TVPCa with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+INSERT INTO TVPCa(kboid,newlyCreated,modified,name,alias,updateCounter,Fk_14286961,Fk_9044186)VALUES(?,?,?,?,?,?,?,?)
+.
+
+Bind :1 to 09A40008 len=21 type=25 (erc=0) [data=
+16405
+]
+
+Bind :2 to 09A40028 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :3 to 09A40038 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :4 to 09A40048 len=9 type=18 (erc=0) [data=
+leaf_one
+]
+
+Bind :5 to 09A40098 len=9 type=18 (erc=0) [data=
+leaf_one
+]
+
+Bind :6 to 09A400E8 len=4 type=3 (erc=0) [data=
+1
+]
+
+Bind :7 to 09A400F8 len=21 type=25 (erc=0) [data=
+16402
+]
+
+Bind :8 to 09A40118 len=21 type=25 (erc=0) [data=
+16406
+]
+
+
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+PDSResource::AcquirePDS() bumping use-count for pds @00796B70 to 1
+Reseting ID counter.
+Adding new id of 0 for table TVPComposite
+Initializing Start Record for table TVPComposite with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+INSERT INTO TVPComposite(kboid,newlyCreated,modified,name,alias,updateCounter,Fk_14286961)VALUES(?,?,?,?,?,?,?)
+.
+
+Bind :1 to 09A40008 len=21 type=25 (erc=0) [data=
+16402
+]
+
+Bind :2 to 09A40028 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :3 to 09A40038 len=1 type=8 (erc=0) [data=
+F
+]
+
+Bind :4 to 09A40048 len=11 type=18 (erc=0) [data=
+branch_one
+]
+
+Bind :5 to 09A40098 len=11 type=18 (erc=0) [data=
+branch_one
+]
+
+Bind :6 to 09A400E8 len=4 type=3 (erc=0) [data=
+1
+]
+
+Bind :7 to 09A400F8 len=21 type=25 (erc=0) [data=
+0
+]
+
+
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+PDSResource::AcquirePDS() bumping use-count for pds @00796B70 to 1
+Reseting ID counter.
+Adding new id of 0 for table Assoc_15729533
+Initializing Start Record for table Assoc_15729533 with tableID of 0.
+
+INSERT INTO Assoc_15729533(kboid,kboid_)VALUES(?,?)
+.
+
+Bind :1 to 09A40008 len=21 type=25 (erc=0) [data=
+16405
+]
+
+Bind :2 to 09A40028 len=21 type=25 (erc=0) [data=
+16406
+]
+
+
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+PDSResource::AcquirePDS() bumping use-count for pds @00796B70 to 1
+Reseting ID counter.
+Adding new id of 0 for table Assoc_15729533
+Initializing Start Record for table Assoc_15729533 with tableID of 0.
+
+INSERT INTO Assoc_15729533(kboid,kboid_)VALUES(?,?)
+.
+
+Bind :1 to 09A40008 len=21 type=25 (erc=0) [data=
+16405
+]
+
+Bind :2 to 09A40028 len=21 type=25 (erc=0) [data=
+16408
+]
+
+
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+PDSResource::AcquirePDS() bumping use-count for pds @00796B70 to 1
+Reseting ID counter.
+Adding new id of 0 for table Assoc_15729533
+Initializing Start Record for table Assoc_15729533 with tableID of 0.
+
+INSERT INTO Assoc_15729533(kboid,kboid_)VALUES(?,?)
+.
+
+Bind :1 to 09A40008 len=21 type=25 (erc=0) [data=
+16407
+]
+
+Bind :2 to 09A40028 len=21 type=25 (erc=0) [data=
+16406
+]
+
+
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+POperationLog.ApplyUpdates exited successfully.
+JavaSync(7b0d60).before_completion: on object 77a9d4 of class class secant.pos.JavaWorkspace
+Releasing connection record @00796B70
+StatusCommitted
+Terminator.sync_after: notifying registrants
+JavaSync(7b0d60).after_completion: on object 77a9d4 of class class secant.pos.JavaWorkspace
+JavaSync(7b0d60).after_completion: deleted global ref 77a9d4
+unregistering object: Keyboard.Assoc_15729533::7775c0
+Forget: deleted global ref = 7775c0 with hashcode = 3b7759
+unregistering object: Keyboard.Assoc_15729533::7775bc
+Forget: deleted global ref = 7775bc with hashcode = 189f84
+unregistering object: Keyboard.Assoc_15729533::7775b8
+Forget: deleted global ref = 7775b8 with hashcode = 238bd2
+unregistering object: Keyboard.TVPCb::77aa18
+Forget: deleted global ref = 77aa18 with hashcode = 4016
+unregistering object: Keyboard.TVPCb::78ee10
+Forget: deleted global ref = 78ee10 with hashcode = 4018
+unregistering object: Keyboard.TVPComposite::77aa10
+Forget: deleted global ref = 77aa10 with hashcode = 4012
+unregistering object: Keyboard.TVPCa::77aa14
+Forget: deleted global ref = 77aa14 with hashcode = 4015
+unregistering object: Keyboard.TVPCa::77aa1c
+Forget: deleted global ref = 77aa1c with hashcode = 4017
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+request: execute, objectType: RMI:Keyboard.TVSessionBeanObject:0000000000000000, tx: kbch0000000000u0000000, cred: [[B@198891
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = begin
+---- Begin Transaction (007B0A80) ----
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+
+Java_secant_pos_ObjectMgr_addPDSResource -- entry
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_addPDSResource -- exit
+
+Java_secant_pos_ObjectMgr_enableUpdateLog -- entry
+Java_secant_pos_ObjectMgr_enableUpdateLog -- exit
+
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- entry
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCb
+Initializing Start Record for table TVPCb with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961 FROM TVPCb a WHERE a.kboid=16406
+
+
+
+
+==>CreateObject: class=Keyboard.TVPCb
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+GLB: returning new global jobject ref = 7775a0
+registering object: Keyboard.TVPCb::7775a0 [referenced by: 0]
+PropHashTable: now has 1 blocks
+==>JavaBind::GetObjectID, obj=7775a0, class=Keyboard.TVPCb
+Remember: recorded hashcode = 4016 for registered object 7775a0
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCa
+Initializing Start Record for table TVPCa with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961,a.Fk_9044186 FROM TVPCa a WHERE a.kboid=16407
+
+
+
+
+==>CreateObject: class=Keyboard.TVPCa
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+GLB: returning new global jobject ref = 77759c
+registering object: Keyboard.TVPCa::77759c [referenced by: 0]
+==>JavaBind::GetObjectID, obj=77759c, class=Keyboard.TVPCa
+Remember: recorded hashcode = 4017 for registered object 77759c
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+GLB: returning new global jobject ref = 777598
+JavaSync(7b27c0): created for object 777598 of class class secant.pos.JavaWorkspace
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 7775a0 for object with hashcode = 4016 in map entry 7b2640
+==>CreateObject: class=Keyboard.TVPCaList
+
+JavaCollection::JavaCollection -- entry
+JavaCollection::JavaCollection -- exit
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 7a9110
+JavaCollection::SetImpl -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCa
+Adding new id of 1 for table Assoc_15729533
+Initializing Start Record for table TVPCa with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961,a.Fk_9044186 FROM TVPCa a, Assoc_15729533 b WHERE b.kboid_=16406 and a.kboid=b.kboid
+
+
+
+
+.
+.
+==>CreateObject: class=Keyboard.TVPCa
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+GLB: returning new global jobject ref = 777588
+registering object: Keyboard.TVPCa::777588 [referenced by: 7775a0]
+==>JavaBind::GetObjectID, obj=777588, class=Keyboard.TVPCa
+Remember: recorded hashcode = 4015 for registered object 777588
+.
+
+DB2 error: 
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 0
+JavaCollection::SetImpl -- exit
+
+JavaCollection::~JavaCollection -- entry
+JavaCollection::~JavaCollection -- exit
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_disassociateObjects -- entry
+GLBThunk: returning jobject ref = 7775a0 for object with hashcode = 4016 in map entry 7b2640
+GLBThunk: returning jobject ref = 77759c for object with hashcode = 4017 in map entry 7b2430
+disassociateObjects: attrName sisters
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+==>CreateObject: class=Keyboard.Assoc_15729533
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_init -- exit
+GLB: returning new global jobject ref = 777584
+registering object: Keyboard.Assoc_15729533::777584 [referenced by: 0]
+PropHashTable: now has 2 blocks
+==>JavaBind::GetObjectID, obj=777584, class=Keyboard.Assoc_15729533
+Remember: recorded hashcode = 506dc4 for registered object 777584
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_disassociateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+sisters
+brothers
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_GetClassObject -- entry
+Java_secant_pos_ObjectMgr_GetClassObject -- exit
+
+Java_secant_pos_ObjectMgr_ActivateAssoc -- entry
+ActivateAssoc
+GLBThunk: returning jobject ref = 77759c for object with hashcode = 4017 in map entry 7b2430
+==>CreateObject: class=Keyboard.TVPCbList
+
+JavaCollection::JavaCollection -- entry
+JavaCollection::JavaCollection -- exit
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 7a9110
+JavaCollection::SetImpl -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table TVPCb
+Adding new id of 1 for table Assoc_15729533
+Initializing Start Record for table TVPCb with tableID of 0.
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+Using default id of 0 for null table name
+
+SELECT a.kboid,a.newlyCreated,a.modified,a.name,a.alias,a.updateCounter,a.Fk_14286961 FROM TVPCb a, Assoc_15729533 b WHERE b.kboid=16407 and a.kboid=b.kboid_
+
+
+
+
+.
+.
+
+DB2 error: 
+
+JavaCollection::SetImpl -- entry
+JavaCollection.SetImpl: recording cltn ref = 0
+JavaCollection::SetImpl -- exit
+
+JavaCollection::~JavaCollection -- entry
+JavaCollection::~JavaCollection -- exit
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_ActivateAssoc -- exit
+
+Java_secant_pos_ObjectMgr_disassociateObjects -- entry
+GLBThunk: returning jobject ref = 77759c for object with hashcode = 4017 in map entry 7b2430
+GLBThunk: returning jobject ref = 7775a0 for object with hashcode = 4016 in map entry 7b2640
+disassociateObjects: attrName brothers
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+registering object: Keyboard.Assoc_15729533::777584 [referenced by: 0]
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_disassociateObjects -- exit
+
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- entry
+brothers
+sisters
+Java_secant_pos_ODLAttribute_GetInverseAssoc -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCb
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_ObjectMgr_restoreObject -- entry
+
+ConvertJavaObjID -- entry
+ConvertJavaObjID: OID class: Keyboard.TVPCa
+ConvertJavaObjID: OID location: default
+ConvertJavaObjID: translating key number 1
+<==ConvertJavaObjID
+ConvertJavaObjID -- exit
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_restoreObject -- exit
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = commit
+OTS_Terminator.commit entered
+Terminator :: commit with 0/1 resource
+OTS_Terminator.sync_before: notifying registrants
+POperationLog.ApplyUpdates entered
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+Reseting ID counter.
+Adding new id of 0 for table Assoc_15729533
+
+DELETE FROM Assoc_15729533 WHERE kboid=16407 AND kboid_=16406
+.
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+POperationLog.ApplyUpdates exited successfully.
+JavaSync(7b27c0).before_completion: on object 777598 of class class secant.pos.JavaWorkspace
+Releasing connection record @00796B70
+StatusCommitted
+Terminator.sync_after: notifying registrants
+JavaSync(7b27c0).after_completion: on object 777598 of class class secant.pos.JavaWorkspace
+JavaSync(7b27c0).after_completion: deleted global ref 777598
+unregistering object: Keyboard.Assoc_15729533::777584
+Forget: deleted global ref = 777584 with hashcode = 506dc4
+unregistering object: Keyboard.TVPCb::7775a0
+Forget: deleted global ref = 7775a0 with hashcode = 4016
+unregistering object: Keyboard.TVPCa::777588
+Forget: deleted global ref = 777588 with hashcode = 4015
+unregistering object: Keyboard.TVPCa::77759c
+Forget: deleted global ref = 77759c with hashcode = 4017
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@126b07
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@4931fc
+request: allocateIDs, objectType: RMI:Keyboard.TVSessionBeanObject:0000000000000000, tx: none, cred: [[B@13722c
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = begin
+---- Begin Transaction (007B0D00) ----
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+
+Java_secant_pos_ObjectMgr_addPDSResource -- entry
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_addPDSResource -- exit
+
+Java_secant_pos_ObjectMgr_enableUpdateLog -- entry
+Java_secant_pos_ObjectMgr_enableUpdateLog -- exit
+
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- entry
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- exit
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = commit
+OTS_Terminator.commit entered
+Terminator :: commit with 0/1 resource
+OTS_Terminator.sync_before: notifying registrants
+POperationLog.ApplyUpdates entered
+POperationLog.ApplyUpdates exited successfully.
+StatusCommitted
+Terminator.sync_after: notifying registrants
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@57fb52
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- entry
+Java_secant_portable_persistence_secant_DirtyBitsImpl_uninit -- exit
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@252fdf
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@3e89c3
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@acf6e
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@7bb290
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@20d62b
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@3c82e7
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@73a34b
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@1ced8e
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@5c57db
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@40c281
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@5f280b
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@4d5f8b
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@3adc56
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@6f50a8
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@73a7ab
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@78c6df
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@23b25c
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@62dbb6
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@5f8172
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@5e179a
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@c1dd9
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@5f8b99
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@10058
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@4ac00c
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@4ac6db
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@4e280c
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@595f51
+request: allocateIDs, objectType: RMI:Keyboard.TVSessionBeanObject:0000000000000000, tx: none, cred: [[B@7c268
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = begin
+---- Begin Transaction (007B1E20) ----
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+
+Java_secant_pos_ObjectMgr_addPDSResource -- entry
+Acquiring connection:
+ Found existing connection not in use
+ Returning connection record @00796B70
+PThreadSafePoolMgr::Acquire() returning rec @00796B70
+PDSResource::AcquirePDS() acquired new pds @00796B70
+PDSResource::ReleasePDS() Use-count for pds @00796B70 now at 0
+Releasing connection record @00796B70
+Java_secant_pos_ObjectMgr_addPDSResource -- exit
+
+Java_secant_pos_ObjectMgr_enableUpdateLog -- entry
+Java_secant_pos_ObjectMgr_enableUpdateLog -- exit
+
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- entry
+Java_secant_pos_ObjectMgr_enableAutoUpdate -- exit
+
+Java_secant_pos_PosTransactionService_TransactionOp -- entry
+TransactionOp = commit
+OTS_Terminator.commit entered
+Terminator :: commit with 0/1 resource
+OTS_Terminator.sync_before: notifying registrants
+POperationLog.ApplyUpdates entered
+POperationLog.ApplyUpdates exited successfully.
+StatusCommitted
+Terminator.sync_after: notifying registrants
+Java_secant_pos_PosTransactionService_TransactionOp -- exit
+request: getHome, objectType: IDL:secant/ejb/EJBServiceRoot:1.0, tx: none, cred: [[B@10fe28
+request: createTVSessionBean, objectType: RMI:Keyboard.TVSessionBeanHome:0000000000000000, tx: none, cred: [[B@564c37

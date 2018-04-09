@@ -1,0 +1,178 @@
+#ifndef RSEL_ODL_Keyboard
+#define RSEL_ODL_Keyboard
+#ifndef RSEL_DEFAULTS
+#define RSEL_DEFAULTS RSELN-2.0.8-0929
+implementation {
+    demandref = true;
+    dirtyattrs = true;
+    reentrant = false;
+    directFieldAccess;
+}
+#endif
+module Keyboard { module clientBusinessObjects { native Visitable; }; };
+module Keyboard { module clientBusinessObjects { native Visitor; }; };
+typedef sequence<octet,1000000> ByteArray;
+typedef string<30000> Doc;
+module Keyboard {
+    interface TVPComponent {
+        attribute long long kboid;
+        attribute boolean newlyCreated;
+        attribute boolean modified;
+        attribute string<64> name;
+        attribute string<64> alias;
+        attribute long updateCounter;
+        void xsetKboid(in long long theKboid);
+        boolean isNewlyCreated();
+        boolean isModified();
+        attribute Keyboard::TVPComposite parent;
+        attribute long long Fk_14286961;
+        implementation {
+            classid=10289880;
+            newlyCreated: {
+                get = getNewlyCreated;
+                set = setNewlyCreated;
+            };
+            modified: {
+                get = getModified;
+                set = setModified;
+            };
+            alias: {
+                get = getAlias;
+                set = setAlias;
+            };
+            parent: {
+                assocMethod=setParent;
+                inverse=children;
+            };
+            Fk_14286961: {
+                get = protected;
+                set = protected;
+            };
+        };
+        implementation map  {
+            kboid: key;
+            parent: {
+                optional;
+                relation = Fk_14286961 = kboid;
+            };
+            Fk_14286961: zeroisnull;
+        };
+    };
+    interface TVSessionBean {
+        string greeting();
+        Keyboard::TVSessionBean createTVSessionBean();
+        void storeAll(in ByteArray objectGraph);
+        void testCreateOne();
+        void testCreateAll();
+        ByteArray retrieveAll(in long long seedID, in string seedClass);
+        ByteArray retrieveAllFromStub(in ByteArray stub);
+        void clearDB();
+        void execute(in ByteArray command);
+        long long allocateIDs(in long quantity);
+        implementation {
+            txPolicy=requiresNew;
+        };
+        implementation java {
+            ejbType=default;
+            createTVSessionBean: ejbCreate;
+        };
+    };
+    interface TVPCa : Keyboard::TVPComponent {
+        attribute Keyboard::TVPCb husband;
+        attribute Keyboard::TVPCbList brothers;
+        attribute long long Fk_9044186;
+        implementation {
+            classid=11993700;
+            husband: {
+                assocMethod=setHusband;
+                inverse=wife;
+            };
+            brothers: {
+                assocMethod=addBrother;
+                disassocMethod=removeBrother;
+            };
+            Fk_9044186: {
+                get = protected;
+                set = protected;
+            };
+        };
+        implementation map TVPCa {
+        };
+        implementation map  {
+            husband: {
+                optional;
+                relation = Fk_9044186 = kboid;
+            };
+            brothers: {
+                optional;
+                assoc=Assoc_15729533;
+            };
+            Fk_9044186: zeroisnull;
+        };
+    };
+    interface TVPCb : Keyboard::TVPComponent {
+        attribute Keyboard::TVPCa wife;
+        attribute Keyboard::TVPCaList sisters;
+        implementation {
+            classid=2229044;
+            wife: {
+                assocMethod=setWife;
+                inverse=husband;
+            };
+            sisters: {
+                assocMethod=addSister;
+                disassocMethod=removeSister;
+            };
+        };
+        implementation map TVPCb {
+        };
+        implementation map  {
+            wife: {
+                optional;
+                relation = kboid = Fk_9044186;
+            };
+            sisters: {
+                optional;
+                assoc=Assoc_15729533;
+            };
+        };
+    };
+    interface TVPComponentList {
+        implementation {
+            setType = Keyboard::TVPComponent;
+            collection = javaList;
+        };
+    };
+    interface TVPComposite : Keyboard::TVPComponent {
+        attribute Keyboard::TVPComponentList children;
+        implementation {
+            classid=7996312;
+            children: {
+                assocMethod=addChild;
+                disassocMethod=removeChild;
+                inverse=parent;
+            };
+        };
+        implementation map TVPComposite {
+        };
+        implementation map  {
+            children: {
+                optional;
+                relation = kboid = Fk_14286961;
+            };
+        };
+    };
+    interface TVPCaList {
+        implementation {
+            setType = Keyboard::TVPCa;
+            collection = javaList;
+        };
+    };
+    interface TVPCbList {
+        implementation {
+            setType = Keyboard::TVPCb;
+            collection = javaList;
+        };
+    };
+};
+#endif

@@ -1,0 +1,2137 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1' ?>
+<!DOCTYPE XMI SYSTEM 'UMLX13.dtd' >
+<XMI xmi.version = '1.0'>
+<XMI.header>
+<XMI.documentation>
+<XMI.exporter>Together</XMI.exporter>
+<XMI.exporterVersion>5.0</XMI.exporterVersion>
+</XMI.documentation>
+<XMI.metamodel xmi.name = 'UML' xmi.version = '1.3'/>
+</XMI.header>
+<XMI.content>
+<Model_Management.Model xmi.id = 'txmiid1' >
+<Foundation.Core.ModelElement.name>scf</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  <Foundation.Core.Namespace.ownedElement>
+<Model_Management.Package xmi.id = 'txmiid2' >
+<Foundation.Core.ModelElement.name>model</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  <Foundation.Core.ModelElement.namespace>
+   <Model_Management.Model xmi.idref = 'txmiid1' />
+  </Foundation.Core.ModelElement.namespace>
+  <Foundation.Core.Namespace.ownedElement>
+<Model_Management.Package xmi.id = 'txmiid3' >
+<Foundation.Core.ModelElement.name>test</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  <Foundation.Core.Namespace.ownedElement>
+<Model_Management.Package xmi.id = 'txmiid4' >
+<Foundation.Core.ModelElement.name>client</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  <Foundation.Core.Namespace.ownedElement>
+<Foundation.Core.Class xmi.id = 'txmiid5' >
+  <Foundation.Core.ModelElement.name>Component</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false' />
+  <Foundation.Core.Class.isActive xmi.value = 'false' />
+  <Foundation.Core.ModelElement.namespace>
+     <Model_Management.Package xmi.idref = 'txmiid4' />
+  </Foundation.Core.ModelElement.namespace>
+<Foundation.Core.GeneralizableElement.generalization>
+  <Foundation.Core.Generalization xmi.idref = 'model_test_client_Componentmodel_PersistenceAdapter' />
+</Foundation.Core.GeneralizableElement.generalization>
+  <Foundation.Core.Classifier.feature>
+ <Foundation.Core.Attribute xmi.id = 'txmiid6' >
+    <Foundation.Core.ModelElement.name>lnkComponent</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid7' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+ <Foundation.Core.Attribute xmi.id = 'txmiid8' >
+    <Foundation.Core.ModelElement.name>lnkComponent1</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid7' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+ <Foundation.Core.Attribute xmi.id = 'txmiid9' >
+    <Foundation.Core.ModelElement.name>name</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiida' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+ <Foundation.Core.Attribute xmi.id = 'txmiidb' >
+    <Foundation.Core.ModelElement.name>alias</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiida' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+  <Foundation.Core.Operation xmi.id = 'txmiidc' >
+    <Foundation.Core.ModelElement.name>getName</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiidc.Return' >
+     <Foundation.Core.ModelElement.name>getName.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiida' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiidd' >
+    <Foundation.Core.ModelElement.name>setName</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiidd.Return' >
+     <Foundation.Core.ModelElement.name>setName.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiidd.1' >
+      <Foundation.Core.ModelElement.name>name</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiida' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiidf' >
+    <Foundation.Core.ModelElement.name>getAlias</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiidf.Return' >
+     <Foundation.Core.ModelElement.name>getAlias.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiida' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid10' >
+    <Foundation.Core.ModelElement.name>setAlias</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid10.Return' >
+     <Foundation.Core.ModelElement.name>setAlias.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid10.1' >
+      <Foundation.Core.ModelElement.name>alias</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiida' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  </Foundation.Core.Classifier.feature>
+</Foundation.Core.Class> 
+<Foundation.Core.Association xmi.id = 'txmiid11.ASS' > 
+ <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+ <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+ <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+ <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+ <Foundation.Core.Association.connection>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid11.CE' >
+    <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'false' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower></Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper></Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid5' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid11.SE' >
+    <Foundation.Core.ModelElement.name>playmates</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'true' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower>0</Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper>-1</Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid5' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+ </Foundation.Core.Association.connection>
+</Foundation.Core.Association>
+<Foundation.Core.Association xmi.id = 'txmiid12.ASS' > 
+ <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+ <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+ <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+ <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+ <Foundation.Core.Association.connection>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid12.CE' >
+    <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'false' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower></Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper></Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid5' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid12.SE' >
+    <Foundation.Core.ModelElement.name>bestFriend</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'true' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid5' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+ </Foundation.Core.Association.connection>
+</Foundation.Core.Association>
+<Foundation.Core.Generalization xmi.id = 'model_test_client_Componentmodel_PersistenceAdapter' >
+ <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+ <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+ <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+ <Foundation.Core.Generalization.discriminator></Foundation.Core.Generalization.discriminator>
+ <Foundation.Core.Generalization.child>
+  <Foundation.Core.Class xmi.idref = 'txmiid5' />
+ </Foundation.Core.Generalization.child>
+ <Foundation.Core.Generalization.parent>
+  <Foundation.Core.Class xmi.idref = 'txmiid13' />
+ </Foundation.Core.Generalization.parent>
+</Foundation.Core.Generalization>
+<Foundation.Core.Class xmi.id = 'txmiid14' >
+  <Foundation.Core.ModelElement.name>Composite</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false' />
+  <Foundation.Core.Class.isActive xmi.value = 'false' />
+  <Foundation.Core.ModelElement.namespace>
+     <Model_Management.Package xmi.idref = 'txmiid4' />
+  </Foundation.Core.ModelElement.namespace>
+<Foundation.Core.GeneralizableElement.generalization>
+  <Foundation.Core.Generalization xmi.idref = 'model_test_client_Compositemodel_test_client_Component' />
+</Foundation.Core.GeneralizableElement.generalization>
+  <Foundation.Core.Classifier.feature>
+ <Foundation.Core.Attribute xmi.id = 'txmiid15' >
+    <Foundation.Core.ModelElement.name>lnkComponent</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid7' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+  </Foundation.Core.Classifier.feature>
+</Foundation.Core.Class> 
+<Foundation.Core.Association xmi.id = 'txmiid16.ASS' > 
+ <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+ <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+ <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+ <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+ <Foundation.Core.Association.connection>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid16.CE' >
+    <Foundation.Core.ModelElement.name>parent</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'false' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid14' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid16.SE' >
+    <Foundation.Core.ModelElement.name>children</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'false' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower>0</Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper>-1</Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid5' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+ </Foundation.Core.Association.connection>
+</Foundation.Core.Association>
+<Foundation.Core.Generalization xmi.id = 'model_test_client_Compositemodel_test_client_Component' >
+ <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+ <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+ <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+ <Foundation.Core.Generalization.discriminator></Foundation.Core.Generalization.discriminator>
+ <Foundation.Core.Generalization.child>
+  <Foundation.Core.Class xmi.idref = 'txmiid14' />
+ </Foundation.Core.Generalization.child>
+ <Foundation.Core.Generalization.parent>
+  <Foundation.Core.Class xmi.idref = 'txmiid5' />
+ </Foundation.Core.Generalization.parent>
+</Foundation.Core.Generalization>
+<Foundation.Core.Class xmi.id = 'txmiid17' >
+  <Foundation.Core.ModelElement.name>Female</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false' />
+  <Foundation.Core.Class.isActive xmi.value = 'false' />
+  <Foundation.Core.ModelElement.namespace>
+     <Model_Management.Package xmi.idref = 'txmiid4' />
+  </Foundation.Core.ModelElement.namespace>
+<Foundation.Core.GeneralizableElement.generalization>
+  <Foundation.Core.Generalization xmi.idref = 'model_test_client_Femalemodel_test_client_Component' />
+</Foundation.Core.GeneralizableElement.generalization>
+  <Foundation.Core.Classifier.feature>
+ <Foundation.Core.Attribute xmi.id = 'txmiid18' >
+    <Foundation.Core.ModelElement.name>lnkMale</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid19' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+ <Foundation.Core.Attribute xmi.id = 'txmiid1a' >
+    <Foundation.Core.ModelElement.name>lnkMale1</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid19' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+  </Foundation.Core.Classifier.feature>
+</Foundation.Core.Class> 
+<Foundation.Core.Association xmi.id = 'txmiid1b.ASS' > 
+ <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+ <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+ <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+ <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+ <Foundation.Core.Association.connection>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid1b.CE' >
+    <Foundation.Core.ModelElement.name>sisters</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'false' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower>0</Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper>-1</Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid17' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid1b.SE' >
+    <Foundation.Core.ModelElement.name>brothers</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'false' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower>0</Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper>-1</Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid1c' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+ </Foundation.Core.Association.connection>
+</Foundation.Core.Association>
+<Foundation.Core.Association xmi.id = 'txmiid1d.ASS' > 
+ <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+ <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+ <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+ <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+ <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+ <Foundation.Core.Association.connection>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid1d.CE' >
+    <Foundation.Core.ModelElement.name>wife</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'false' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid17' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+   <Foundation.Core.AssociationEnd xmi.id = 'txmiid1d.SE' >
+    <Foundation.Core.ModelElement.name>husband</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.AssociationEnd.isNavigable xmi.value = 'false' />
+    <Foundation.Core.AssociationEnd.ordering xmi.value = "unordered"/>
+    <Foundation.Core.AssociationEnd.aggregation xmi.value = 'none' />
+    <Foundation.Core.AssociationEnd.targetScope xmi.value = "instance"/>
+    <Foundation.Core.AssociationEnd.multiplicity>
+     <Foundation.Data_Types.Multiplicity>
+       <Foundation.Data_Types.Multiplicity.range>
+         <Foundation.Data_Types.MultiplicityRange>
+     <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+     <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+         </Foundation.Data_Types.MultiplicityRange>
+       </Foundation.Data_Types.Multiplicity.range>
+     </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.AssociationEnd.multiplicity>
+    <Foundation.Core.AssociationEnd.changeability xmi.value = "changeable"/>
+    <Foundation.Core.AssociationEnd.type>
+     <Foundation.Core.Class xmi.idref = 'txmiid1c' />
+    </Foundation.Core.AssociationEnd.type>
+   </Foundation.Core.AssociationEnd>
+ </Foundation.Core.Association.connection>
+</Foundation.Core.Association>
+<Foundation.Core.Generalization xmi.id = 'model_test_client_Femalemodel_test_client_Component' >
+ <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+ <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+ <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+ <Foundation.Core.Generalization.discriminator></Foundation.Core.Generalization.discriminator>
+ <Foundation.Core.Generalization.child>
+  <Foundation.Core.Class xmi.idref = 'txmiid17' />
+ </Foundation.Core.Generalization.child>
+ <Foundation.Core.Generalization.parent>
+  <Foundation.Core.Class xmi.idref = 'txmiid5' />
+ </Foundation.Core.Generalization.parent>
+</Foundation.Core.Generalization>
+<Foundation.Core.Class xmi.id = 'txmiid1c' >
+  <Foundation.Core.ModelElement.name>Male</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false' />
+  <Foundation.Core.Class.isActive xmi.value = 'false' />
+  <Foundation.Core.ModelElement.namespace>
+     <Model_Management.Package xmi.idref = 'txmiid4' />
+  </Foundation.Core.ModelElement.namespace>
+<Foundation.Core.GeneralizableElement.generalization>
+  <Foundation.Core.Generalization xmi.idref = 'model_test_client_Malemodel_test_client_Component' />
+</Foundation.Core.GeneralizableElement.generalization>
+</Foundation.Core.Class> 
+<Foundation.Core.Generalization xmi.id = 'model_test_client_Malemodel_test_client_Component' >
+ <Foundation.Core.ModelElement.name></Foundation.Core.ModelElement.name>
+ <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+ <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+ <Foundation.Core.Generalization.discriminator></Foundation.Core.Generalization.discriminator>
+ <Foundation.Core.Generalization.child>
+  <Foundation.Core.Class xmi.idref = 'txmiid1c' />
+ </Foundation.Core.Generalization.child>
+ <Foundation.Core.Generalization.parent>
+  <Foundation.Core.Class xmi.idref = 'txmiid5' />
+ </Foundation.Core.Generalization.parent>
+</Foundation.Core.Generalization>
+  </Foundation.Core.Namespace.ownedElement>
+</Model_Management.Package>
+<Model_Management.Package xmi.id = 'txmiid1e' >
+<Foundation.Core.ModelElement.name>server</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  <Foundation.Core.Namespace.ownedElement>
+  </Foundation.Core.Namespace.ownedElement>
+</Model_Management.Package>
+  </Foundation.Core.Namespace.ownedElement>
+</Model_Management.Package>
+<Foundation.Core.Class xmi.id = 'txmiid13' >
+  <Foundation.Core.ModelElement.name>PersistenceAdapter</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false' />
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false' />
+  <Foundation.Core.Class.isActive xmi.value = 'false' />
+  <Foundation.Core.ModelElement.namespace>
+     <Model_Management.Package xmi.idref = 'txmiid2' />
+  </Foundation.Core.ModelElement.namespace>
+  <Foundation.Core.Classifier.feature>
+ <Foundation.Core.Attribute xmi.id = 'txmiid1f' >
+    <Foundation.Core.ModelElement.name>scfoid</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid20' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+ <Foundation.Core.Attribute xmi.id = 'txmiid21' >
+    <Foundation.Core.ModelElement.name>updateCounter</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid22' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+ <Foundation.Core.Attribute xmi.id = 'txmiid23' >
+    <Foundation.Core.ModelElement.name>newlyCreated</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid24' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+ <Foundation.Core.Attribute xmi.id = 'txmiid25' >
+    <Foundation.Core.ModelElement.name>modified</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid24' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+ <Foundation.Core.Attribute xmi.id = 'txmiid26' >
+    <Foundation.Core.ModelElement.name>associationsCoordinator</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'classifier'/>
+    <Foundation.Core.StructuralFeature.multiplicity>
+      <Foundation.Data_Types.Multiplicity>
+        <Foundation.Data_Types.Multiplicity.range>
+          <Foundation.Data_Types.MultiplicityRange>
+            <Foundation.Data_Types.MultiplicityRange.lower>1</Foundation.Data_Types.MultiplicityRange.lower>
+            <Foundation.Data_Types.MultiplicityRange.upper>1</Foundation.Data_Types.MultiplicityRange.upper>
+          </Foundation.Data_Types.MultiplicityRange>
+        </Foundation.Data_Types.Multiplicity.range>
+      </Foundation.Data_Types.Multiplicity>
+    </Foundation.Core.StructuralFeature.multiplicity>
+    <Foundation.Core.StructuralFeature.changeability xmi.value = "changeable"/>
+    <Foundation.Core.StructuralFeature.targetScope xmi.value = 'instance'/>
+    <Foundation.Core.Attribute.initialValue>
+     <Foundation.Data_Types.Expression>
+      <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+      <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+     </Foundation.Data_Types.Expression>
+    </Foundation.Core.Attribute.initialValue>
+    <Foundation.Core.StructuralFeature.type>
+     <Foundation.Core.DataType xmi.idref = 'txmiid27' />
+    </Foundation.Core.StructuralFeature.type>
+  </Foundation.Core.Attribute>
+  <Foundation.Core.Operation xmi.id = 'txmiid28' >
+    <Foundation.Core.ModelElement.name>PersistenceAdapter</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid29' >
+    <Foundation.Core.ModelElement.name>getScfoid</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid29.Return' >
+     <Foundation.Core.ModelElement.name>getScfoid.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid20' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid2a' >
+    <Foundation.Core.ModelElement.name>setScfoid</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid2a.Return' >
+     <Foundation.Core.ModelElement.name>setScfoid.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid2a.1' >
+      <Foundation.Core.ModelElement.name>oid</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid20' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid2b' >
+    <Foundation.Core.ModelElement.name>accept</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid2b.Return' >
+     <Foundation.Core.ModelElement.name>accept.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid2c' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid2b.1' >
+      <Foundation.Core.ModelElement.name>aVisitor</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid2d' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid2e' >
+    <Foundation.Core.ModelElement.name>postAccept</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid2e.Return' >
+     <Foundation.Core.ModelElement.name>postAccept.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid2c' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid2e.1' >
+      <Foundation.Core.ModelElement.name>aVisitor</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid2d' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid2f' >
+    <Foundation.Core.ModelElement.name>isStub</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid2f.Return' >
+     <Foundation.Core.ModelElement.name>isStub.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid24' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid30' >
+    <Foundation.Core.ModelElement.name>otherClassName</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid30.Return' >
+     <Foundation.Core.ModelElement.name>otherClassName.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiida' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid31' >
+    <Foundation.Core.ModelElement.name>otherPackageName</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid31.Return' >
+     <Foundation.Core.ModelElement.name>otherPackageName.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiida' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid32' >
+    <Foundation.Core.ModelElement.name>toStub</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid32.Return' >
+     <Foundation.Core.ModelElement.name>toStub.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid33' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid34' >
+    <Foundation.Core.ModelElement.name>yourself</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid34.Return' >
+     <Foundation.Core.ModelElement.name>yourself.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid35' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid36' >
+    <Foundation.Core.ModelElement.name>save</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid36.Return' >
+     <Foundation.Core.ModelElement.name>save.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid37' >
+    <Foundation.Core.ModelElement.name>incrementUpdateCounter</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid37.Return' >
+     <Foundation.Core.ModelElement.name>incrementUpdateCounter.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid38' >
+    <Foundation.Core.ModelElement.name>refresh</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid38.Return' >
+     <Foundation.Core.ModelElement.name>refresh.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid2c' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid39' >
+    <Foundation.Core.ModelElement.name>isModified</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid39.Return' >
+     <Foundation.Core.ModelElement.name>isModified.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid24' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid3a' >
+    <Foundation.Core.ModelElement.name>markModified</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid3a.Return' >
+     <Foundation.Core.ModelElement.name>markModified.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid3b' >
+    <Foundation.Core.ModelElement.name>setModified</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid3b.Return' >
+     <Foundation.Core.ModelElement.name>setModified.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid3b.1' >
+      <Foundation.Core.ModelElement.name>trueOrFalse</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid24' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid3c' >
+    <Foundation.Core.ModelElement.name>getUpdateCounter</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid3c.Return' >
+     <Foundation.Core.ModelElement.name>getUpdateCounter.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid22' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid3d' >
+    <Foundation.Core.ModelElement.name>setUpdateCounter</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid3d.Return' >
+     <Foundation.Core.ModelElement.name>setUpdateCounter.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid3d.1' >
+      <Foundation.Core.ModelElement.name>anUpdateCounter</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid22' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid3e' >
+    <Foundation.Core.ModelElement.name>isNewlyCreated</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid3e.Return' >
+     <Foundation.Core.ModelElement.name>isNewlyCreated.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid24' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid3f' >
+    <Foundation.Core.ModelElement.name>setNewlyCreated</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid3f.Return' >
+     <Foundation.Core.ModelElement.name>setNewlyCreated.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid3f.1' >
+      <Foundation.Core.ModelElement.name>trueOrFalse</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid24' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid40' >
+    <Foundation.Core.ModelElement.name>getAssociationsCoordinator</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid40.Return' >
+     <Foundation.Core.ModelElement.name>getAssociationsCoordinator.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid27' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid41' >
+    <Foundation.Core.ModelElement.name>setAssociationsCoordinator</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid41.Return' >
+     <Foundation.Core.ModelElement.name>setAssociationsCoordinator.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiide' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid41.1' >
+      <Foundation.Core.ModelElement.name>anAssociationsCoordinator</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid27' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid42' >
+    <Foundation.Core.ModelElement.name>equals</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid42.Return' >
+     <Foundation.Core.ModelElement.name>equals.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid24' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid42.1' >
+      <Foundation.Core.ModelElement.name>another</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid43' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid44' >
+    <Foundation.Core.ModelElement.name>compareTo</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid44.Return' >
+     <Foundation.Core.ModelElement.name>compareTo.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid22' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid44.1' >
+      <Foundation.Core.ModelElement.name>another</Foundation.Core.ModelElement.name>
+      <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+      <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+      <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+        <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+        <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+      </Foundation.Core.Parameter.defaultValue>
+      <Foundation.Core.Parameter.kind xmi.value = 'inout'/>
+      <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid43' />
+      </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid45' >
+    <Foundation.Core.ModelElement.name>hashCode</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid45.Return' >
+     <Foundation.Core.ModelElement.name>hashCode.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid22' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  <Foundation.Core.Operation xmi.id = 'txmiid46' >
+    <Foundation.Core.ModelElement.name>clone</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'public' />
+    <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+    <Foundation.Core.Feature.ownerScope xmi.value = 'instance'/>
+    <Foundation.Core.BehavioralFeature.isQuery xmi.value = 'false'/>
+    <Foundation.Core.Operation.concurrency xmi.value = "sequential"/>
+    <Foundation.Core.Operation.isRoot xmi.value = "false"/>
+    <Foundation.Core.Operation.isLeaf xmi.value = "false"/>
+    <Foundation.Core.Operation.isAbstract xmi.value = "false"/>
+    <Foundation.Core.Operation.specification></Foundation.Core.Operation.specification>
+    <Foundation.Core.BehavioralFeature.parameter>
+    <Foundation.Core.Parameter xmi.id = 'txmiid46.Return' >
+     <Foundation.Core.ModelElement.name>clone.Return</Foundation.Core.ModelElement.name>
+     <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+     <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+     <Foundation.Core.Parameter.defaultValue>
+       <Foundation.Data_Types.Expression>
+         <Foundation.Data_Types.Expression.language></Foundation.Data_Types.Expression.language>
+         <Foundation.Data_Types.Expression.body></Foundation.Data_Types.Expression.body>
+       </Foundation.Data_Types.Expression>
+     </Foundation.Core.Parameter.defaultValue>
+     <Foundation.Core.Parameter.kind xmi.value = 'return'/>
+     <Foundation.Core.Parameter.type>
+       <Foundation.Core.DataType xmi.idref = 'txmiid43' />
+     </Foundation.Core.Parameter.type>
+    </Foundation.Core.Parameter>
+    </Foundation.Core.BehavioralFeature.parameter>
+  </Foundation.Core.Operation>
+  </Foundation.Core.Classifier.feature>
+</Foundation.Core.Class> 
+<Behavioral_Elements.Common_Behavior.Exception xmi.id = 'txmiid36.Ex_Exception' >
+  <Foundation.Core.ModelElement.name>Exception</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'public'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  <Behavioral_Elements.Common_Behavior.Signal.context>
+   <Foundation.Core.Operation xmi.idref = 'txmiid36' />
+  </Behavioral_Elements.Common_Behavior.Signal.context>
+</Behavioral_Elements.Common_Behavior.Exception>
+<Behavioral_Elements.Common_Behavior.Exception xmi.id = 'txmiid38.Ex_javax.transaction.SystemException' >
+  <Foundation.Core.ModelElement.name>javax.transaction.SystemException</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'public'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  <Behavioral_Elements.Common_Behavior.Signal.context>
+   <Foundation.Core.Operation xmi.idref = 'txmiid38' />
+  </Behavioral_Elements.Common_Behavior.Signal.context>
+</Behavioral_Elements.Common_Behavior.Exception>
+<Behavioral_Elements.Common_Behavior.Exception xmi.id = 'txmiid38.Ex_java.lang.Exception' >
+  <Foundation.Core.ModelElement.name>java.lang.Exception</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'public'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  <Behavioral_Elements.Common_Behavior.Signal.context>
+   <Foundation.Core.Operation xmi.idref = 'txmiid38' />
+  </Behavioral_Elements.Common_Behavior.Signal.context>
+</Behavioral_Elements.Common_Behavior.Exception>
+<Behavioral_Elements.Common_Behavior.Exception xmi.id = 'txmiid38.Ex_java.rmi.RemoteException' >
+  <Foundation.Core.ModelElement.name>java.rmi.RemoteException</Foundation.Core.ModelElement.name>
+  <Foundation.Core.ModelElement.visibility xmi.value = 'public'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = "false"/>
+  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+  <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  <Behavioral_Elements.Common_Behavior.Signal.context>
+   <Foundation.Core.Operation xmi.idref = 'txmiid38' />
+  </Behavioral_Elements.Common_Behavior.Signal.context>
+</Behavioral_Elements.Common_Behavior.Exception>
+  </Foundation.Core.Namespace.ownedElement>
+</Model_Management.Package>
+  <Foundation.Core.DataType xmi.id = 'txmiid19' >
+    <Foundation.Core.ModelElement.name>Male</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid20' >
+    <Foundation.Core.ModelElement.name>long</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid35' >
+    <Foundation.Core.ModelElement.name>StubInterface</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiide' >
+    <Foundation.Core.ModelElement.name>void</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid2c' >
+    <Foundation.Core.ModelElement.name>Persistable</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid22' >
+    <Foundation.Core.ModelElement.name>int</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid43' >
+    <Foundation.Core.ModelElement.name>Object</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid33' >
+    <Foundation.Core.ModelElement.name>Stub</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiida' >
+    <Foundation.Core.ModelElement.name>String</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid7' >
+    <Foundation.Core.ModelElement.name>Component</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid24' >
+    <Foundation.Core.ModelElement.name>boolean</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid27' >
+    <Foundation.Core.ModelElement.name>AssociationsCoordinator</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  <Foundation.Core.DataType xmi.id = 'txmiid2d' >
+    <Foundation.Core.ModelElement.name>Visitor</Foundation.Core.ModelElement.name>
+    <Foundation.Core.ModelElement.visibility xmi.value = 'private'/>
+  <Foundation.Core.ModelElement.isSpecification xmi.value = 'false'/>  <Foundation.Core.GeneralizableElement.isRoot xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isLeaf xmi.value = 'false'/>
+    <Foundation.Core.GeneralizableElement.isAbstract xmi.value = 'false'/>
+  </Foundation.Core.DataType>
+  </Foundation.Core.Namespace.ownedElement>
+</Model_Management.Model>
+    <Foundation.Extension_Mechanisms.TaggedValue>
+      <Foundation.Extension_Mechanisms.TaggedValue.tag>RationalRose:Tool#1</Foundation.Extension_Mechanisms.TaggedValue.tag>
+      <Foundation.Extension_Mechanisms.TaggedValue.value>Java</Foundation.Extension_Mechanisms.TaggedValue.value>
+  <Foundation.Extension_Mechanisms.TaggedValue.modelElement>
+    <Foundation.Core.ModelElement xmi.idref='txmiid1' />
+  </Foundation.Extension_Mechanisms.TaggedValue.modelElement>
+  </Foundation.Extension_Mechanisms.TaggedValue>
+@author Steve McDaniel
+@version 1.0
+  <Foundation.Extension_Mechanisms.TaggedValue>
+    <Foundation.Extension_Mechanisms.TaggedValue.tag>author</Foundation.Extension_Mechanisms.TaggedValue.tag>
+    <Foundation.Extension_Mechanisms.TaggedValue.value>Steve McDaniel</Foundation.Extension_Mechanisms.TaggedValue.value><Foundation.Extension_Mechanisms.TaggedValue.modelElement>
+<Foundation.Core.ModelElement xmi.idref='txmiid13' />
+</Foundation.Extension_Mechanisms.TaggedValue.modelElement>  </Foundation.Extension_Mechanisms.TaggedValue>
+  <Foundation.Extension_Mechanisms.TaggedValue>
+    <Foundation.Extension_Mechanisms.TaggedValue.tag>labelDirection</Foundation.Extension_Mechanisms.TaggedValue.tag>
+    <Foundation.Extension_Mechanisms.TaggedValue.value>forward</Foundation.Extension_Mechanisms.TaggedValue.value><Foundation.Extension_Mechanisms.TaggedValue.modelElement>
+<Foundation.Core.ModelElement xmi.idref='txmiid6' />
+</Foundation.Extension_Mechanisms.TaggedValue.modelElement>  </Foundation.Extension_Mechanisms.TaggedValue>
+  <Foundation.Extension_Mechanisms.TaggedValue>
+    <Foundation.Extension_Mechanisms.TaggedValue.tag>labelDirection</Foundation.Extension_Mechanisms.TaggedValue.tag>
+    <Foundation.Extension_Mechanisms.TaggedValue.value>forward</Foundation.Extension_Mechanisms.TaggedValue.value><Foundation.Extension_Mechanisms.TaggedValue.modelElement>
+<Foundation.Core.ModelElement xmi.idref='txmiid8' />
+</Foundation.Extension_Mechanisms.TaggedValue.modelElement>  </Foundation.Extension_Mechanisms.TaggedValue>
+<Diagramming.Diagram xmi.id = 'txmiid1ClassDiagram' >
+  <Diagramming.Diagram.name>&lt;&lt;default&gt;&gt;</Diagramming.Diagram.name>
+<Diagramming.Diagram.toolName>Rational Rose 98</Diagramming.Diagram.toolName>
+<Diagramming.Diagram.diagramType>ClassDiagram</Diagramming.Diagram.diagramType>
+<Diagramming.Diagram.style>Doc:</Diagramming.Diagram.style>
+<Diagramming.Diagram.owner>
+  <Foundation.Core.ModelElement xmi.idref = 'txmiid1' />
+</Diagramming.Diagram.owner>
+<Diagramming.Diagram.element>
+<Diagramming.DiagramElement xmi.id = 'txmiid2.Presentation.1' >
+  <Diagramming.DiagramElement.geometry>230, 230, 387, 261, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid2' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+</Diagramming.Diagram.element>
+</Diagramming.Diagram>
+<Diagramming.Diagram xmi.id = 'txmiid2ClassDiagram' >
+  <Diagramming.Diagram.name>&lt;model&gt;</Diagramming.Diagram.name>
+<Diagramming.Diagram.toolName>Rational Rose 98</Diagramming.Diagram.toolName>
+<Diagramming.Diagram.diagramType>ClassDiagram</Diagramming.Diagram.diagramType>
+<Diagramming.Diagram.style>Doc:</Diagramming.Diagram.style>
+<Diagramming.Diagram.owner>
+  <Foundation.Core.ModelElement xmi.idref = 'txmiid2' />
+</Diagramming.Diagram.owner>
+<Diagramming.Diagram.element>
+<Diagramming.DiagramElement xmi.id = 'txmiid3.Presentation.2' >
+  <Diagramming.DiagramElement.geometry>230, 230, 159, 282, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid3' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid13.Presentation.3' >
+  <Diagramming.DiagramElement.geometry>449, 230, 600, 1311, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid13' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+</Diagramming.Diagram.element>
+</Diagramming.Diagram>
+<Diagramming.Diagram xmi.id = 'txmiid3ClassDiagram' >
+  <Diagramming.Diagram.name>&lt;test&gt;</Diagramming.Diagram.name>
+<Diagramming.Diagram.toolName>Rational Rose 98</Diagramming.Diagram.toolName>
+<Diagramming.Diagram.diagramType>ClassDiagram</Diagramming.Diagram.diagramType>
+<Diagramming.Diagram.style>Doc:</Diagramming.Diagram.style>
+<Diagramming.Diagram.owner>
+  <Foundation.Core.ModelElement xmi.idref = 'txmiid3' />
+</Diagramming.Diagram.owner>
+<Diagramming.Diagram.element>
+<Diagramming.DiagramElement xmi.id = 'txmiid4.Presentation.4' >
+  <Diagramming.DiagramElement.geometry>230, 230, 159, 171, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid4' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid1e.Presentation.5' >
+  <Diagramming.DiagramElement.geometry>449, 230, 168, 171, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid1e' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+</Diagramming.Diagram.element>
+</Diagramming.Diagram>
+<Diagramming.Diagram xmi.id = 'txmiid4ClassDiagram' >
+  <Diagramming.Diagram.name>&lt;client&gt;</Diagramming.Diagram.name>
+<Diagramming.Diagram.toolName>Rational Rose 98</Diagramming.Diagram.toolName>
+<Diagramming.Diagram.diagramType>ClassDiagram</Diagramming.Diagram.diagramType>
+<Diagramming.Diagram.style>Doc:</Diagramming.Diagram.style>
+<Diagramming.Diagram.owner>
+  <Foundation.Core.ModelElement xmi.idref = 'txmiid4' />
+</Diagramming.Diagram.owner>
+<Diagramming.Diagram.element>
+<Diagramming.DiagramElement xmi.id = 'txmiid13.Presentation.6' >
+  <Diagramming.DiagramElement.geometry>437, 230, 600, 1311, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid13' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid11.Presentation.7' >
+  <Diagramming.DiagramElement.geometry>0, 0, 0, 0,</Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Association:Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+<Foundation.Core.Association xmi.idref = 'txmiid11.ASS' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid12.Presentation.8' >
+  <Diagramming.DiagramElement.geometry>0, 0, 0, 0,</Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Association:Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+<Foundation.Core.Association xmi.idref = 'txmiid12.ASS' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid5.Presentation.9' >
+  <Diagramming.DiagramElement.geometry>611, 1751, 300, 390, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid5' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid16.Presentation.10' >
+  <Diagramming.DiagramElement.geometry>0, 0, 0, 0,</Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Association:Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+<Foundation.Core.Association xmi.idref = 'txmiid16.ASS' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid14.Presentation.11' >
+  <Diagramming.DiagramElement.geometry>230, 2423, 249, 246, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid14' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid1c.Presentation.12' >
+  <Diagramming.DiagramElement.geometry>1445, 2423, 249, 246, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid1c' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid1b.Presentation.13' >
+  <Diagramming.DiagramElement.geometry>0, 0, 0, 0,</Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Association:Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+<Foundation.Core.Association xmi.idref = 'txmiid1b.ASS' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid1d.Presentation.14' >
+  <Diagramming.DiagramElement.geometry>0, 0, 0, 0,</Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Association:Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+<Foundation.Core.Association xmi.idref = 'txmiid1d.ASS' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+<Diagramming.DiagramElement xmi.id = 'txmiid17.Presentation.15' >
+  <Diagramming.DiagramElement.geometry>539, 2423, 249, 246, </Diagramming.DiagramElement.geometry>
+  <Diagramming.DiagramElement.style>Font.Blue= 0,Font.Green= 0,Font.Red= 0,Font.FaceName=Arial,Font.Size= 10,Font.Bold=0,Font.Italic=0,Font.Strikethrough=0,Font.Underline=0,LineColor.Blue= 51,LineColor.Green= 0,LineColor.Red= 153,FillColor.Blue= 204,FillColor.Green= 255,FillColor.Red= 255,FillColor.Transparent=1,AutomaticResize=1,ShowAllAttributes=0,ShowAllOperations=0,ShowOperationSignature=0,SuppressAttributes=0,SuppressOperations=0,</Diagramming.DiagramElement.style>
+  <Foundation.Core.PresentationElement.subject>
+    <Foundation.Core.ModelElement xmi.idref =  'txmiid17' />
+  </Foundation.Core.PresentationElement.subject>
+</Diagramming.DiagramElement>
+</Diagramming.Diagram.element>
+</Diagramming.Diagram>
+<Diagramming.Diagram xmi.id = 'txmiid1eClassDiagram' >
+  <Diagramming.Diagram.name>&lt;server&gt;</Diagramming.Diagram.name>
+<Diagramming.Diagram.toolName>Rational Rose 98</Diagramming.Diagram.toolName>
+<Diagramming.Diagram.diagramType>ClassDiagram</Diagramming.Diagram.diagramType>
+<Diagramming.Diagram.style>Doc:</Diagramming.Diagram.style>
+<Diagramming.Diagram.owner>
+  <Foundation.Core.ModelElement xmi.idref = 'txmiid1e' />
+</Diagramming.Diagram.owner>
+<Diagramming.Diagram.element>
+</Diagramming.Diagram.element>
+</Diagramming.Diagram>
+</XMI.content>
+</XMI>

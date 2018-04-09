@@ -1,0 +1,58 @@
+package idgvz6cndbdkf5cndetckd;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AccessMethodNameGenerator:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.CRUDRecorder:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference21 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.KBConcurrencyException:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference23 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.KBKeyboardException:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference25 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.MiddleWareFramework:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference29 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.MiddleWareFramework#globalCRUDRecorder:oiref>=617,197,522,197:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AccessMethodNameGenerator:oiref>=10,10,203,223,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.KBKeyboardException:oiref>=233,710,203,99,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.MiddleWareFramework:oiref>=617,10,203,565,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.CRUDRecorder:oiref>=303,10,219,375,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AccessMethodNameGenerator#singleton:oiref>=173,233,173,283,263,283,263,193,213,193:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.KBConcurrencyException:oiref>=10,710,203,99,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.MiddleWareFramework#singleton:oiref>=780,575,780,625,870,625,870,535,820,535:oigroup>
+*/
+class __positions {
+}

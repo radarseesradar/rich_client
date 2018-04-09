@@ -1,0 +1,71 @@
+package id6phycndfe3k4cndjxotk;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestUnidirectionalToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference84 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference85 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference86 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference87 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOneRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference88 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCopier:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference89 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToManyRegistry:oiref>=368,290,203,99,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCopier:oiref>=368,430,203,118,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOneRegistry:oiref>=591,10,203,241,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=129,10,219,507,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToMany#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=179,601,179,517:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToMany:oiref>=10,601,219,232,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToOne#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=298,601,298,517:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOne:oiref>=249,601,219,175,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestUnidirectionalToManyRegistry:oiref>=368,10,203,118,1:oigroup> 
+*/
+class __positions {
+}

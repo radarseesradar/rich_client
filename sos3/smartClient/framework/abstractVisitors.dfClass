@@ -1,0 +1,56 @@
+package id2lwr5cuo83bh9cuo9s4j2;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorViaAllPaths:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference106 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorSynchronizer:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference107 {
+}/**
+@__ref <oiref:java#Class#model.PostVisitHelper:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#model.Visitor:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference4 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:<oiref:java#Class#model.Visitor:oiref>=330,10,200,830,1:oigroup>
+<oigroup:<oiref:java#Class#model.PostVisitHelper:oiref>=10,10,200,398,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.PostVisitHelper#visitor:oiref>=210,275,330,275:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorViaAllPaths:oiref>=330,920,200,277,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorSynchronizer#smartClient.framework.VisitorViaAllPaths:oiref>=430,1257,430,1197:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorViaAllPaths#smartClient.framework.Visitor:oiref>=447,1055,447,840:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorViaAllPaths#model.Visitor:oiref>=430,920,430,840:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.Visitor#postVisitHelper:oiref>=330,142,210,142:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorSynchronizer:oiref>=330,1257,200,366,1:oigroup>
+
+
+*/
+class __positions {
+}

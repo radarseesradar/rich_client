@@ -1,0 +1,64 @@
+package idnqc3cndbdkf5cndf75fr;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.CommandInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.StubInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference4 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Visitable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference6 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref>=231,10,203,118,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Visitable:oiref>=10,249,203,403,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.CommandInterface:oiref>=233,170,119,80,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ToMany:oiref>=454,10,203,137,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.Visitable#Keyboard.clientBusinessObjects.StubInterface:oiref>=111,249,111,166:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.StubInterface:oiref>=12,10,202,156,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ToOne:oiref>=372,190,164,99,1:oigroup>
+<oigroup:<oiref:java#Member#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry#associate#(#Keyboard.clientBusinessObjects.RoleKey#Keyboard.clientBusinessObjects.RoleKey#)#:oiref>=149,79,0,0,1:oigroup>
+*/
+class __positions {
+}

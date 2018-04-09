@@ -1,0 +1,96 @@
+package idgmqkcuo83bh9cuoo56im;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorEqualityTester:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullEqualityTester:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference124 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullPrinter:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference125 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPrinter:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference126 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorEqualityTesterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference127 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullEqualityTesterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference128 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullPrinterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference129 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullToString:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference130 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPrinterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference131 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorFullToStringIgnoreClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference132 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#smartClient.framework.VisitorEqualityTesterIgnoreClamps:oiref>=18,389,200,101,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorPrinterIgnoreClamps#smartClient.framework.VisitorPrinter:oiref>=1017,230,1017,168:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullPrinterIgnoreClamps#smartClient.framework.VisitorFullPrinter:oiref>=589,250,589,215,700,215,745,184:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullEqualityTesterIgnoreClamps#smartClient.framework.VisitorFullEqualityTester:oiref>=353,446,353,376:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPrinter:oiref>=938,10,200,158,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPrinterIgnoreClamps:oiref>=930,230,200,85,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullPrinterIgnoreClamps:oiref>=490,250,200,85,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorEqualityTester:oiref>=10,10,200,302,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullPrinter:oiref>=599,10,200,174,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullEqualityTesterIgnoreClamps:oiref>=257,446,200,101,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullEqualityTester:oiref>=249,10,200,366,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorEqualityTesterIgnoreClamps#smartClient.framework.VisitorEqualityTester:oiref>=112,389,112,312:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullToStringIgnoreClamps:oiref>=711,453,200,85,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullToString#smartClient.framework.VisitorFullPrinter:oiref>=812,250,812,215,700,215,700,184:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorFullToStringIgnoreClamps#smartClient.framework.VisitorFullToString:oiref>=787,453,787,392:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorFullToString:oiref>=711,250,200,142,1:oigroup>
+*/
+class __positions {
+}

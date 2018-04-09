@@ -1,0 +1,51 @@
+package id4awpycuo83bh9cuoa8x35;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.Clamp:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AssociationChangeList:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference108 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ClampFileIOException:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference109 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ClampProvider:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference110 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#smartClient.framework.AssociationChangeList:oiref>=381,10,200,286,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Clamp:oiref>=10,10,200,206,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.Clamp#inverseClamp:oiref>=173,216,173,263,257,263,257,179,210,179:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ClampProvider:oiref>=620,10,200,254,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.Clamp#changeList:oiref>=210,93,381,93:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ClampFileIOException:oiref>=10,350,200,117,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.ClampProvider#singleton:oiref>=780,264,780,314,870,314,870,224,820,224:oigroup>
+*/
+class __positions {
+}

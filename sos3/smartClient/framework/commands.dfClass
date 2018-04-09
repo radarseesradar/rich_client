@@ -1,0 +1,87 @@
+package id378tvcuo83bh9cuoh6owc;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.CommandInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Command:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference111 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AssociationChangeList:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference112 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.CRUDPacket:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference113 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.DirtyObjectList:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference114 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.SetCommand:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference115 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RemoveCommand:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference116 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AddCommand:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference117 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#smartClient.framework.RemoveCommand#smartClient.framework.Command:oiref>=283,634,283,486:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.CRUDPacket#associationChanges:oiref>=768,311,664,311:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Command:oiref>=225,184,200,302,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.AddCommand#smartClient.framework.Command:oiref>=111,634,111,589,334,589,334,486:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.DirtyObjectList:oiref>=1094,184,200,158,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.CRUDPacket:oiref>=768,184,200,254,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.CRUDPacket#smartClient.framework.CommandInterface:oiref>=869,184,869,149,742,149,757,127:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.CommandInterface:oiref>=683,10,122,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RemoveCommand:oiref>=233,634,200,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SetCommand:oiref>=456,634,200,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AssociationChangeList:oiref>=464,184,200,270,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AddCommand:oiref>=10,634,200,117,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.SetCommand#smartClient.framework.Command:oiref>=557,634,557,589,334,589,367,486:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationChangeList#associationChangeList:oiref>=618,184,712,127:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.DirtyObjectList#smartClient.framework.CommandInterface:oiref>=1195,184,1195,149,742,149,742,127:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.Command#smartClient.framework.CommandInterface:oiref>=334,184,334,149,742,149,789,127:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.CRUDPacket#modifiedObjects:oiref>=968,236,1094,236:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.CRUDPacket#newlyCreatedObjects:oiref>=968,289,1094,289:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.AssociationChangeList#smartClient.framework.CommandInterface:oiref>=573,184,573,149,742,149,773,127:oigroup>
+*/
+class __positions {
+}

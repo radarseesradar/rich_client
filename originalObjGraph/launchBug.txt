@@ -1,0 +1,3 @@
+java secant.ejb.EJBService secant.ejb.EJBService TCService TCServer d:\objectGraph\Keyboard.mof (ejbDSInfoPkg {DSInfoPkg default}) (msglevel 10)
+
+java junit.swingui.TestRunner Keyboard.TestVisitorPersistence

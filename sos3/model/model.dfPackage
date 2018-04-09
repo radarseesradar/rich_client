@@ -1,0 +1,55 @@
+package id8cotcuvn3xa8cuvnk0qi;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#model.PersistenceAdapter:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id4o24acuvn3xa8cuvnk0qs.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#model.test:oiref> 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#model.Visitor:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#model.PostVisitHelper:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#model.PersistentObjectFactory:oiref><oihard>
+@__modelType reference 
+*/
+class reference25 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#id4o24acuvn3xa8cuvnk0qs.diagram:oiref>=280,510,53,94,1:oigroup>
+<oigroup:<oiref:java#Class#model.PersistenceAdapter:oiref>=550,10,200,437,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.PostVisitHelper#visitor:oiref>=330,142,210,142:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.PersistentObjectFactory#singleton:oiref>=583,671,583,719,669,719,669,633,621,633:oigroup>
+<oigroup:<oiref:java#Class#model.PostVisitHelper:oiref>=330,10,200,398,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.Visitor#postVisitHelper:oiref>=210,275,330,275:oigroup>
+<oigroup:<oiref:java#Class#model.PersistentObjectFactory:oiref>=421,465,200,133,1:oigroup>
+<oigroup:<oiref:java#Class#model.Visitor:oiref>=10,10,200,830,1:oigroup>
+*/
+class __positions {
+}

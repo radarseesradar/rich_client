@@ -1,0 +1,42 @@
+package id2tlqacndfe3k4cndfed9s;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Stub:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.StubInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference40 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.SwizzleProxy:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference41 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Stub:oiref>=10,250,219,346,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.Stub#Keyboard.clientBusinessObjects.StubInterface:oiref>=119,250,119,166:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.StubInterface:oiref>=20,10,202,156,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.SwizzleProxy:oiref>=249,10,203,260,1:oigroup>
+*/
+class __positions {
+}

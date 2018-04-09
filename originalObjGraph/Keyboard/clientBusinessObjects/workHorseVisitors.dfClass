@@ -1,0 +1,77 @@
+package id277oycndfe3k4cndfptsk;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCopier:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCRUDPacketBuilder:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference66 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPersister:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference74 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPostStorage:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference75 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrimitivesCopier:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference76 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPruner:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference79 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorRetriever:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference80 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorUpdater:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference83 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPersister:oiref>=10,10,203,156,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPostStorage:oiref>=456,10,203,137,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorUpdater:oiref>=10,249,203,100,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorUpdater#Keyboard.clientBusinessObjects.VisitorPersister:oiref>=111,249,111,166:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCopier:oiref>=233,10,203,118,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrimitivesCopier:oiref>=249,190,203,194,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPruner:oiref>=10,650,203,317,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCRUDPacketBuilder:oiref>=10,390,219,222,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorRetriever:oiref>=249,430,203,317,1:oigroup> 
+*/
+class __positions {
+}

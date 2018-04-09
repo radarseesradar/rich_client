@@ -1,0 +1,86 @@
+package id26di7cndbdkf5cndesef4;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.CommandInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AddCommand:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference7 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Command:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference8 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.RemoveCommand:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference9 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.SetCommand:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference10 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AssociationChangeList:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference11 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.CRUDPacket:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference12 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.DirtyObjectList:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference17 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.AddCommand#Keyboard.clientBusinessObjects.Command:oiref>=557,656,387,550:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.CRUDPacket:oiref>=773,176,203,232,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.SetCommand#Keyboard.clientBusinessObjects.Command:oiref>=111,656,278,550:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.CRUDPacket#newlyCreatedObjects:oiref>=976,298,1111,298:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.CRUDPacket#Keyboard.clientBusinessObjects.CommandInterface:oiref>=874,176,760,90:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AddCommand:oiref>=456,656,203,81,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.AssociationChangeList#Keyboard.clientBusinessObjects.CommandInterface:oiref>=573,176,736,90:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.DirtyObjectList#Keyboard.clientBusinessObjects.CommandInterface:oiref>=1212,176,784,90:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.CRUDPacket#associationChanges:oiref>=773,315,683,315:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Command:oiref>=225,176,219,374,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.CommandInterface:oiref>=689,10,119,80,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AssociationChangeList:oiref>=464,176,219,279,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.RemoveCommand:oiref>=233,656,203,81,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.DirtyObjectList:oiref>=1111,176,203,184,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.CRUDPacket#modifiedObjects:oiref>=976,237,1111,237:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.SetCommand:oiref>=10,656,203,81,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.RemoveCommand#Keyboard.clientBusinessObjects.Command:oiref>=331,656,331,550:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.Command#Keyboard.clientBusinessObjects.CommandInterface:oiref>=334,176,712,90:oigroup>
+*/
+class __positions {
+}

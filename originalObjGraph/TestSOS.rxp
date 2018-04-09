@@ -1,0 +1,171 @@
+Scoped Symbol Entered (Category): 'Logical View' with id S.0
+Enter classes at top level
+Scoped Symbol Entered (Class): 'Globals' with id S.1
+Scoped Symbol Entered (Attribute): 'Visitable' with id S.2
+Scoped Symbol Entered (Attribute): 'Visitor' with id S.3
+Scoped Symbol Entered (Attribute): 'ByteArray' with id S.4
+Scoped Symbol Entered (Attribute): 'Doc' with id S.5
+Enter Category Hierarchy for: Logical View::Keyboard
+Scoped Symbol Entered (Category): 'Keyboard' with id S.6
+Metamodel: Keyboard hasImplicitReferences = true
+Scoped Symbol Entered (Class): 'TVSessionBean' with id S.7
+Scoped Symbol Entered (Operation): 'greeting' with id S.8
+Scoped Symbol Entered (Operation): 'createTVSessionBean' with id S.9
+Scoped Symbol Entered (Operation): 'storeAll' with id S.10
+Scoped Symbol Entered (Operation): 'testCreateOne' with id S.11
+Scoped Symbol Entered (Operation): 'testCreateAll' with id S.12
+Scoped Symbol Entered (Operation): 'retrieveAll' with id S.13
+Scoped Symbol Entered (Operation): 'retrieveAllFromStub' with id S.14
+Scoped Symbol Entered (Operation): 'clearDB' with id S.15
+Scoped Symbol Entered (Operation): 'execute' with id S.16
+Scoped Symbol Entered (Class): 'TVPComponent' with id S.17
+Scoped Symbol Entered (Attribute): 'kboid' with id S.18
+Scoped Symbol Entered (Attribute): 'newlyCreated' with id S.19
+Scoped Symbol Entered (Attribute): 'modified' with id S.20
+Scoped Symbol Entered (Attribute): 'name' with id S.21
+Scoped Symbol Entered (Attribute): 'alias' with id S.22
+Scoped Symbol Entered (Attribute): 'updateCounter' with id S.23
+Scoped Symbol Entered (Operation): 'xsetKboid' with id S.24
+Scoped Symbol Entered (Operation): 'isNewlyCreated' with id S.25
+Scoped Symbol Entered (Operation): 'isModified' with id S.26
+Scoped Symbol Entered (Class): 'TVPComposite' with id S.27
+Scoped Symbol Entered (Operation): 'addChild' with id S.28
+Scoped Symbol Entered (Class): 'TVPCa' with id S.29
+Scoped Symbol Entered (Class): 'TVPCb' with id S.30
+Enter Category Hierarchy for: Logical View::Keyboard::clientBusinessObjects
+Scoped Symbol Entered (Category): 'clientBusinessObjects' with id S.31
+Metamodel: clientBusinessObjects hasImplicitReferences = true
+Scoped Symbol Entered (Class): 'Visitor' with id S.32
+Scoped Symbol Entered (Class): 'Visitable' with id S.33
+Generate for Model: TestSOS
+Create Package: Logical View::Keyboard
+Metamodel: Keyboard Create Package--hasImplicitReferences = true
+Create Package: Logical View::Keyboard::clientBusinessObjects
+Metamodel: clientBusinessObjects Create Package--hasImplicitReferences = true
+Create Class: Logical View::Keyboard::clientBusinessObjects::Visitor
+*> Warning: Class Logical View::Keyboard::clientBusinessObjects::Visitable has a stereotype (interface) that MOF does not recognize.
+Create Class: Logical View::Keyboard::clientBusinessObjects::Visitable
+Create Class: Logical View::Keyboard::TVSessionBean
+*> Local type "string" needed for attribute "greetingReturn" of Class "Keyboard.TVSessionBean.greetin".  You should create an actual DataType for this type.
+CreateLocalDataType: string
+*> Local type "void" needed for attribute "storeAllReturn" of Class "Keyboard.TVSessionBean.storeAl".  You should create an actual DataType for this type.
+CreateLocalDataType: void
+*> Local type "ByteArray" needed for attribute "storeAll" of Class "Keyboard.TVSessionBean.storeAl".  You should create an actual DataType for this type.
+CreateLocalDataType: ByteArray
+*> Unable to map type ByteArray to a CORBA type.  It has been mapped to a string.
+*> Local type "long long" needed for attribute "retrieveAll" of Class "Keyboard.TVSessionBean.retrieveAl".  You should create an actual DataType for this type.
+CreateLocalDataType: long long
+Create Class: Logical View::Keyboard::TVPComponent
+Create Reference in Class: Logical View::Keyboard::TVPComponent to Role: Logical View::Keyboard::<unnamed>::parent
+  Class/UseCase/Interface: TVPComposite
+*> Warning: Attribute Logical View::Keyboard::TVPComponent::kboid has a stereotype (key) that MOF does not recognize.
+*> Local type "boolean" needed for attribute "newlyCreated" of Class "Keyboard.TVPComponent".  You should create an actual DataType for this type.
+CreateLocalDataType: boolean
+*> Local type "long" needed for attribute "updateCounter" of Class "Keyboard.TVPComponent".  You should create an actual DataType for this type.
+CreateLocalDataType: long
+Create Class: Logical View::Keyboard::TVPComposite
+Create Reference in Class: Logical View::Keyboard::TVPComposite to Role: Logical View::Keyboard::<unnamed>::children
+  Class/UseCase/Interface: TVPComponent
+Create Class: Logical View::Keyboard::TVPCa
+Create Reference in Class: Logical View::Keyboard::TVPCa to Role: Logical View::Keyboard::<unnamed>::toOneCb
+  Class/UseCase/Interface: TVPCb
+Create Reference in Class: Logical View::Keyboard::TVPCa to Role: Logical View::Keyboard::<unnamed>::husband
+  Class/UseCase/Interface: TVPCb
+Create Reference in Class: Logical View::Keyboard::TVPCa to Role: Logical View::Keyboard::<unnamed>::brothers
+  Class/UseCase/Interface: TVPCb
+Create Reference in Class: Logical View::Keyboard::TVPCa to Role: Logical View::Keyboard::<unnamed>::toManyCbs
+  Class/UseCase/Interface: TVPCb
+Create Class: Logical View::Keyboard::TVPCb
+Create Reference in Class: Logical View::Keyboard::TVPCb to Role: Logical View::Keyboard::<unnamed>::<unnamed>
+**** Reference not processed: not navigable
+Create Reference in Class: Logical View::Keyboard::TVPCb to Role: Logical View::Keyboard::<unnamed>::wife
+  Class/UseCase/Interface: TVPCa
+Create Reference in Class: Logical View::Keyboard::TVPCb to Role: Logical View::Keyboard::<unnamed>::sisters
+  Class/UseCase/Interface: TVPCa
+Create Reference in Class: Logical View::Keyboard::TVPCb to Role: Logical View::Keyboard::<unnamed>::<unnamed>
+**** Reference not processed: not navigable
+Process Association: A_children_parent:3A0A2EDA0071
+*> Association found with no name between 'TVPComponent' and 'TVPComposite'.  The name 'A_children_parent' has been created for it.
+Create Association: A_children_parent
+Create Association End: children
+  Association End: TVPComponent
+     Qualified name: Logical View::Keyboard::TVPComponent
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_children_parent.children
+  Class/UseCase/Interface: TVPComponent
+Create Association End: parent
+  Association End: TVPComposite
+     Qualified name: Logical View::Keyboard::TVPComposite
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_children_parent.parent
+  Class/UseCase/Interface: TVPComposite
+Process Association: A_toOneCb_tVPCa:3A146B2C0158
+*> Association found with no name between 'TVPCb' and 'TVPCa'.  The name 'A_toOneCb_tVPCa' has been created for it.
+Create Association: A_toOneCb_tVPCa
+Create Association End: toOneCb
+  Association End: TVPCb
+     Qualified name: Logical View::Keyboard::TVPCb
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_toOneCb_tVPCa.toOneCb
+  Class/UseCase/Interface: TVPCb
+Create Association End: 
+  Association End: TVPCa
+     Qualified name: Logical View::Keyboard::TVPCa
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_toOneCb_tVPCa.
+  Class/UseCase/Interface: TVPCa
+Process Association: A_wife_husband:3A2C128A00DA
+*> Association found with no name between 'TVPCa' and 'TVPCb'.  The name 'A_wife_husband' has been created for it.
+Create Association: A_wife_husband
+Create Association End: wife
+  Association End: TVPCa
+     Qualified name: Logical View::Keyboard::TVPCa
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_wife_husband.wife
+  Class/UseCase/Interface: TVPCa
+Create Association End: husband
+  Association End: TVPCb
+     Qualified name: Logical View::Keyboard::TVPCb
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_wife_husband.husband
+  Class/UseCase/Interface: TVPCb
+Process Association: A_sisters_brothers:3A3129F0037D
+*> Association found with no name between 'TVPCa' and 'TVPCb'.  The name 'A_sisters_brothers' has been created for it.
+Create Association: A_sisters_brothers
+Create Association End: sisters
+  Association End: TVPCa
+     Qualified name: Logical View::Keyboard::TVPCa
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_sisters_brothers.sisters
+  Class/UseCase/Interface: TVPCa
+Create Association End: brothers
+  Association End: TVPCb
+     Qualified name: Logical View::Keyboard::TVPCb
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_sisters_brothers.brothers
+  Class/UseCase/Interface: TVPCb
+Process Association: A_toManyCbs_tVPCa:3A4230E001D2
+*> Association found with no name between 'TVPCb' and 'TVPCa'.  The name 'A_toManyCbs_tVPCa' has been created for it.
+Create Association: A_toManyCbs_tVPCa
+Create Association End: toManyCbs
+  Association End: TVPCb
+     Qualified name: Logical View::Keyboard::TVPCb
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_toManyCbs_tVPCa.toManyCbs
+  Class/UseCase/Interface: TVPCb
+Create Association End: 
+  Association End: TVPCa
+     Qualified name: Logical View::Keyboard::TVPCa
+     TheType: Class
+     Stereotype: 
+  Association end added: Keyboard.A_toManyCbs_tVPCa.
+  Class/UseCase/Interface: TVPCa

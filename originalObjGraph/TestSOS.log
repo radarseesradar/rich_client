@@ -1,0 +1,14 @@
+Warning: Class Logical View::Keyboard::clientBusinessObjects::Visitable has a stereotype (interface) that MOF does not recognize.
+Local type "string" needed for attribute "greetingReturn" of Class "Keyboard.TVSessionBean.greetin".  You should create an actual DataType for this type.
+Local type "void" needed for attribute "storeAllReturn" of Class "Keyboard.TVSessionBean.storeAl".  You should create an actual DataType for this type.
+Local type "ByteArray" needed for attribute "storeAll" of Class "Keyboard.TVSessionBean.storeAl".  You should create an actual DataType for this type.
+Unable to map type ByteArray to a CORBA type.  It has been mapped to a string.
+Local type "long long" needed for attribute "retrieveAll" of Class "Keyboard.TVSessionBean.retrieveAl".  You should create an actual DataType for this type.
+Warning: Attribute Logical View::Keyboard::TVPComponent::kboid has a stereotype (key) that MOF does not recognize.
+Local type "boolean" needed for attribute "newlyCreated" of Class "Keyboard.TVPComponent".  You should create an actual DataType for this type.
+Local type "long" needed for attribute "updateCounter" of Class "Keyboard.TVPComponent".  You should create an actual DataType for this type.
+Association found with no name between 'TVPComponent' and 'TVPComposite'.  The name 'A_children_parent' has been created for it.
+Association found with no name between 'TVPCb' and 'TVPCa'.  The name 'A_toOneCb_tVPCa' has been created for it.
+Association found with no name between 'TVPCa' and 'TVPCb'.  The name 'A_wife_husband' has been created for it.
+Association found with no name between 'TVPCa' and 'TVPCb'.  The name 'A_sisters_brothers' has been created for it.
+Association found with no name between 'TVPCb' and 'TVPCa'.  The name 'A_toManyCbs_tVPCa' has been created for it.

@@ -1,0 +1,72 @@
+package id2fsaycndbdkf5cndeyhje;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorEqualityTester:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullEqualityTester:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference68 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullEqualityTesterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference69 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullPrinter:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference70 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullPrinterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference71 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrinter:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference77 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrinterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference78 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorEqualityTester:oiref>=10,570,219,298,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullEqualityTesterIgnoreClamps:oiref>=18,448,203,81,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullPrinterIgnoreClamps:oiref>=249,239,203,62,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorFullPrinterIgnoreClamps#Keyboard.clientBusinessObjects.VisitorFullPrinter:oiref>=350,239,350,156:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullEqualityTester:oiref>=10,10,219,355,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrinterIgnoreClamps:oiref>=472,239,203,62,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorPrinterIgnoreClamps#Keyboard.clientBusinessObjects.VisitorPrinter:oiref>=573,239,573,156:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullPrinter:oiref>=249,10,203,146,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrinter:oiref>=477,10,195,146,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorFullEqualityTesterIgnoreClamps#Keyboard.clientBusinessObjects.VisitorFullEqualityTester:oiref>=119,448,119,365:oigroup>
+*/
+class __positions {
+}

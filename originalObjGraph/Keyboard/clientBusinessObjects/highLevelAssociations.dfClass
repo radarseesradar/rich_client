@@ -1,0 +1,120 @@
+package id3fsg0cndbdkf5cndeora5;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ManyToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference26 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ManyToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference28 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.NullToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference30 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.NullToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference31 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.OneToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference32 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.OneToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference34 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference54 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference56 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference59 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference60 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference62 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.NullToOne:oiref>=339,603,165,137,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.ManyToMany#Keyboard.clientBusinessObjects.OneToMany:oiref>=616,1189,616,1106:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.ManyToOne#Keyboard.clientBusinessObjects.ToOne:oiref>=819,893,319,758,319,605,681,109:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.OneToMany#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref>=653,893,1111,788:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref>=1061,603,203,185,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.NullToOne#singleton:oiref>=477,740,477,777,541,777,541,713,504,713:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToOne#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=936,603,936,517:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ToOne:oiref>=649,10,164,99,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToMany#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=729,603,883,517:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ManyToMany:oiref>=507,1189,219,138,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOne:oiref>=822,603,219,156,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.OneToMany:oiref>=507,893,219,213,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToMany:oiref>=583,603,219,213,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.OneToOne:oiref>=1113,893,219,137,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.UnidirectionalToMany#Keyboard.clientBusinessObjects.ToMany:oiref>=656,603,384,147:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.NullToMany#Keyboard.clientBusinessObjects.ToMany:oiref>=111,603,278,147:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.NullToMany:oiref>=10,603,203,175,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.UnidirectionalToOne#Keyboard.clientBusinessObjects.ToOne:oiref>=879,603,745,520,745,109:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.OneToMany#Keyboard.clientBusinessObjects.ToMany:oiref>=580,893,299,765,299,147:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.NullToMany#singleton:oiref>=178,778,178,823,258,823,258,743,213,743:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.ManyToOne#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref>=892,893,1162,788:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.OneToOne#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref>=1213,893,1213,788:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=830,10,219,507,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ManyToOne:oiref>=746,893,219,137,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.BidirectionalAssociation#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=1162,603,992,517:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.OneToOne#Keyboard.clientBusinessObjects.ToOne:oiref>=1284,893,1284,593,777,522,777,109:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.NullToOne#Keyboard.clientBusinessObjects.ToOne:oiref>=421,603,713,109:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ToMany:oiref>=267,10,203,137,1:oigroup>
+*/
+class __positions {
+}

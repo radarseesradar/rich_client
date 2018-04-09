@@ -1,0 +1,37 @@
+package id1laz7cuo7gc97cuo7yc7j;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id3am8kcuo7gc97cuo7ycb5.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#smartClient.framework:oiref> 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id4oscbcuvs7angcuvyp1hy.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#smartClient.classServer:oiref> 
+*/
+class reference1 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:<oiref:design#Class#id3am8kcuo7gc97cuo7ycb5.diagram:oiref>=10,10,200,1796,1:oigroup>
+<oigroup:<oiref:design#Class#id4oscbcuvs7angcuvyp1hy.diagram:oiref>=304,151,88,57,1:oigroup>
+
+*/
+class __positions {
+}

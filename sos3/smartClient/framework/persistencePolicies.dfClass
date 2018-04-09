@@ -1,0 +1,35 @@
+package id32yyecuo83bh9cuovtxza;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.PersistencePolicyInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RMIPersistencePolicy:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference162 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#smartClient.framework.RMIPersistencePolicy:oiref>=10,228,200,117,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.RMIPersistencePolicy#smartClient.framework.PersistencePolicyInterface:oiref>=110,228,110,159:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PersistencePolicyInterface:oiref>=10,10,200,149,1:oigroup>
+*/
+class __positions {
+}

@@ -1,0 +1,766 @@
+package id2etj7cndbdkf5cndbiiep;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ManyToManyRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.OneToOne:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference25 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AssociationChangeList:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference26 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorUpdater:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference27 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AccessMethodNameGenerator:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference28 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ClientSideIDFactory:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference29 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.PostVisitHelper:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference30 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.NullToOne:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference31 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestVisitor:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference32 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToMany:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference33 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TVCb:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference34 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPostStorage:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference35 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestRoleKey:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference36 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToManyRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference37 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOne:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference38 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference39 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.CommandInterface:oiref><oihard>
+@__modelType reference*/
+class reference40 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.OneToManyRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference41 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.RemoveCommand:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference42 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Transition:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference43 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.StubInterface:oiref><oihard>
+@__modelType reference*/
+class reference44 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorEqualityTester:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference45 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ClampProvider:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference46 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCopier:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference47 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference48 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.KBConcurrencyException:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference49 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TVCa:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference50 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestToManyRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference51 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.RemembersRemovalsMapImpl:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference52 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrinterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference53 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullEqualityTesterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference54 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.CRUDPacket:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference55 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.DirtyObjectList:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference56 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Stub:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference57 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalOnlyMode:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference58 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullPrinter:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference59 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestAccessMethodNameGenerator:oiref><oihard>
+@__modelType reference
+@__hidden*/
+class reference60 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToManyRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference61 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Clamp:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference62 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToMany:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference63 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPruner:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference64 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAllowedMode:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference65 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ToMany:oiref><oihard>
+@__modelType reference*/
+class reference66 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPersister:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference67 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestUnidirectionalToManyRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference68 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.SetCommand:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference69 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ToManyRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference70 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ManyToOne:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference71 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Command:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference72 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.KBCPersistentObjectFactory:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference73 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref><oihard>
+@__modelType reference*/
+class reference74 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.KBClampFileIOException:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference75 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorRetriever:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference76 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrimitivesCopier:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference77 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.MiddleWareFramework:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference78 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCRUDPacketBuilder:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference79 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorViaAllPaths:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference80 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorEqualityTesterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference81 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.CRUDRecorder:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference82 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Visitor:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference83 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Visitable:oiref><oihard>
+@__modelType reference*/
+class reference84 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TVComponent:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference85 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.KBKeyboardException:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference86 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AddCommand:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference87 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullEqualityTester:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference88 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ToOne:oiref><oihard>
+@__modelType reference*/
+class reference89 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.RegistryMerger:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference90 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.DataGenerator:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference91 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.NullToMany:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference92 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToOne:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference93 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TVComposite:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference94 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.OneToOneRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference95 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrinter:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference96 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullPrinterIgnoreClamps:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference97 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.OneToMany:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference98 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ManyToMany:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference99 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToMany:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference100 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToOneRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference101 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.SwizzleProxy:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference102 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.RoleKey:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference103 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToManyRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference104 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AssociationMode:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference105 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.VisitorSynchronizer:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference106 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOneRegistry:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference107 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToOne:oiref><oihard>
+@__modelType reference
+@hideOperations
+@__hidden 
+*/
+class reference108 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AssociationsCoordinator:oiref><oihard>
+@__modelType reference
+@hideOperations 
+*/
+class reference109 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.OneToManyRegistry:oiref>=2753,766,158,108,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#leafKeya2:oiref>=5193,1515,5338,2030:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TVCa#brothers:oiref>=1586,1216,1586,1542:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.SwizzleProxy:oiref>=3666,10,163,108,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.ManyToMany#Keyboard.clientBusinessObjects.OneToMany:oiref>=1459,2132,1459,2049:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.TestUnidirectionalToManyRegistry#Keyboard.clientBusinessObjects.TestToManyRegistry:oiref>=133,1233,303,931:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.OneToManyRegistry#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=2885,766,3238,320:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.CRUDRecorder#associationChanges:oiref>=672,875,452,1107:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ManyToOne:oiref>=1216,1950,144,80,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.DirtyObjectList:oiref>=848,766,121,70,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.BidirectionalAssociation#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=1207,1791,1032,1707:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#leafKeyb1:oiref>=5177,1515,5323,2030:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#oneToOneRegistry:oiref>=2555,1107,3438,875,3438,855:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#leafKeya1:oiref>=5443,1458,5443,2030:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.OneToMany:oiref>=1387,1950,144,99,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorPersister#Keyboard.clientBusinessObjects.VisitorSynchronizer:oiref>=3512,1107,2462,865,2462,837:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref>=1133,1791,148,52,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#aTVCbx:oiref>=3716,2328,3716,2566,3906,2821,3906,2832:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.SetCommand#Keyboard.clientBusinessObjects.Command:oiref>=186,1107,433,969:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.DataGenerator#leaves:oiref>=1942,1107,1942,989:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorFullEqualityTesterIgnoreClamps#Keyboard.clientBusinessObjects.VisitorFullEqualityTester:oiref>=3692,1542,3692,1197:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Transition:oiref>=3849,110,219,147,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.DirtyObjectList#Keyboard.clientBusinessObjects.CommandInterface:oiref>=896,766,896,330:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.NullToMany#Keyboard.clientBusinessObjects.ToMany:oiref>=1819,1791,1675,1679:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestToManyRegistry#roleKey2:oiref>=337,931,337,1233:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.KBConcurrencyException:oiref>=1515,10,154,61,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Clamp:oiref>=638,1107,219,109,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorPrinterIgnoreClamps#Keyboard.clientBusinessObjects.VisitorPrinter:oiref>=1233,1107,1436,818:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ClampProvider:oiref>=518,10,203,128,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorFullPrinterIgnoreClamps#Keyboard.clientBusinessObjects.VisitorFullPrinter:oiref>=4107,1542,4107,1159:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestRoleKey:oiref>=3849,10,80,61,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.OneToOne:oiref>=1052,1950,144,80,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TVCa#husband:oiref>=1537,1216,1418,1542:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToMany:oiref>=5942,950,101,61,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.CRUDPacket#associationChanges:oiref>=1616,874,500,1107:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorPruner#Keyboard.clientBusinessObjects.Visitor:oiref>=2640,766,2344,358:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.RoleKey:oiref>=3427,10,219,222,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.OneToManyRegistry#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref>=2860,766,2860,368:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#aOneToOneRegistry:oiref>=5022,1257,4975,1197,3002,1197,2868,1234:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestAccessMethodNameGenerator:oiref>=5509,810,203,118,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToOne:oiref>=5732,950,101,61,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestToManyRegistry#aTVComposite:oiref>=473,801,871,801:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorPrimitivesCopier#Keyboard.clientBusinessObjects.VisitorSynchronizer:oiref>=3270,1107,2396,876,2396,837:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.KBCPersistentObjectFactory#singleton:oiref>=199,81,199,105,237,105,237,67,213,67:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.RemembersRemovalsMapImpl:oiref>=3469,290,219,127,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TVComponent#parent:oiref>=1890,989,1890,1256,1456,1542:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ManyToMany:oiref>=1387,2132,144,62,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.RemoveCommand#Keyboard.clientBusinessObjects.Command:oiref>=66,1107,389,969:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.BidirectionalOnlyMode#Keyboard.clientBusinessObjects.AssociationMode:oiref>=2088,1542,1829,1210,1829,1188:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ClientSideIDFactory:oiref>=352,10,146,90,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.ToManyRegistry#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=3642,766,3395,320:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#aTVCa:oiref>=5082,1515,4989,2356,4205,2832:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrimitivesCopier:oiref>=3200,1107,140,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToMany#brotherx:oiref>=4029,3429,3923,2960:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#unidirectionalToOneRegistry:oiref>=2499,1107,3254,836:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TVCb#wife:oiref>=1380,1235,1380,1542:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#leafKeyax1:oiref>=5145,1515,5295,2030:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TVCb#sisters:oiref>=1424,1235,1554,1542:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#leafKeya2:oiref>=3879,2324,4032,2708,4932,2708,5239,2252:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#aTVCa:oiref>=3838,2328,3838,2633,4154,2832:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrinter:oiref>=1394,766,85,52,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestVisitor#leaves:oiref>=716,480,853,555,1608,555:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToMany:oiref>=1321,1791,147,99,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPersister:oiref>=3463,1107,99,43,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalAllowedMode#Keyboard.clientBusinessObjects.AssociationMode:oiref>=1788,1542,1788,1188:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.NullToMany#singleton:oiref>=1889,1861,1889,1885,1927,1885,1927,1847,1903,1847:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorUpdater#Keyboard.clientBusinessObjects.VisitorPersister:oiref>=3513,1542,3513,1150:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToMany#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=1370,1791,1080,1707:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AddCommand:oiref>=249,1107,89,43,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ToMany:oiref>=1523,1542,203,137,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#leafKeyb1:oiref>=3879,2322,4043,2698,4905,2698,5239,2251:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.TVComponent#Keyboard.clientBusinessObjects.Visitable:oiref>=1881,766,1655,653:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestVisitor:oiref>=542,400,174,99,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=909,1542,219,165,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.ManyToOne#Keyboard.clientBusinessObjects.ToOne:oiref>=1301,1950,1301,1792,1425,1641:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AssociationMode:oiref>=1651,1107,219,81,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#oneToManyRegistry:oiref>=2445,1107,2832,874:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TVCa:oiref>=1489,1107,142,109,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorSynchronizer#Keyboard.clientBusinessObjects.Visitor:oiref>=2462,766,2311,358:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#leafKeybx1:oiref>=5113,1515,5267,2030:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ToOne:oiref>=1322,1542,161,99,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#leafKeyb2:oiref>=5161,1515,5309,2030:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorEqualityTesterIgnoreClamps#Keyboard.clientBusinessObjects.VisitorEqualityTester:oiref>=1029,1107,1264,912,1264,875:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#leafKeya2:oiref>=5428,1458,5428,2030:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.VisitorCRUDPacketBuilder#crudPacket:oiref>=2802,1107,1684,992,1684,874:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.ManyToOne#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref>=1237,1950,1237,1843:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.RemoveCommand:oiref>=10,1107,113,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.MiddleWareFramework#singleton:oiref>=2207,951,2207,998,2291,998,2291,914,2244,914:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.ManyToManyRegistry#toManys:oiref>=3119,822,3231,890,3478,890,3573,808:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Visitor:oiref>=2215,250,195,108,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOne:oiref>=949,1791,144,80,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToManyRegistry:oiref>=3857,1107,178,43,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=3204,250,203,70,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.NullToOne:oiref>=1488,1791,163,70,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.OneToMany#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref>=1435,1950,1260,1881,1260,1843:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAllowedMode:oiref>=1746,1542,219,62,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCopier:oiref>=3360,1107,83,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.DataGenerator#branches:oiref>=2099,1142,2204,1142:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestToManyRegistry#aTVCa:oiref>=473,898,1117,1147,1550,1147,1945,854:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.TVComposite#Keyboard.clientBusinessObjects.TVComponent:oiref>=2274,1107,1959,989:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorEqualityTesterIgnoreClamps:oiref>=928,1107,203,43,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.StubInterface:oiref>=1025,10,199,156,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TVComponent#associationsCoordinator:oiref>=1975,989,2391,1107:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPruner:oiref>=2548,766,185,90,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#trunkKey1:oiref>=5383,1458,5383,2030:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToOneRegistry#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=3272,766,3272,320:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#aManyToManyRegistry:oiref>=3777,2030,3777,1988,1795,1891,1795,1287:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#leafKeyb1:oiref>=5413,1458,5413,2030:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorRetriever#Keyboard.clientBusinessObjects.VisitorSynchronizer:oiref>=3078,1107,2363,880,2363,837:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.Visitable#Keyboard.clientBusinessObjects.StubInterface:oiref>=1655,250,1160,166:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#leafKeyax1:oiref>=3879,2280,4065,2678,4883,2678,5239,2208:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPrinterIgnoreClamps:oiref>=1151,1107,164,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestToManyRegistry#aToManyRegistry:oiref>=408,766,408,470:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.CRUDPacket:oiref>=1549,766,203,108,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.UnidirectionalToOne#Keyboard.clientBusinessObjects.ToOne:oiref>=1039,1791,1356,1641:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorCRUDPacketBuilder#Keyboard.clientBusinessObjects.VisitorViaAllPaths:oiref>=2864,1107,3759,836,3759,809:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#aTVCa:oiref>=5321,1458,5029,2348,4225,2832:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.PostVisitHelper:oiref>=2555,250,97,52,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.VisitorRetriever#associationsCoordinator:oiref>=2977,1149,2894,1231,2583,1231:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.Clamp#changeList:oiref>=638,1151,548,1151:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.KBClampFileIOException:oiref>=3949,10,148,61,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AssociationChangeList:oiref>=358,1107,190,89,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestVisitor#branches:oiref>=629,499,917,766:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#aTVCb:oiref>=5052,1515,4949,2332,3942,2832:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToManyRegistry#Keyboard.clientBusinessObjects.ToManyRegistry:oiref>=3946,1107,3642,836:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.Stub#Keyboard.clientBusinessObjects.StubInterface:oiref>=148,766,597,296,1092,166:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.OneToOneRegistry:oiref>=3380,766,116,89,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.ClampProvider#singleton:oiref>=696,138,696,173,756,173,756,113,721,113:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorCRUDPacketBuilder:oiref>=2740,1107,187,71,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Command:oiref>=345,766,178,203,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestToManyRegistry:oiref>=270,766,203,165,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#aTVCb:oiref>=3756,2328,3756,2597,3870,2832:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.Visitor#postVisitHelper:oiref>=2410,267,2555,267:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorPostStorage:oiref>=4179,1107,117,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#aTVCax:oiref>=5067,1515,4969,2337,4186,2832:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.KBCPersistentObjectFactory#idFactory:oiref>=213,38,352,38:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.OneToOne#Keyboard.clientBusinessObjects.BidirectionalAssociation:oiref>=1164,1950,1164,1843:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#aTVComposite:oiref>=5344,1458,5049,2401,4806,2832:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.Command#arg:oiref>=345,805,217,805:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.MiddleWareFramework:oiref>=2041,766,203,185,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ManyToManyRegistry:oiref>=2961,766,158,70,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorFullEqualityTester#Keyboard.clientBusinessObjects.VisitorSynchronizer:oiref>=3691,1107,2495,859,2495,837:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#leafKeyb2:oiref>=3879,2320,4054,2688,4894,2688,5239,2251:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.CRUDPacket#newlyCreatedObjects:oiref>=1549,853,1281,932,1217,932,969,822:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToMany#brothery:oiref>=4008,3429,3878,2960:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#leafKeybx1:oiref>=3879,2200,4087,2658,4847,2658,5239,2122:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#leafKeyax2:oiref>=5129,1515,5281,2030:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TVCb:oiref>=1335,1107,134,128,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToMany#sisterx:oiref>=4073,3429,4197,2941:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.AssociationChangeList#Keyboard.clientBusinessObjects.CommandInterface:oiref>=405,1107,543,970,543,768,872,330:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToOneRegistry:oiref>=5022,1217,203,298,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AssociationsCoordinator:oiref>=2364,1107,219,298,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorPostStorage#Keyboard.clientBusinessObjects.VisitorViaAllPaths:oiref>=4237,1107,3815,809:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#manyToManyRegistry:oiref>=2472,1107,3040,836:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.OneToOne#Keyboard.clientBusinessObjects.ToOne:oiref>=1113,1950,1113,1785,1390,1641:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.UnidirectionalAssociation#changeList:oiref>=1018,1542,453,1196:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.CRUDPacket#modifiedObjects:oiref>=1549,832,1270,922,1228,922,969,808:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AccessMethodNameGenerator#singleton:oiref>=1437,81,1437,105,1475,105,1475,67,1451,67:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullPrinterIgnoreClamps:oiref>=4017,1542,183,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestToManyRegistry#aTVCb:oiref>=473,865,1225,1127,1399,1127,1521,869:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.CRUDRecorder:oiref>=563,766,219,109,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#trunkKey2:oiref>=5368,1458,5368,2030:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#leafKeyb2:oiref>=5398,1458,5398,2030:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestUnidirectionalToManyRegistry:oiref>=32,1233,203,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.RegistryMerger#associationsCoordinator:oiref>=3360,320,3360,877,2527,1107:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.NullToOne#Keyboard.clientBusinessObjects.ToOne:oiref>=1569,1791,1460,1641:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.NullToOne#singleton:oiref>=1637,1861,1637,1885,1675,1885,1675,1847,1651,1847:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorPrinter#Keyboard.clientBusinessObjects.Visitor:oiref>=1436,766,2279,564,2279,358:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#leafKeybx2:oiref>=5097,1515,5253,2030:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.CRUDPacket#Keyboard.clientBusinessObjects.CommandInterface:oiref>=1650,766,919,330:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.NullToMany:oiref>=1735,1791,168,70,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TVComposite#children:oiref>=2274,1178,1656,1542:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullEqualityTester:oiref>=3582,1107,219,90,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#leafKeya1:oiref>=5209,1515,5353,2030:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestToManyRegistry#roleKey1:oiref>=405,931,405,1233:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Visitable:oiref>=1554,250,203,403,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.KBKeyboardException:oiref>=4117,10,135,61,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.VisitorSynchronizer#other:oiref>=2396,766,1706,653:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorSynchronizer:oiref>=2331,766,197,71,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalOnlyMode:oiref>=1985,1542,207,62,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#aTVCax:oiref>=3797,2328,3797,2628,4141,2832:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.OneToManyRegistry#toManys:oiref>=2911,853,3220,900,3489,900,3573,822:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TVComponent:oiref>=1772,766,219,223,1:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.ManyToManyRegistry#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref>=2999,766,2999,368:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#lastRetrieval:oiref>=2540,1405,2540,1458,2636,1458,2636,1362,2583,1362:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#aTVCb:oiref>=5298,1458,5009,2332,3955,2832:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorFullPrinter#Keyboard.clientBusinessObjects.VisitorViaAllPaths:oiref>=4107,1107,3787,809:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.TVCb#Keyboard.clientBusinessObjects.TVComponent:oiref>=1402,1107,1811,989:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.Command#Keyboard.clientBusinessObjects.CommandInterface:oiref>=434,766,848,330:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorRetriever:oiref>=2977,1107,203,52,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToMany:oiref>=3987,3429,108,127,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorUpdater:oiref>=3468,1542,91,43,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToOne:oiref>=5787,1470,94,61,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestManyToManyRegistry:oiref>=3676,2030,203,298,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToManyRegistry#aOneToManyRegistry:oiref>=5275,1257,5220,1187,3361,1187,3163,1238:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorEqualityTester#Keyboard.clientBusinessObjects.Visitor:oiref>=1301,766,2247,558,2247,358:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorEqualityTester:oiref>=1155,766,219,109,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#leafKeyax2:oiref>=3879,2240,4076,2668,4872,2668,5239,2165:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.AssociationsCoordinator#unidirectionalToManyRegistry:oiref>=2583,1275,3766,1275,3857,1140:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.AddCommand#Keyboard.clientBusinessObjects.Command:oiref>=293,1107,478,969:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.MiddleWareFramework#globalAssociationsCoordinator:oiref>=2151,951,2151,989,2418,1107:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.VisitorEqualityTester#other:oiref>=1228,766,1604,653:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Stub:oiref>=80,766,137,118,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AccessMethodNameGenerator:oiref>=1248,10,203,71,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ToManyRegistry:oiref>=3573,766,139,70,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalToOne#Keyboard.clientBusinessObjects.UnidirectionalAssociation:oiref>=985,1791,985,1707:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.Clamp#inverseClamp:oiref>=836,1216,836,1247,888,1247,888,1195,857,1195:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorViaAllPaths:oiref>=3732,766,111,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.PostVisitHelper#visitor:oiref>=2555,284,2410,284:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TestOneToManyRegistry:oiref>=5275,1217,203,241,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.SetCommand:oiref>=143,1107,86,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.MiddleWareFramework#associationMode:oiref>=2096,951,2096,961,1760,1107:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullPrinter:oiref>=4055,1107,104,52,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.OneToOneRegistry#Keyboard.clientBusinessObjects.RegistryMerger:oiref>=3438,766,3375,320:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.OneToMany#Keyboard.clientBusinessObjects.ToMany:oiref>=1483,1950,1715,1888,1624,1679:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.VisitorFullEqualityTesterIgnoreClamps:oiref>=3591,1542,203,43,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#leafKeybx2:oiref>=3879,2160,4098,2648,4836,2648,5239,2079:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestOneToOneRegistry#aTVCbx:oiref>=5037,1515,4929,2322,3930,2832:oigroup>
+<oigroup:<oiref:java#Implements#Keyboard.clientBusinessObjects.UnidirectionalToMany#Keyboard.clientBusinessObjects.ToMany:oiref>=1419,1791,1573,1679:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.CommandInterface:oiref>=824,250,119,80,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToMany#sistery:oiref>=4051,3429,4150,2941:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.Command#receiver:oiref>=345,844,217,844:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.KBCPersistentObjectFactory:oiref>=10,10,203,71,1:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalToOneRegistry:oiref>=3169,766,171,70,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.TVCa#Keyboard.clientBusinessObjects.TVComponent:oiref>=1560,1107,1850,989:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.MiddleWareFramework#globalCRUDRecorder:oiref>=2041,803,1994,746,855,746,782,787:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalToManyRegistry:oiref>=2835,250,203,118,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorViaAllPaths#Keyboard.clientBusinessObjects.Visitor:oiref>=3787,766,2377,358:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.TestManyToManyRegistry#leafKeya1:oiref>=3879,2326,4021,2718,4943,2718,5239,2252:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.DataGenerator:oiref>=1925,1107,174,81,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.VisitorCopier#Keyboard.clientBusinessObjects.VisitorSynchronizer:oiref>=3401,1107,2429,871,2429,837:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.TVComposite:oiref>=2204,1107,140,71,1:oigroup>
+*/
+class __positions {
+}

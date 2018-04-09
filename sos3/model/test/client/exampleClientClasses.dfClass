@@ -1,0 +1,60 @@
+package id3xjc0cuvn3xa8cuvnk0qi;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#model.test.client.Female:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference169 {
+}/**
+@__ref <oiref:java#Class#model.test.client.Male:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference170 {
+}/**
+@__ref <oiref:java#Class#model.test.client.Component:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference171 {
+}/**
+@__ref <oiref:java#Class#model.test.client.Composite:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference172 {
+}/**
+@__ref <oiref:java#Class#model.PersistenceAdapter:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#model.test.client.Male#model.test.client.Component:oiref>=271,920,271,822:oigroup>
+<oigroup:<oiref:java#Extends#model.test.client.Component#model.PersistenceAdapter:oiref>=271,520,271,447:oigroup>
+<oigroup:<oiref:java#Class#model.PersistenceAdapter:oiref>=180,10,200,437,1:oigroup>
+<oigroup:<oiref:java#Extends#model.test.client.Female#model.test.client.Component:oiref>=465,917,312,822:oigroup>
+<oigroup:<oiref:java#Implements#model.test.client.Component#smartClient.framework.PostVisitable:oiref>=358,526,358,451:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Female:oiref>=384,917,200,222,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Composite:oiref>=10,920,200,190,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Male:oiref>=200,920,200,222,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Component:oiref>=190,520,200,302,1:oigroup>
+<oigroup:<oiref:java#Extends#model.test.client.Composite#model.test.client.Component:oiref>=91,920,230,822:oigroup>
+*/
+class __positions {
+}

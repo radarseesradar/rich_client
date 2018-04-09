@@ -1,0 +1,42 @@
+package id3adjvcuo83bh9cuozxck7;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.StubInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.SwizzleProxy:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference177 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Stub:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference178 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#smartClient.framework.StubInterface:oiref>=18,10,165,181,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Stub:oiref>=10,241,200,341,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SwizzleProxy:oiref>=249,10,200,286,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.Stub#smartClient.framework.StubInterface:oiref>=96,241,96,191:oigroup>
+*/
+class __positions {
+}

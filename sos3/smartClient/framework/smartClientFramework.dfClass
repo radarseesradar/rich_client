@@ -1,0 +1,44 @@
+package id1xkz4cuo83bh9cuov564a;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.SmartClientFramework:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AccessMethodNameGenerator:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference159 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ConcurrencyException:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference160 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:MemberLink#<oiref:java#Member#smartClient.framework.SmartClientFramework#singleton:oiref>=170,600,170,650,260,650,260,560,210,560:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ConcurrencyException:oiref>=303,330,200,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SmartClientFramework:oiref>=10,10,200,590,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AccessMethodNameGenerator:oiref>=303,10,200,270,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AccessMethodNameGenerator#singleton:oiref>=463,280,463,330,553,330,553,240,503,240:oigroup>
+
+*/
+class __positions {
+}

@@ -1,0 +1,43 @@
+package id3frf0cndbdkf5cndf7z21;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AssociationMode:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalOnlyMode:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference18 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAllowedMode:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference58 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AssociationMode:oiref>=129,10,219,119,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.BidirectionalOnlyMode#Keyboard.clientBusinessObjects.AssociationMode:oiref>=162,216,162,129:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.UnidirectionalAllowedMode:oiref>=249,216,219,100,1:oigroup>
+<oigroup:<oiref:java#Extends#Keyboard.clientBusinessObjects.UnidirectionalAllowedMode#Keyboard.clientBusinessObjects.AssociationMode:oiref>=298,216,298,129:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.BidirectionalOnlyMode:oiref>=10,216,219,100,1:oigroup> 
+*/
+class __positions {
+}

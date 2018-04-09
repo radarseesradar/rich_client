@@ -1,0 +1,76 @@
+package id1xjy2cvblrphncvbm2psj;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#model.PersistenceAdapter:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#model.test.client.Component:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#model.test.client.Composite:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#model.test.client.Male:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}/**
+@__ref <oiref:java#Class#model.test.client.Female:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}}/**
+@__tags
+@shapeType ClassDiagram */
+class __tags {
+}/**
+@__options option.links = Rectilinear 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#model.test.client.Male:oiref>=575,965,163,190,1:oigroup>
+<oigroup:Composite#clientCardinality#MemberLink#<oiref:java#Member#model.test.client.Component#parent:oiref>=201,771,26,16,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#model.test.client.Female#husband:oiref>=556,1008,15,16,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.test.client.Component#playmates:oiref>=302,771,302,855,428,855,428,697,360,697:oigroup>
+<oigroup:<oiref:java#Extends#model.test.client.Component#model.PersistenceAdapter:oiref>=278,517,278,447:oigroup>
+<oigroup:Composite#clientCardinality#MemberLink#<oiref:java#Member#model.test.client.Female#husband:oiref>=360,1008,15,16,0:oigroup>
+<oigroup:<oiref:java#Extends#model.test.client.Composite#model.test.client.Component:oiref>=118,965,118,915,292,915,292,771:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#model.test.client.Female#brothers:oiref>=360,1091,46,16,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#model.test.client.Female#brothers:oiref>=545,1071,26,16,0:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#model.test.client.Female#husband:oiref>=514,1028,57,16,0:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Composite:oiref>=10,965,163,158,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#model.test.client.Female#brothers:oiref>=517,1091,54,16,0:oigroup>
+<oigroup:<oiref:java#Extends#model.test.client.Male#model.test.client.Component:oiref>=656,965,656,915,292,915,292,771:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.test.client.Female#husband:oiref>=356,1028,575,1028:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#model.test.client.Component#parent:oiref>=235,771,52,16,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#model.test.client.Component#parent:oiref>=45,945,15,16,0:oigroup>
+<oigroup:Composite#clientCardinality#MemberLink#<oiref:java#Member#model.test.client.Female#brothers:oiref>=360,1071,26,16,0:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Female:oiref>=193,965,163,190,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#model.test.client.Component#playmates:oiref>=364,697,65,16,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.test.client.Component#parent:oiref>=231,771,231,895,64,895,64,965:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.test.client.Component#bestFriend:oiref>=328,771,328,813,402,813,402,739,360,739:oigroup>
+<oigroup:<oiref:java#Extends#model.test.client.Female#model.test.client.Component:oiref>=274,965,274,915,292,915,292,771:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#model.test.client.Female#brothers:oiref>=356,1091,575,1091:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#model.test.client.Component#parent:oiref>=68,945,43,16,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#model.test.client.Component#bestFriend:oiref>=364,719,15,16,0:oigroup>
+<oigroup:<oiref:java#Class#model.test.client.Component:oiref>=197,517,163,254,1:oigroup>
+<oigroup:<oiref:java#Class#model.PersistenceAdapter:oiref>=179,10,200,437,1:oigroup>
+<oigroup:Composite#supplierRole#MemberLink#<oiref:java#Member#model.test.client.Component#bestFriend:oiref>=364,739,67,16,0:oigroup>
+<oigroup:Composite#clientRole#MemberLink#<oiref:java#Member#model.test.client.Female#husband:oiref>=360,1028,30,16,0:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:java#Member#model.test.client.Component#playmates:oiref>=364,677,26,16,0:oigroup>
+*/
+class __positions {
+}

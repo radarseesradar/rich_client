@@ -1,0 +1,120 @@
+package id3bt1ncuo83bh9cuoukqi1;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.BidirectionalToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RepositoryMerger:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference149 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RoleKey:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference150 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ManyToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference151 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference152 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.OneToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference153 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalToOneRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference154 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.OneToOneRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference155 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.UnidirectionalToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference156 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AssociationsCoordinator:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference157 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.RemembersRemovalsMapImpl:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference158 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#manyToManyRegistry:oiref>=690,682,690,648,111,648,111,502:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalToManyRepository:oiref>=298,682,200,101,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#oneToOneRepository:oiref>=844,682,844,540:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.UnidirectionalToManyRepository#smartClient.framework.ToManyRepository:oiref>=376,682,376,579:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#unidirectionalToManyRepository:oiref>=659,732,498,732:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.UnidirectionalToOneRepository#smartClient.framework.RepositoryMerger:oiref>=1128,270,1128,240,792,240,809,207:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.RepositoryMerger#associationsCoordinator:oiref>=860,207,860,220,1017,220,1017,598,853,598,851,682:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RoleKey:oiref>=971,670,200,382,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#oneToManyRepository:oiref>=673,682,673,556:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ToManyRepository:oiref>=298,270,200,309,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.OneToOneRepository#toOnesKeys:oiref>=924,540,1104,670:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RepositoryMerger:oiref>=725,10,200,197,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#oneToOneRegistry:oiref>=841,682,841,549:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.UnidirectionalToOneRepository:oiref>=1027,270,200,222,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.OneToManyRepository:oiref>=581,270,200,286,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#unidirectionalToOneRegistry:oiref>=865,682,865,635,1128,635,1128,492:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.ToManyRepository#smartClient.framework.RepositoryMerger:oiref>=399,270,399,240,792,240,843,207:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.BidirectionalToManyRepository:oiref>=296,10,200,133,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#unidirectionalToOneRepository:oiref>=836,682,836,587,1128,587,1128,492:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.ManyToManyRepository#smartClient.framework.BidirectionalToManyRepository:oiref>=111,270,111,191,397,191,442,143:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.OneToManyRepository#toManys:oiref>=581,413,498,413:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.OneToOneRepository:oiref>=804,270,200,270,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.OneToManyRepository#smartClient.framework.BidirectionalToManyRepository:oiref>=648,270,648,191,397,191,397,143:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AssociationsCoordinator:oiref>=659,682,200,542,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#manyToManyRepository:oiref>=688,682,688,592,111,592,111,508:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.OneToOneRepository#smartClient.framework.RepositoryMerger:oiref>=905,270,905,240,792,240,792,207:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.OneToManyRepository#smartClient.framework.RepositoryMerger:oiref>=716,270,716,240,792,240,826,207:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.OneToManyRepository#toOnesKeys:oiref>=710,556,1037,670:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#unidirectionalToManyRegistry:oiref>=659,722,501,722:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ManyToManyRepository:oiref>=10,270,200,238,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.ManyToManyRepository#toManys:oiref>=210,389,298,389:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#oneToManyRegistry:oiref>=721,682,721,549:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.RemembersRemovalsMapImpl:oiref>=1250,10,200,382,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AssociationsCoordinator#lastRetrieval:oiref>=816,1224,816,1277,912,1277,912,1181,859,1181:oigroup>
+*/
+class __positions {
+}

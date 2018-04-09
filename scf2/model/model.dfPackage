@@ -1,0 +1,33 @@
+package id3f5tycvbp959kcvbpl34b;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#model.PersistenceAdapter:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id3wxq7cvbpqjk5cvbpu1gs.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#model.test:oiref> 
+*/
+class reference1 {
+}}/**
+@__tags
+@shapeType ClassDiagram */
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#model.PersistenceAdapter:oiref>=66,40,126,82,1:oigroup>
+<oigroup:<oiref:design#Class#id3wxq7cvbpqjk5cvbpu1gs.diagram:oiref>=338,77,53,94,1:oigroup>
+*/
+class __positions {
+}

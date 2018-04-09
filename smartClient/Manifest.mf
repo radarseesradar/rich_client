@@ -1,0 +1,5 @@
+Name: Convert To Smart Association (Java)
+Time: User
+Main-Class: com.togethersoft.modules.smartClient.ConvertToSmartAssociation
+Folder: "Early Access/Smart Client/Convert To Smart Association"
+

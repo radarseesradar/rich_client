@@ -1,0 +1,1 @@
+c:\JBuilder4\jdk1.3\bin\java secant.ejb.EJBService secant.ejb.EJBService TCService TCServer d:\objectGraph\Keyboard.mof (ejbDSInfoPkg {DSInfoPkg default}) (msglevel 10)

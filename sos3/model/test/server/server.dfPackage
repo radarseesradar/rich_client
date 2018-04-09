@@ -1,0 +1,48 @@
+package id38dojcuvn3xa8cuvnk0qs;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#model.test.server.FemaleP:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#model.test.server.CompositeP:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}/**
+@__ref <oiref:java#Class#model.test.server.ComponentP:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#model.test.server.MaleP:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#model.test.server.FemaleP#model.test.server.ComponentP:oiref>=484,404,325,328:oigroup>
+<oigroup:<oiref:java#Class#model.test.server.ComponentP:oiref>=189,10,200,318,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.server.FemaleP:oiref>=384,404,200,222,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.server.CompositeP:oiref>=197,404,200,190,1:oigroup>
+<oigroup:<oiref:java#Extends#model.test.server.CompositeP#model.test.server.ComponentP:oiref>=262,404,262,328:oigroup>
+<oigroup:<oiref:java#Extends#model.test.server.MaleP#model.test.server.ComponentP:oiref>=199,400,199,328:oigroup>
+<oigroup:<oiref:java#Class#model.test.server.MaleP:oiref>=10,400,200,222,1:oigroup>
+*/
+class __positions {
+}

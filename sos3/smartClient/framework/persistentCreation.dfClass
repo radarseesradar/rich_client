@@ -1,0 +1,75 @@
+package id45zwjcuo83bh9cuoxhr58;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.PersistentObjectFactory:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.IDFactoryInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference163 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ClientSideIDFactory:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference164 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.SimpleIDFactory:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference165 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AbstractPersistentObjectFactory:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference26 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.AllocateIDsException:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ServerSideIDFactory:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Implements#smartClient.framework.SimpleIDFactory#smartClient.framework.IDFactoryInterface:oiref>=205,212,205,111:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AllocateIDsException:oiref>=10,390,200,117,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.IDFactoryInterface:oiref>=110,10,119,101,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.PersistentObjectFactory#idFactory:oiref>=210,60,359,60:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PersistentObjectFactory:oiref>=10,10,200,190,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ClientSideIDFactory:oiref>=10,212,151,142,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.SimpleIDFactory:oiref>=181,212,148,126,1:oigroup>
+<oigroup:<oiref:java#Implements#smartClient.framework.ClientSideIDFactory#smartClient.framework.IDFactoryInterface:oiref>=127,212,127,111:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ServerSideIDFactory:oiref>=529,10,200,158,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.PersistentObjectFactory#singleton:oiref>=179,200,179,241,251,241,251,169,210,169:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.AbstractPersistentObjectFactory#idFactory:oiref>=309,60,229,60:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.AbstractPersistentObjectFactory:oiref>=309,10,200,142,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#smartClient.framework.ServerSideIDFactory#singleton:oiref>=698,168,698,209,770,209,770,137,729,137:oigroup>
+*/
+class __positions {
+}

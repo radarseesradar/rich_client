@@ -1,0 +1,63 @@
+package id2r8lzcuvn3xa8cuvnk0qs;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#model.test.server.FemaleP:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference173 {
+}/**
+@__ref <oiref:java#Class#model.test.server.MaleP:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference174 {
+}/**
+@__ref <oiref:java#Class#model.test.server.ComponentP:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference175 {
+}/**
+@__ref <oiref:java#Class#model.test.server.CompositeP:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference176 {
+}/**
+@__ref <oiref:java#Class#model.PersistenceAdapter:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:<oiref:java#Extends#model.test.server.ComponentP#model.PersistenceAdapter:oiref>=280,523,280,447:oigroup>
+<oigroup:<oiref:java#Extends#model.test.server.CompositeP#model.test.server.ComponentP:oiref>=199,901,199,825:oigroup>
+<oigroup:<oiref:java#Class#model.test.server.MaleP:oiref>=197,901,200,222,1:oigroup>
+<oigroup:<oiref:java#Class#model.PersistenceAdapter:oiref>=180,10,200,437,1:oigroup>
+<oigroup:<oiref:java#Implements#model.test.server.ComponentP#smartClient.framework.PostVisitable:oiref>=358,526,358,451:oigroup>
+<oigroup:<oiref:java#Class#model.test.server.ComponentP:oiref>=189,523,200,302,1:oigroup>
+<oigroup:<oiref:java#Extends#model.test.server.FemaleP#model.test.server.ComponentP:oiref>=480,900,325,825:oigroup>
+<oigroup:<oiref:java#Member#model.test.server.FemaleP#$$constructor$$#(##)#:oiref>=390,980,145,16,1:oigroup>
+<oigroup:<oiref:java#Member#model.test.server.FemaleP#$$constructor$$#(#java.lang.String#)#:oiref>=390,1000,145,16,1:oigroup>
+<oigroup:<oiref:java#Class#model.test.server.CompositeP:oiref>=10,901,200,190,1:oigroup>
+<oigroup:<oiref:java#Extends#model.test.server.MaleP#model.test.server.ComponentP:oiref>=262,901,262,825:oigroup>
+<oigroup:<oiref:java#Class#model.test.server.FemaleP:oiref>=380,900,200,222,1:oigroup>
+*/
+class __positions {
+}

@@ -1,0 +1,1 @@
+junitTest Keyboard.clientBusinessObjects.TestManyToMany

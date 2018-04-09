@@ -1,0 +1,51 @@
+package id31h5tcndfe3k4cndhbxq9;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.Clamp:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.AssociationChangeList:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference19 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.ClampProvider:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference20 {
+}/**
+@__ref <oiref:java#Class#Keyboard.clientBusinessObjects.KBClampFileIOException:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference22 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.ClampProvider#singleton:oiref>=707,681,707,743,821,743,821,629,759,629:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.AssociationChangeList:oiref>=540,17,484,298,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.Clamp#changeList:oiref>=346,87,540,87:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.KBClampFileIOException:oiref>=10,370,255,99,0:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.Clamp:oiref>=10,10,336,185,0:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#Keyboard.clientBusinessObjects.Clamp#inverseClamp:oiref>=309,195,309,242,393,242,393,158,346,158:oigroup>
+<oigroup:<oiref:java#Class#Keyboard.clientBusinessObjects.ClampProvider:oiref>=426,420,333,261,0:oigroup> 
+*/
+class __positions {
+}

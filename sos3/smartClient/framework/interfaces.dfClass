@@ -1,0 +1,99 @@
+package id3612vcuo83bh9cuou9dj7;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.StubInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.BidirectionalToManyRepository:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference144 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ToMany:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference145 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.PostVisitable:oiref><oihard>
+@__modelType reference
+@__imported*/
+class reference146 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.CommandInterface:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference147 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.ToOne:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference148 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Persistable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference1 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Identifiable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference2 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.Visitable:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference108 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Member#smartClient.framework.Persistable#incrementUpdateCounter#(##)#:oiref>=140,690,178,16,1:oigroup>
+<oigroup:<oiref:java#Member#smartClient.framework.Visitable#accept#(#smartClient.framework.Visitor#)#:oiref>=340,290,135,16,1:oigroup>
+<oigroup:<oiref:java#Member#smartClient.framework.Identifiable#xsetKboid#(#long#)#:oiref>=-20,70,178,16,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ToMany:oiref>=290,390,198,149,1:oigroup>
+<oigroup:<oiref:java#Member#smartClient.framework.Persistable#clone#(##)#:oiref>=120,640,178,16,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Visitable:oiref>=130,10,200,101,1:oigroup>
+<oigroup:<oiref:java#Member#smartClient.framework.Persistable#save#(##)#:oiref>=160,680,178,16,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.Persistable#smartClient.framework.PostVisitable:oiref>=230,409,230,349:oigroup>
+<oigroup:<oiref:java#Member#smartClient.framework.Persistable#refresh#(##)#:oiref>=160,690,178,16,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.CommandInterface:oiref>=483,10,122,117,1:oigroup>
+<oigroup:BeanProperty#<oiref:java#Member#smartClient.framework.PostVisitable#isNewlyCreated#(##)#:oiref>=180,730,140,16,1:oigroup>
+<oigroup:BeanProperty#<oiref:java#Member#smartClient.framework.PostVisitable#getUpdateCounter#(##)#:oiref>=150,710,140,16,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.PostVisitable#smartClient.framework.Visitable:oiref>=219,200,219,111:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.BidirectionalToManyRepository:oiref>=271,10,200,133,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.StubInterface:oiref>=10,200,165,149,1:oigroup>
+<oigroup:<oiref:java#Member#smartClient.framework.Persistable#otherPackageName#(##)#:oiref>=130,680,178,16,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.Persistable#smartClient.framework.StubInterface:oiref>=120,409,120,349:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.PostVisitable:oiref>=187,200,200,149,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Identifiable:oiref>=10,10,99,130,1:oigroup>
+<oigroup:BeanProperty#<oiref:java#Member#smartClient.framework.PostVisitable#isModified#(##)#:oiref>=180,720,140,16,1:oigroup>
+<oigroup:BeanProperty#<oiref:java#Member#smartClient.framework.PostVisitable#getAssociationsCoordinator#(##)#:oiref>=120,690,178,16,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.Persistable:oiref>=74,409,200,277,1:oigroup>
+<oigroup:<oiref:java#Member#smartClient.framework.Persistable#otherClassName#(##)#:oiref>=110,670,178,16,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.StubInterface#smartClient.framework.Identifiable:oiref>=59,200,59,140:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.StubInterface#smartClient.framework.Visitable:oiref>=148,200,148,111:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.ToOne:oiref>=483,170,156,117,1:oigroup>
+*/
+class __positions {
+}

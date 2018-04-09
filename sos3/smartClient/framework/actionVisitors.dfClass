@@ -1,0 +1,77 @@
+package id1wdkvcuo83bh9cup0v3bz;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPersister:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorCopier:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference200 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPostStorage:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference201 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorUpdater:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference202 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPrimitivesCopier:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference203 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorCRUDPacketBuilder:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference204 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorRetriever:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference205 {
+}/**
+@__ref <oiref:java#Class#smartClient.framework.VisitorPruner:oiref><oihard>
+@__modelType reference
+@__imported 
+*/
+class reference206 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#smartClient.framework.VisitorCopier:oiref>=233,10,200,133,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPruner:oiref>=249,510,200,302,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorCRUDPacketBuilder:oiref>=233,250,200,238,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPrimitivesCopier:oiref>=460,10,200,197,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPostStorage:oiref>=10,370,200,149,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorRetriever:oiref>=10,550,200,309,1:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorPersister:oiref>=10,10,200,149,1:oigroup>
+<oigroup:<oiref:java#Extends#smartClient.framework.VisitorUpdater#smartClient.framework.VisitorPersister:oiref>=85,228,85,159:oigroup>
+<oigroup:<oiref:java#Class#smartClient.framework.VisitorUpdater:oiref>=10,228,200,117,1:oigroup>
+*/
+class __positions {
+}

@@ -1,0 +1,80 @@
+java.lang.reflect.InvocationTargetException: secant.portable.persistence.PersistenceException: POMException 19, dbErr=0, msg=association exists already
+
+	at secant.portable.persistence.secant.PersistenceServiceImpl.associateObjects(PersistenceServiceImpl.java:180)
+
+	at secant.portable.persistence.OnDemandAssociationReference.associate(OnDemandAssociationReference.java:89)
+
+	at Keyboard.TVPComponent.setParent(TVPComponent.java:232)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at Keyboard.clientBusinessObjects.Visitor.setToOneDestination(Visitor.java:251)
+
+	at Keyboard.clientBusinessObjects.VisitorSynchronizer.propagateManyToOne(VisitorSynchronizer.java:133)
+
+	at Keyboard.clientBusinessObjects.PostVisitHelper.propagateManyToOne(PostVisitHelper.java:54)
+
+	at Keyboard.clientBusinessObjects.PostVisitHelper.postVisit(PostVisitHelper.java:91)
+
+	at Keyboard.clientBusinessObjects.Visitor.postVisit(Visitor.java:403)
+
+	at Keyboard.clientBusinessObjects.TVComponent.postAccept(TVComponent.java:161)
+
+	at Keyboard.clientBusinessObjects.TVCb.postAccept(TVCb.java:72)
+
+	at Keyboard.clientBusinessObjects.TVCb.accept(TVCb.java:67)
+
+	at Keyboard.TVSessionBean.storeAll(TVSessionBean.java:110)
+
+	at Keyboard.TVSessionBeanObject_TVSessionBean.storeAll(TVSessionBeanObject_TVSessionBean.java:84)
+
+	at Keyboard._TVSessionBeanObject_TVSessionBean_Tie._invoke(_TVSessionBeanObject_TVSessionBean_Tie.java:53)
+
+	at secant.poa.RequestProcessor.invokeOperation(RequestProcessor.java:144)
+
+	at secant.poa.RequestProcessor.process(RequestProcessor.java:252)
+
+	at secant.poa.RequestProcessor.run(RequestProcessor.java:282)
+
+attributeOwner = Keyboard.TVPCb@866f99ac -- leaf_two981508004268
+
+attributeName = parent
+
+parameterType = class Keyboard.TVPComposite
+
+parameterValue = Keyboard.TVPComposite@866f998e -- branch_two981508004238
+
+attributeOwnersClass = class Keyboard.TVPCb
+
+setMessage = setParent
+
+java.lang.InternalError: java.lang.reflect.InvocationTargetException
+
+	at Keyboard.clientBusinessObjects.Visitor.setToOneDestination(Visitor.java:268)
+
+	at Keyboard.clientBusinessObjects.VisitorSynchronizer.propagateManyToOne(VisitorSynchronizer.java:133)
+
+	at Keyboard.clientBusinessObjects.PostVisitHelper.propagateManyToOne(PostVisitHelper.java:54)
+
+	at Keyboard.clientBusinessObjects.PostVisitHelper.postVisit(PostVisitHelper.java:91)
+
+	at Keyboard.clientBusinessObjects.Visitor.postVisit(Visitor.java:403)
+
+	at Keyboard.clientBusinessObjects.TVComponent.postAccept(TVComponent.java:161)
+
+	at Keyboard.clientBusinessObjects.TVCb.postAccept(TVCb.java:72)
+
+	at Keyboard.clientBusinessObjects.TVCb.accept(TVCb.java:67)
+
+	at Keyboard.TVSessionBean.storeAll(TVSessionBean.java:110)
+
+	at Keyboard.TVSessionBeanObject_TVSessionBean.storeAll(TVSessionBeanObject_TVSessionBean.java:84)
+
+	at Keyboard._TVSessionBeanObject_TVSessionBean_Tie._invoke(_TVSessionBeanObject_TVSessionBean_Tie.java:53)
+
+	at secant.poa.RequestProcessor.invokeOperation(RequestProcessor.java:144)
+
+	at secant.poa.RequestProcessor.process(RequestProcessor.java:252)
+
+	at secant.poa.RequestProcessor.run(RequestProcessor.java:282)
+
